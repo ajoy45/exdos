@@ -1,1 +1,10 @@
 @use"../utils" as *;
+
+.tp-btn {
+    background: var(--tp-yellow);
+    padding: 24px 46px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: var(--tp-theme-sec-color);
+    font-family: var(--tp-fonts-heading);
+}

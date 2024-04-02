@@ -1,12 +1,13 @@
 @use"../../utils" as *;
 
-.tp-header-area.tp-header-transparent {
+.tp-header-transparent {
     position: absolute;
     top: 0;
     left: 0;
     /*! width: 100%; */
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .tp-main-menu {
