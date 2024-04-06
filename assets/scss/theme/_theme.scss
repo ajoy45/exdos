@@ -193,17 +193,18 @@ ul {
 	margin: 0px;
 	padding: 0px;
 }
-li{
+
+li {
 	list-style: none;
 }
 
 p {
-	font-family: var(--tp-ff-p);
-	font-size: 14px;
+	font-family: var(--tp-fonts-body);
+	font-size: 17px;
 	font-weight: 400;
-	color: var(--tp-text-body);
+	color: var(--tp-theme-body);
 	margin-bottom: 15px;
-	line-height: 26px;
+	line-height: 28px;
 }
 
 
@@ -270,19 +271,21 @@ input[type="password"],
 input[type="url"],
 textarea {
 	outline: none;
-	background-color: #fff;
+	background-color: transparent;
 	height: 56px;
 	width: 100%;
 	line-height: 56px;
 	font-size: 14px;
-	color: var(--tp-common-black);
-	padding-left: 26px;
-	padding-right: 26px;
-	border: 1px solid #E0E2E3;
+	color: var(--tp-theme-body);
+	border: 0;
+	border-bottom: 1px solid var(--tp-theme-body);
+	text-transform: uppercase;
+	font-weight: 500;
 
-	// @include tp-placeholder{
-	// 	color: #95999D;
-	// }
+
+	@include tp-placeholder {
+		color: var(--tp-theme-body);
+	}
 
 	&:focus {
 		border-color: var(--tp-common-black);

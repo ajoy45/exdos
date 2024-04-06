@@ -1,1 +1,48 @@
 @use"../../utils" as *;
+
+.tp-about {
+    &-img {
+        & img {
+
+            border-radius: 20px;
+        }
+    }
+
+    &-video {
+        &-icon {
+            width: 80px;
+            height: 80px;
+            border: 1px solid var(--tp-theme-body);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 75px;
+        }
+
+        &-info {
+            display: flex;
+            column-gap: 17px;
+            align-items: center;
+        }
+
+        &-title {
+            color: var(--tp-theme-body);
+            font-size: 30px;
+            margin: 0;
+        }
+    }
+}
+
+.tp-about-shape-1 {
+    top: 17%;
+    left: 10px;
+}
+
+.tp-about-shape-2 {
+    top: -4%;
+    right: 0%;
+}
+
+.tp-about-shape-3 {
+    top: 41%;
+    left: 36%;
+}

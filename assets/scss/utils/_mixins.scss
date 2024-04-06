@@ -1,0 +1,22 @@
+// input placeholder
+@mixin tp-placeholder {
+
+    &::-webkit-input-placeholder {
+        @content;
+    }
+
+    /* Firefox */
+    &::-moz-placeholder {
+        @content;
+    }
+
+    /* Internet Explorer 10+ */
+    &:-ms-input-placeholder {
+        @content;
+    }
+
+    /* Fallback for older browsers */
+    &::placeholder {
+        @content;
+    }
+}

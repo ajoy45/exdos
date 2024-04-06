@@ -1,0 +1,58 @@
+@use"../../utils" as *;
+
+.tp-newsletter {
+    &-bg {
+        padding: 80px;
+        border-radius: 20px;
+    }
+
+    &-box {
+        & form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        & input {
+            border-color: var(--tp-white);
+
+            @include tp-placeholder {
+                color: var(--tp-white);
+            }
+
+            &:focus {
+                border-color: var(--tp-white);
+
+                &::placeholder {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+    &-input {
+        width: calc(100% - 215px);
+
+        & img {
+            position: absolute;
+            top: 36%;
+            right: 11px;
+        }
+    }
+
+    &-back {
+        font-size: 100px;
+        color: #fff;
+        opacity: .1;
+        margin-bottom: 0;
+        position: absolute;
+        left: 91px;
+        top: -12px;
+    }
+
+    &-margin {
+        margin-top: -113px;
+
+    }
+
+}
