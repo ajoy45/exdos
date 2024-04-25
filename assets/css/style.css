@@ -131,9 +131,12 @@
   --tp-theme-blue: #001C52;
   --tp-common-black: #0A0E1A;
   --tp-hero-small: #b1b4ba;
+  --tp-spw-color: #fbf6ef;
+  --tp-rom-color: #ffe5e5;
   --tp-yellow: #FFE815;
   --tp-black: black;
   --tp-white: #fff;
+  --tp-rain: #2f446b;
 }
 
 :root {
@@ -394,6 +397,14 @@ textarea {
 
 .p-absolute {
   position: absolute;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.br-5 {
+  border-radius: 5px;
 }
 
 .tp-black-bg {
@@ -5231,7 +5242,6 @@ textarea {
   color: var(--tp-white);
   font-family: var(--tp-fonts-heading);
 }
-
 .tp-btn-sec {
   background: var(--tp-yellow);
   padding: 19px 45px;
@@ -5242,6 +5252,16 @@ textarea {
 }
 .tp-btn-sec-lg {
   padding: 22px 46px;
+}
+.tp-btn-circle {
+  font-family: var(--tp-fonts-heading);
+  border: 2px solid rgb(217, 217, 217);
+  font-size: 60px;
+  text-align: center;
+  color: var(--tp-white);
+  opacity: 0.3;
+  padding: 44px 84px;
+  border-radius: 100%;
 }
 
 .tp-section-title {
@@ -5524,4 +5544,77 @@ textarea {
 }
 .tp-newsletter-margin {
   margin-top: -113px;
+}
+
+.tpservice {
+  border: 1px solid var(--tp-theme-body);
+  padding: 40px;
+  margin-right: -1px;
+  transition: 0.3s;
+}
+.tpservice:hover {
+  background-color: var(--tp-spw-color);
+}
+.tpservice:hover .tpservice-btn {
+  background-color: var(--tp-theme-color);
+}
+.tpservice:hover .tpservice-btn i,
+.tpservice:hover .tpservice-btn a {
+  color: var(--tp-white);
+}
+.tpservice__title {
+  font-size: 30px;
+}
+.tpservice__list ul li {
+  margin-bottom: 16px;
+}
+.tpservice__list ul li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--tp-theme-body);
+  display: inline-block;
+  border-radius: 50%;
+  transform: translateY(-2px);
+  margin-right: 8px;
+}
+
+.tpservice-btn {
+  background: var(--tp-spw-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px 0;
+  transition: 0.3s;
+}
+.tpservice-btn i {
+  transform: rotate(-45deg);
+}
+
+.tp-portfolio-area {
+  background-color: var(--tp-theme-blue);
+}
+.tp-portfolio-tab button {
+  font-family: var(--tp-fonts-heading);
+  font-size: 100px;
+  line-height: 1.2;
+  color: var(--tp-white);
+  border-bottom: 1px solid var(--tp-rain);
+  padding: 12px 0;
+  padding-left: 100px;
+  padding-right: 22px;
+  transition: 0.3s;
+}
+.tp-portfolio-tab button:hover {
+  color: var(--tp-white);
+}
+.tp-portfolio-tab button.active {
+  color: var(--tp-yellow);
+  border-bottom: 1px solid var(--tp-yellow);
+}
+.tp-portfolio-content {
+  text-align: end;
+}
+.tp-portfolio-thumb img {
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

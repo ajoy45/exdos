@@ -1,0 +1,42 @@
+@use"../../utils" as *;
+
+.tp-portfolio {
+    &-area {
+        background-color: var(--tp-theme-blue);
+    }
+
+    &-tab {
+        & button {
+            font-family: var(--tp-fonts-heading);
+            font-size: 100px;
+            line-height: 1.2;
+            color: var(--tp-white);
+            border-bottom: 1px solid var(--tp-rain);
+            padding: 12px 0;
+            padding-left: 100px;
+            padding-right: 22px;
+            transition: .3s;
+
+            &:hover {
+                color: var(--tp-white);
+            }
+
+            &.active {
+                color: var(--tp-yellow);
+                border-bottom: 1px solid var(--tp-yellow);
+            }
+
+        }
+    }
+
+    &-content {
+        text-align: end;
+    }
+
+    &-thumb {
+        & img {
+            border-radius: 20px;
+        }
+    }
+
+}
