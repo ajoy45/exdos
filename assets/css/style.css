@@ -5617,4 +5617,46 @@ textarea {
 }
 .tp-portfolio-thumb img {
   border-radius: 20px;
+}
+
+.tp-testimonial-title {
+  font-size: 100px;
+  line-height: 1.1;
+}
+.tp-testimonial-name {
+  font-size: 30px;
+}
+.tp-testimonial-position {
+  font-size: 17px;
+  color: var(--tp-theme-body);
+}
+.tp-testimonial-position::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  display: inline-block;
+  background-color: var(--tp-theme-body);
+  transform: translate(-8px, -4px);
+}
+
+.tp-testimonial-slider-right {
+  top: 30%;
+  left: 182px;
+  z-index: 1;
+}
+
+.tp-testimonial-slider-left {
+  top: 30%;
+  right: 182px;
+  z-index: 1;
+}
+
+.tp-testimonial-img-1 {
+  top: 42%;
+  left: 282px;
+}
+
+.tp-testimonial-img-2 {
+  right: 282px;
+  top: 33%;
 }/*# sourceMappingURL=style.css.map */
