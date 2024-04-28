@@ -24,26 +24,32 @@
 
         }
     }
-}
 
-.tp-testimonial-slider-right {
-    top: 30%;
-    left: 182px;
-    z-index: 1;
-}
+    &-slider-right {
+        top: 30%;
+        left: 182px;
+        z-index: 1;
+    }
 
-.tp-testimonial-slider-left {
-    top: 30%;
-    right: 182px;
-    z-index: 1;
-}
+    &-slider-left {
+        top: 30%;
+        right: 182px;
+        z-index: 1;
+    }
 
-.tp-testimonial-img-1 {
-    top: 42%;
-    left: 282px;
-}
+    &-img-1 {
+        top: 42%;
+        left: 282px;
+    }
 
-.tp-testimonial-img-2 {
-    right: 282px;
-    top: 33%;
+    &-img-2 {
+        right: 282px;
+        top: 33%;
+    }
+
+    &-img-3 {
+        top: 37%;
+        left: 32%;
+    }
+
 }

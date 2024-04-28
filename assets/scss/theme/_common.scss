@@ -58,6 +58,20 @@
 	background-color: var(--tp-common-black);
 }
 
+.tp-yellow-bg {
+	background-color: var(--tp-yellow);
+}
+
 .tp-blue-bg {
 	background-color: var(--tp-theme-color);
+}
+
+.tp-slide-transition {
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+
+.tp-brand-slide-element {
+	width: auto;
+	display: inline-block;
 }

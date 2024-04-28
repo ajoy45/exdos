@@ -1,0 +1,50 @@
+@use"../../utils" as*;
+
+.tpteam {
+    &__thumbe {
+        & img {
+            border-radius: 15px;
+        }
+    }
+
+    &__info {
+        &--title {
+            font-size: 30px;
+        }
+
+        & span {
+            &::before {
+                content: "";
+                width: 60px;
+                height: 1px;
+                display: inline-block;
+                background-color: var(--tp-theme-body);
+                transform: translate(-8px, -4px);
+            }
+        }
+    }
+
+    &__social {
+        & i {
+            font-size: 25px;
+            margin-right: 19px;
+        }
+    }
+
+
+}
+
+.tp-team-btn {
+    display: inline-block;
+}
+
+.tp-team-nav-wraper {
+    & span {
+        width: 12px;
+        height: 12px;
+        background-color: #dbdbdb;
+        display: inline-block;
+        border-radius: 100%;
+        margin: 0 10px;
+    }
+}
