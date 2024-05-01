@@ -1,0 +1,20 @@
+@use"../../utils" as *;
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tpfact {
+    &__icon {}
+
+    &__title {
+        font-size: 30px;
+        color: var(--tp-white);
+    }
+
+    &__count {
+        font-size: 100px;
+        color: #fff;
+    }
+}

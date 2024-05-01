@@ -1,0 +1,59 @@
+@use"../../utils" as*;
+
+.tpaward {
+    &-content {
+        border-bottom: 1px solid var(--tp-theme-body);
+        padding: 38px 0;
+
+        & span {
+            font-family: var(--tp-fonts-heading);
+            font-size: 20px;
+            color: var(--tp-theme-body);
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+    }
+
+    &-title {
+        font-size: 30px;
+    }
+
+
+}
+
+.tpaward-wrapper {
+    padding-right: 91px;
+
+    & .row {
+
+        & .col-xl-6:nth-child(even) {
+            & .tpaward-content {
+                border-left: 1px solid var(--tp-theme-body);
+                padding-left: 50px;
+            }
+        }
+
+        & .col-xl-6:nth-child(1) {
+            & .tpaward-content {
+
+                padding-top: 0;
+            }
+        }
+
+        & .col-xl-6:nth-child(2) {
+            & .tpaward-content {
+
+                padding-top: 0;
+            }
+        }
+
+        & .col-xl-6:nth-last-child(-n + 2) {
+            & .tpaward-content {
+                border-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+
+    }
+
+}

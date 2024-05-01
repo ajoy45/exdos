@@ -1,5 +1,15 @@
 (function ($) {
     "use strict";
+    // data background-img
+    $("[data-bg-img]").each(function () {
+        $(this).css("background-image", "url(" + $(this).attr("data-bg-img") + ")")
+
+    })
+    // data background color
+    $("[data-bg-color]").each(function () {
+        $(this).css("background-color", $(this).attr("data-bg-color"))
+
+    })
     // testimonial slider
     var swiper = new Swiper(".tp-testimonial-active", {
         slidesPerView: 1,
