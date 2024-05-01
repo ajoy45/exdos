@@ -5287,6 +5287,12 @@ textarea {
   border-radius: 100%;
 }
 
+.tp-text-btn {
+  font-size: 18px;
+  font-family: var(--tp-fonts-heading);
+  color: var(--tp-common-black);
+}
+
 .tp-section-title {
   font-size: 60px;
 }
@@ -5761,4 +5767,35 @@ textarea {
 .tpfact__count {
   font-size: 100px;
   color: #fff;
+}
+
+.tpblog__thumb img {
+  border-radius: 20px;
+}
+.tpblog__meta span {
+  font-size: 17px;
+  color: var(--tp-theme-body);
+}
+.tpblog__meta span i {
+  font-size: 20px;
+  color: var(--tp-theme-body);
+  margin-right: 10px;
+}
+.tpblog__meta cite {
+  width: 2px;
+  height: 16px;
+  background: var(--tp-theme-body);
+  display: inline-block;
+  margin: 0 15px;
+}
+.tpblog__title {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.tpblog__btn {
+  display: flex;
+  align-items: center;
+}
+.tpblog__btn i {
+  transform: rotate(-45deg);
 }/*# sourceMappingURL=style.css.map */
