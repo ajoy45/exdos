@@ -5798,4 +5798,17 @@ textarea {
 }
 .tpblog__btn i {
   transform: rotate(-45deg);
+}
+
+.tpform-title {
+  font-size: 30px;
+}
+.tpform-box input, .tpform-box textarea {
+  color: #57595c;
+  font-size: 15px;
+  padding: 40px 0;
+}
+
+.fs-100 {
+  font-size: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@use"../../utils" as *;
+
+.tpform {
+
+
+    &-title {
+        font-size: 30px;
+    }
+
+    &-box {
+
+        & input,
+        & textarea {
+            color: #57595c;
+            font-size: 15px;
+            padding: 40px 0;
+        }
+    }
+}
+
+.fs-100 {
+    font-size: 100px;
+}
