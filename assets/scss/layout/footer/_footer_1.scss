@@ -1,1 +1,173 @@
 @use"../../utils" as *;
+
+.tp-footer {
+
+    &-shape-1 {
+        top: 300px;
+        left: 320px;
+    }
+
+    &-shape-2 {
+        top: 107px;
+        left: 45%;
+    }
+
+    &-shape-3 {
+        top: 107px;
+        right: 97px;
+    }
+
+    &-shape-4 {
+        bottom: 58px;
+        right: 222px;
+    }
+
+
+    &-line {
+        height: 1px;
+        background: var(--tp-white);
+        opacity: .15;
+    }
+
+    &-social {
+        & i {
+            font-size: 24px;
+            color: var(--tp-white);
+            opacity: .5;
+            margin-right: 15px;
+        }
+
+    }
+
+    &-widget {
+        &__title {
+            color: var(--tp-white);
+            font-size: 20px;
+        }
+
+        & span {
+            font-size: 17px;
+            color: #b1b4ba;
+        }
+
+        & ul {
+            & li {
+                margin-bottom: 8px;
+
+                & a {
+                    font-size: 17px;
+                    color: var(--tp-hero-small);
+                }
+            }
+        }
+
+
+    }
+
+    &-contact {
+        & span {
+            font-size: 17px;
+            color: var(--tp-hero-small);
+            display: inline-block;
+        }
+
+        &__title {
+            font-size: 30px;
+            color: var(--tp-white);
+        }
+
+
+    }
+
+    &-copyright {
+        &-area {
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        &-text {
+
+            & p {
+                & a {
+                    color: var(--tp-yellow);
+                }
+
+            }
+        }
+
+        &-nav {
+            & ul {
+                display: flex;
+                justify-content: end;
+
+
+                & li {
+                    margin-left: 65px;
+
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        width: 2px;
+                        height: 12px;
+                        background-color: var(--tp-hero-small);
+                        position: absolute;
+                        top: 8px;
+                        left: -30px;
+                    }
+
+                    &:first-child {
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    & a {
+                        font-size: 15px;
+                        color: var(--tp-hero-small);
+
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+.col-border {
+    &-3 {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            background: var(--tp-white);
+            top: 0;
+            left: -72px;
+            opacity: .15;
+        }
+    }
+
+
+
+    &-3 {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            background: var(--tp-white);
+            top: 0;
+            right: 80px;
+            opacity: .15;
+        }
+    }
+
+
+
+}
