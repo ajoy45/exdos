@@ -4,6 +4,16 @@
     &-title {
         font-size: 100px;
         line-height: 1.1;
+
+        @media #{$xl} {
+            font-size: 75px;
+
+        }
+
+        @media #{$lg,$md} {
+            font-size: 50px;
+
+        }
     }
 
     &-name {
@@ -29,27 +39,104 @@
         top: 30%;
         left: 182px;
         z-index: 1;
+        font-size: 52px;
+
+        @media #{$xxlm,$xl,$md} {
+            top: inherit;
+            left: 42px;
+            bottom: 0;
+        }
+
+        @media #{$lg} {
+            left: 70px;
+        }
+
+
     }
 
     &-slider-left {
         top: 30%;
         right: 182px;
         z-index: 1;
+        font-size: 52px;
+
+        @media #{$xxlm,$xl,$md} {
+            top: inherit;
+            bottom: -5px;
+            right: inherit;
+            left: 110px;
+        }
+
+        @media #{$lg} {
+            right: 73px;
+        }
+
+
+
+
     }
 
     &-img-1 {
         top: 42%;
         left: 282px;
+
+        @media #{$xxlm,$xl} {
+            left: 42px;
+
+        }
+
+        @media #{$xl} {
+            top: 33%;
+        }
+
+        @media #{$lg,$md} {
+            display: none;
+        }
+
+
     }
 
     &-img-2 {
         right: 282px;
         top: 33%;
+
+        @media #{$xxlm,$xl} {
+            right: 35px;
+
+        }
+
+        @media #{$lg,$md} {
+            display: none;
+        }
+
+
     }
 
     &-img-3 {
         top: 37%;
         left: 32%;
+
+        @media #{$xxlm,$xl} {
+            left: 27%;
+
+        }
+
+        @media #{$xl} {
+            left: 23%;
+
+        }
+
+        @media #{$lg} {
+            left: 17%;
+
+        }
+
+        @media #{$md} {
+            left: 10%;
+
+        }
+
+
     }
 
 }

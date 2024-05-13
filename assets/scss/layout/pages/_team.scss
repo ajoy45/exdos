@@ -8,11 +8,35 @@
     }
 
     &__info {
+        @media #{$xxlm} {
+            margin-left: 50px;
+        }
+
+        @media #{$xl} {
+            margin-left: 15px;
+        }
+
+        @media #{$lg,$md} {
+            margin-left: 25px;
+        }
+
         &--title {
             font-size: 30px;
         }
 
         & span {
+            @media #{$xxlm} {
+                margin-left: 50px;
+            }
+
+            @media #{$xl} {
+                margin-left: 25px;
+            }
+
+            @media #{$lg} {
+                margin-left: 25px;
+            }
+
             &::before {
                 content: "";
                 width: 60px;
@@ -35,7 +59,13 @@
 }
 
 .tp-team-btn {
-    display: inline-block;
+    display: flex;
+
+    & i {
+        font-size: 52px;
+    }
+
+
 }
 
 .tp-team-nav-wraper {

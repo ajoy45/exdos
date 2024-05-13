@@ -37,12 +37,26 @@
         },
     });
     // Team slider
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".tp-team-slider-active", {
         spaceBetween: 30,
-        slidesPerView: 4,
+
         navigation: {
             nextEl: ".tp-team-swiper-next",
             prevEl: ".tp-team-swiper-prev",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+
+            },
+            992: {
+                slidesPerView: 3,
+
+            },
+            1200: {
+                slidesPerView: 4,
+
+            },
         },
 
     });

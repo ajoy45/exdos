@@ -3,18 +3,42 @@
 .custom-row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .tpfact {
-    &__icon {}
+    &__icon {
+        & span {
+
+
+            & i {
+                font-size: 110px;
+                color: var(--tp-yellow);
+            }
+        }
+    }
 
     &__title {
         font-size: 30px;
         color: var(--tp-white);
+
+        @media #{$lg} {
+            font-size: 25px;
+        }
     }
 
     &__count {
         font-size: 100px;
         color: #fff;
+
+        @media #{$lg} {
+            font-size: 65px;
+        }
+    }
+}
+
+.cols {
+    @media #{$md} {
+        width: 50%;
     }
 }

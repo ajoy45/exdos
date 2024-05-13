@@ -17,6 +17,27 @@
             padding-right: 22px;
             transition: .3s;
 
+            @media #{$xxlm} {
+                font-size: 65px;
+            }
+
+            @media #{$xl} {
+                font-size: 65px;
+                padding-left: 96px;
+            }
+
+            @media #{$lg} {
+                font-size: 50px;
+                padding-left: 50px;
+            }
+
+            @media #{$md} {
+                font-size: 50px;
+                padding-left: 50px;
+                width: 100%;
+                text-align: left;
+            }
+
             &:hover {
                 color: var(--tp-white);
             }
@@ -31,11 +52,18 @@
 
     &-content {
         text-align: end;
+
+        @media #{$md} {
+            padding-right: 34px;
+            padding-left: 55px;
+
+        }
     }
 
     &-thumb {
         & img {
             border-radius: 20px;
+
         }
     }
 

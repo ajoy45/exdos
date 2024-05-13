@@ -3,6 +3,15 @@
 .tp-section-title {
     font-size: 60px;
 
+    @media #{$lg} {
+        font-size: 50px;
+    }
+
+    @media #{$md} {
+        font-size: 38px;
+    }
+
+
     &-white {
         color: var(--tp-white);
     }

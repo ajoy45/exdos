@@ -5,21 +5,30 @@
     &-shape-1 {
         top: 300px;
         left: 320px;
+
+        z-index: 1;
+
     }
 
     &-shape-2 {
         top: 107px;
         left: 45%;
+
+
     }
 
     &-shape-3 {
         top: 107px;
         right: 97px;
+
+
     }
 
     &-shape-4 {
         bottom: 58px;
         right: 222px;
+        z-index: 1;
+
     }
 
 
@@ -40,14 +49,21 @@
     }
 
     &-widget {
+        position: relative;
+        z-index: 2;
+
         &__title {
             color: var(--tp-white);
             font-size: 20px;
+            z-index: 9;
+            position: relative
         }
 
         & span {
             font-size: 17px;
             color: #b1b4ba;
+            z-index: 9;
+            position: relative
         }
 
         & ul {
@@ -65,6 +81,8 @@
     }
 
     &-contact {
+
+
         & span {
             font-size: 17px;
             color: var(--tp-hero-small);
@@ -74,17 +92,24 @@
         &__title {
             font-size: 30px;
             color: var(--tp-white);
+
+            @media #{$lg} {
+                font-size: 23px;
+            }
         }
 
 
     }
 
     &-copyright {
+
         &-area {
             border-top: 1px solid rgba(255, 255, 255, 0.15);
         }
 
         &-text {
+            position: relative;
+            z-index: 2;
 
             & p {
                 & a {
@@ -92,16 +117,31 @@
                 }
 
             }
+
+            @media #{$md} {
+                text-align: center;
+            }
         }
 
         &-nav {
+            @media #{$md} {
+                padding-top: 10px;
+            }
+
             & ul {
                 display: flex;
                 justify-content: end;
 
+                @media #{$md} {
+                    justify-content: center;
+                }
 
                 & li {
                     margin-left: 65px;
+
+                    @media #{$md} {
+                        margin-left: 35px;
+                    }
 
                     position: relative;
 
@@ -113,6 +153,10 @@
                         position: absolute;
                         top: 8px;
                         left: -30px;
+
+                        @media #{md} {
+                            left: -18px;
+                        }
                     }
 
                     &:first-child {
@@ -148,6 +192,15 @@
             top: 0;
             left: -72px;
             opacity: .15;
+
+            @media #{$lg} {
+                left: -28px;
+            }
+
+            @media #{$md} {
+                display: none;
+
+            }
         }
     }
 
@@ -165,6 +218,15 @@
             top: 0;
             right: 80px;
             opacity: .15;
+
+            @media #{$lg} {
+                right: 72px;
+            }
+
+            @media #{$md} {
+                display: none;
+
+            }
         }
     }
 

@@ -1,7 +1,35 @@
 @use"../../utils" as *;
 
 .tp-about {
+    &-box {
+        @media #{$xl} {
+            padding-left: 25px;
+        }
+
+        @media #{$lg} {
+            padding-left: 14px;
+        }
+
+        @media #{$md} {
+            padding-left: 0;
+        }
+
+        & p {
+            @media #{$xl} {
+                font-size: 15px;
+            }
+
+            @media #{$lg} {
+                font-size: 13px;
+            }
+        }
+    }
+
     &-img {
+        @media #{$md} {
+            padding-left: 0;
+        }
+
         & img {
 
             border-radius: 20px;
@@ -9,6 +37,18 @@
     }
 
     &-video {
+        @media #{$xl} {
+            padding-left: 27px;
+        }
+
+        @media #{$lg} {
+            padding-left: 12px;
+        }
+
+        @media #{$md} {
+            padding-left: 0;
+        }
+
         &-icon {
             width: 80px;
             height: 80px;
@@ -30,6 +70,8 @@
             margin: 0;
         }
     }
+
+
 }
 
 .tp-about-shape-1 {

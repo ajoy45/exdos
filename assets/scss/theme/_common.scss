@@ -12,6 +12,10 @@
 	}
 }
 
+img {
+	max-width: 100%;
+}
+
 .fix {
 	overflow: hidden
 }
@@ -86,4 +90,8 @@
 .tp-brand-slide-element {
 	width: auto;
 	display: inline-block;
+}
+
+.tp-rotate-180 {
+	transform: rotate(180deg);
 }

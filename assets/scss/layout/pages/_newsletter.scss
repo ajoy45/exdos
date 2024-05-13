@@ -4,6 +4,10 @@
     &-bg {
         padding: 80px;
         border-radius: 20px;
+
+        @media #{$md} {
+            padding: 80px 25px;
+        }
     }
 
     &-box {
@@ -48,6 +52,18 @@
         position: absolute;
         left: 91px;
         top: -12px;
+
+        @media #{$xl} {
+            font-size: 80px;
+            top: -3px;
+            left: 30px;
+        }
+
+        @media #{$md} {
+            font-size: 70px;
+            left: 68px;
+            top: 16px;
+        }
     }
 
     &-margin {
@@ -55,4 +71,10 @@
 
     }
 
+}
+
+.tp-section-title-wrapper {
+    @media #{$lg} {
+        margin-bottom: 30px;
+    }
 }

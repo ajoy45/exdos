@@ -1,6 +1,10 @@
 @use"../../utils" as*;
 
 .tpservice {
+    @media #{$xl} {
+        padding: 27px;
+    }
+
     border: 1px solid var(--tp-theme-body);
     padding: 40px;
     margin-right: -1px;
@@ -19,7 +23,12 @@
         }
     }
 
-    &__icon {}
+    &__icon {
+        & span {
+            font-size: 92px;
+            display: inline-flex;
+        }
+    }
 
     &__title {
         font-size: 30px;

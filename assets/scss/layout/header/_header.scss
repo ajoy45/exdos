@@ -4,18 +4,39 @@
     position: absolute;
     top: 0;
     left: 0;
-    /*! width: 100%; */
     left: 0;
     right: 0;
     z-index: 1;
 }
 
+.tp-header-area {
+    @media #{$xl,$md} {
+        padding-left: 35px;
+    }
+
+    @media #{$lg} {
+        padding-left: 50px;
+    }
+}
+
 .tp-main-menu {
+    @media #{$xl} {
+        padding-left: 15px;
+    }
+
     & ul {
         & li {
             display: inline-block;
             margin-right: 44px;
             position: relative;
+
+            @media #{$xxlm} {
+                margin-right: 24px;
+            }
+
+            @media #{$xl} {
+                margin-right: 15px;
+            }
 
             & a {
                 font-size: 18px;
@@ -23,6 +44,18 @@
                 color: #fff;
                 padding: 37px 0;
                 display: inline-block;
+                position: relative;
+
+                &:before {
+                    content: "\f121";
+                    font-family: var(--tp-fonts-flat-icon);
+                    position: absolute;
+                    top: 0;
+                    left: 32px;
+                    font-size: 50px;
+                    color: var(--tp-yellow);
+                    opacity: 0;
+                }
             }
 
             & .sub-menu {
@@ -45,6 +78,10 @@
                         color: black;
                         padding: 5px 14px;
                         font-size: 17px;
+
+                        &:before {
+                            display: none;
+                        }
                     }
 
                     &:hover {
@@ -79,6 +116,10 @@
             &:hover {
                 & a {
                     color: var(--tp-yellow);
+
+                    &:before {
+                        opacity: 1;
+                    }
                 }
 
                 & .sub-menu {
@@ -106,12 +147,23 @@
     }
 
     &-bar {
-        padding: 37px 24px;
+        padding: 22px 24px;
         background-color: #23252D;
+
+        & i {
+            font-size: 50px;
+            color: var(--tp-white);
+        }
     }
 
     &-search {
         margin-right: 30px;
+
+        & i {
+            font-size: 28px;
+            color: var(--tp-white);
+            opacity: .6;
+        }
     }
 
     &-cta {
@@ -120,6 +172,10 @@
         margin-right: 50px;
         border-left: 1px solid rgba(255, 255, 255, .15);
         padding: 17px 0;
+
+        @media #{$xl} {
+            margin-right: 28px;
+        }
 
         &-text {
             span {
@@ -138,6 +194,11 @@
         &-icon {
             margin-right: 15px;
             margin-left: 30px;
+
+            & i {
+                color: var(--tp-yellow);
+                font-size: 60px;
+            }
         }
     }
 }
