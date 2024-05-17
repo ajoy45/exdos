@@ -5,7 +5,7 @@
         padding: 80px;
         border-radius: 20px;
 
-        @media #{$md} {
+        @media #{$md,$xs} {
             padding: 80px 25px;
         }
     }
@@ -15,6 +15,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            @media #{$xs} {
+                display: block;
+            }
+
+            & button {
+                @media #{$xs} {
+                    margin-top: 30px;
+                }
+            }
         }
 
         & input {
@@ -36,6 +46,10 @@
 
     &-input {
         width: calc(100% - 215px);
+
+        @media #{$xs} {
+            width: 100%;
+        }
 
         & img {
             position: absolute;

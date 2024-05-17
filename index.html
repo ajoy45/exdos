@@ -21,12 +21,12 @@
         <div class="tp-header-area tp-header-transparent tp-header-border pl-100">
             <div class="container-fluid p-0">
                 <div class="row gx-0 align-items-center">
-                    <div class="col-xl-2 col-lg-3 col-md-3">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-6">
                         <div class="tp-logo">
                             <a href="index.html"> <img src="assets/img/home-1/logo/Logo-white.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-xl-10 col-lg-9 col-md-9">
+                    <div class="col-xl-10 col-lg-9 col-md-9 col-6">
                         <div class="tp-header-right-box d-xl-flex justify-content-between">
 
                             <div class="tp-main-menu pl-41 d-none d-xl-block">
@@ -58,14 +58,14 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="tp-header-right  ">
-                                <div class="tp-header-search d-flex align-items-center">
+                            <div class="tp-header-right">
+                                <div class="tp-header-search d-md-flex align-items-center ">
                                     <button class="d-flex align-items-center">
                                         <i class="flaticon-search"></i>
                                     </button>
                                 </div>
                                 <div class="tp-header-cta ">
-                                    <div class="tp-header-cta-icon d-flex align-items-center">
+                                    <div class="tp-header-cta-icon d-md-flex align-items-center">
                                         <i class="flaticon-phone-book"></i>
                                     </div>
                                     <div class="tp-header-cta-text">
@@ -146,8 +146,30 @@
                     src="assets/img/home-1/icons/about-star-3.svg" alt="">
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="row ">
+                    <div class="col-xl-6 col-lg-6 col-md-6 order-md-2">
+                        <div class="tp-about-box pl-40 mb-86 p-relative z-index-11 ">
+                            <div class="tp-section-title-wrapper mb-42">
+                                <h2 class="tp-section-title mb-18">Let us building the bridge between <br>
+                                    brand and
+                                    customer</h2>
+                                <p>Per ipsum ultrices sollicitudin iaculis platea facilisi Semper aliquam up
+                                    <br>
+                                    taciti <b>senectus cursus</b> vivamus volutpat nibh. Penatibus fringilla
+                                    <br>
+                                    porttitor do magna purus massa per <b>duis dapibus </b>scelerisque etiam
+                                </p>
+                            </div>
+                            <div class="tp-about-btn">
+                                <a href="#" class="tp-btn">About More</a>
+                            </div>
+                        </div>
+                        <div class="tp-about-img pl-40 mb-100 p-relative z-index-11 ">
+                            <img src="assets/img/home-1/about-2.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 order-md-1">
                         <div class="tp-about-img mb-98 p-relative z-index-11">
                             <img src="assets/img/home-1/about-1.png" alt="">
                         </div>
@@ -168,28 +190,7 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="tp-about-box pl-40 mb-86 p-relative z-index-11">
-                            <div class="tp-section-title-wrapper mb-42">
-                                <h2 class="tp-section-title mb-18">Let us building the bridge between <br>
-                                    brand and
-                                    customer</h2>
-                                <p>Per ipsum ultrices sollicitudin iaculis platea facilisi Semper aliquam up
-                                    <br>
-                                    taciti <b>senectus cursus</b> vivamus volutpat nibh. Penatibus fringilla
-                                    <br>
-                                    porttitor do magna purus massa per <b>duis dapibus </b>scelerisque etiam
-                                </p>
-                            </div>
-                            <div class="tp-about-btn">
-                                <a href="#" class="tp-btn">About More</a>
-                            </div>
-                        </div>
-                        <div class="tp-about-img pl-40 mb-100 p-relative z-index-11">
-                            <img src="assets/img/home-1/about-2.png" alt="">
-                        </div>
 
-                    </div>
                 </div>
             </div>
         </section>
@@ -208,7 +209,7 @@
                         </div>
                         <div class="col-xl-8">
                             <div class="tp-newsletter-box p-relative">
-                                <h2 class="tp-newsletter-back">Newsletter</h2>
+                                <h2 class="tp-newsletter-back d-none d-md-block">Newsletter</h2>
                                 <form action="#">
                                     <div class="tp-newsletter-input p-relative">
                                         <input type="email" placeholder="Email Here*">
@@ -343,9 +344,9 @@
             <div class="container-fluid p-0">
                 <div class="row gx-0">
                     <div class="col-xl-6 col-lg-6">
-                        <div class="tp-portfolio-tab ">
+                        <div class="tp-portfolio-tab">
                             <nav>
-                                <div class="" id="nav-tab" role="tablist">
+                                <div class="tp-portfolio-tab-item" id="nav-tab" role="tablist">
                                     <button class="nav-link active pl-100 pr-40" id="nav-home-tab"
                                         data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
                                         role="tab" aria-controls="nav-home" aria-selected="true">Brand
@@ -505,13 +506,14 @@
 
                 </div>
 
-                <div class="tp-testimonial-slider-right p-absolute tp-rotate-180">
+                <div
+                    class="tp-testimonial-slider-right p-absolute tp-rotate-180 tp-testimonial-slider-button">
 
                     <span>
                         <i class="flaticon-right-arrow"></i>
                     </span>
                 </div>
-                <div class="tp-testimonial-slider-left p-absolute">
+                <div class="tp-testimonial-slider-left p-absolute tp-testimonial-slider-button">
                     <span>
                         <i class="flaticon-right-arrow"></i>
                     </span>

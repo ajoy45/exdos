@@ -1,10 +1,21 @@
 @use"../../utils" as *;
 
 .tp-hero {
+    &-area {
+        @media #{$xs} {
+            padding-bottom: 100px;
+            padding-top: 163px;
+        }
+    }
+
     padding-left: 124px;
 
     @media #{$md} {
         padding-left: 30px;
+    }
+
+    @media #{$xs} {
+        padding-left: 15px;
     }
 
     &-title {
@@ -19,6 +30,10 @@
 
         @media #{$lg,$md} {
             font-size: 60px;
+        }
+
+        @media #{$xs} {
+            font-size: 43px;
         }
 
         & span {
@@ -37,7 +52,11 @@
             display: inline-block;
             line-height: 1.3;
             transform: translateY(-6px);
-            margin-right: 57px
+            margin-right: 57px;
+
+            @media #{$xs} {
+                font-size: 20px;
+            }
         }
     }
 }
@@ -104,6 +123,10 @@
         @media #{$lg} {
             bottom: 236px;
         }
+
+        @media #{$xs} {
+            bottom: 184px;
+        }
     }
 
     &-info {
@@ -124,11 +147,13 @@
         &-text {
             transform: rotate(-90deg);
             display: ruby;
+            white-space: nowrap;
         }
     }
 
     &-social {
         transform: rotate(-90deg);
         display: ruby;
+        white-space: nowrap;
     }
 }

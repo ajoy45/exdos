@@ -1,6 +1,17 @@
 @use"../utils" as *;
 
 .tp-section-title {
+    &-wrapper {
+        & p {
+            & br {
+
+                @media #{$xs} {
+                    display: none;
+                }
+            }
+        }
+    }
+
     font-size: 60px;
 
     @media #{$lg} {
@@ -9,6 +20,10 @@
 
     @media #{$md} {
         font-size: 38px;
+    }
+
+    @media #{$xs} {
+        font-size: 40px;
     }
 
 

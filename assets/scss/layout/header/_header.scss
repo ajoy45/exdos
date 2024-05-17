@@ -17,6 +17,10 @@
     @media #{$lg} {
         padding-left: 50px;
     }
+
+    @media #{$xs} {
+        padding-left: 15px;
+    }
 }
 
 .tp-main-menu {
@@ -159,10 +163,16 @@
     &-search {
         margin-right: 30px;
 
+        @media #{$xs} {
+            display: none;
+        }
+
         & i {
             font-size: 28px;
             color: var(--tp-white);
             opacity: .6;
+
+
         }
     }
 
@@ -175,6 +185,10 @@
 
         @media #{$xl} {
             margin-right: 28px;
+        }
+
+        @media #{$xs} {
+            display: none;
         }
 
         &-text {

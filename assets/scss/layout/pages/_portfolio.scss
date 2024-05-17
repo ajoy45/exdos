@@ -3,9 +3,24 @@
 .tp-portfolio {
     &-area {
         background-color: var(--tp-theme-blue);
+
+        @media #{$xs} {
+            padding-bottom: 100px;
+            padding-top: 70px;
+        }
     }
 
     &-tab {
+        &-item {
+            @media #{$md,$xs} {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+            }
+
+        }
+
         & button {
             font-family: var(--tp-fonts-heading);
             font-size: 100px;
@@ -31,11 +46,11 @@
                 padding-left: 50px;
             }
 
-            @media #{$md} {
-                font-size: 50px;
-                padding-left: 50px;
-                width: 100%;
-                text-align: left;
+            @media #{$md,$xs} {
+                padding-left: 13px;
+                padding-right: 8px;
+                font-size: 25px;
+
             }
 
             &:hover {
@@ -56,6 +71,11 @@
         @media #{$md} {
             padding-right: 34px;
             padding-left: 55px;
+
+        }
+
+        @media #{$xs} {
+            padding-right: 27px;
 
         }
     }

@@ -14,6 +14,13 @@
             font-size: 50px;
 
         }
+
+        @media #{$xs} {
+            font-size: 25px;
+
+        }
+
+
     }
 
     &-name {
@@ -41,7 +48,7 @@
         z-index: 1;
         font-size: 52px;
 
-        @media #{$xxlm,$xl,$md} {
+        @media #{$xxlm,$xl,$md,$xs} {
             top: inherit;
             left: 42px;
             bottom: 0;
@@ -60,7 +67,7 @@
         z-index: 1;
         font-size: 52px;
 
-        @media #{$xxlm,$xl,$md} {
+        @media #{$xxlm,$xl,$md,$xs} {
             top: inherit;
             bottom: -5px;
             right: inherit;
@@ -71,72 +78,83 @@
             right: 73px;
         }
 
+    }
 
+    &-slider-button {
+        @media #{$xs} {
+            position: static;
+            display: inline-block;
+            margin-top: 30px;
+        }
+    }
+}
 
+&-img-1 {
+    top: 42%;
+    left: 282px;
+
+    @media #{$xxlm,$xl} {
+        left: 42px;
 
     }
 
-    &-img-1 {
-        top: 42%;
-        left: 282px;
-
-        @media #{$xxlm,$xl} {
-            left: 42px;
-
-        }
-
-        @media #{$xl} {
-            top: 33%;
-        }
-
-        @media #{$lg,$md} {
-            display: none;
-        }
-
-
-    }
-
-    &-img-2 {
-        right: 282px;
+    @media #{$xl} {
         top: 33%;
+    }
 
-        @media #{$xxlm,$xl} {
-            right: 35px;
+    @media #{$lg,$md,$xs} {
+        display: none;
+    }
 
-        }
 
-        @media #{$lg,$md} {
-            display: none;
-        }
+}
 
+&-img-2 {
+    right: 282px;
+    top: 33%;
+
+    @media #{$xxlm,$xl} {
+        right: 35px;
 
     }
 
-    &-img-3 {
-        top: 37%;
-        left: 32%;
+    @media #{$lg,$md,$xs} {
+        display: none;
+    }
 
-        @media #{$xxlm,$xl} {
-            left: 27%;
 
-        }
+}
 
-        @media #{$xl} {
-            left: 23%;
+&-img-3 {
+    top: 37%;
+    left: 32%;
 
-        }
-
-        @media #{$lg} {
-            left: 17%;
-
-        }
-
-        @media #{$md} {
-            left: 10%;
-
-        }
-
+    @media #{$xxlm,$xl} {
+        left: 27%;
 
     }
+
+    @media #{$xl} {
+        left: 23%;
+
+    }
+
+    @media #{$lg} {
+        left: 17%;
+
+    }
+
+    @media #{$md} {
+        left: 10%;
+
+    }
+
+    @media #{$xs} {
+        top: 42%;
+        left: 1%;
+    }
+
+
+}
 
 }

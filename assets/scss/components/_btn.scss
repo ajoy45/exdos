@@ -30,6 +30,11 @@
         opacity: .3;
         padding: 44px 84px;
         border-radius: 100%;
+
+        @media #{$xs} {
+            font-size: 55px;
+            padding: 20px 30px;
+        }
     }
 }
 

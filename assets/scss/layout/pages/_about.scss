@@ -1,6 +1,16 @@
 @use"../../utils" as *;
 
 .tp-about {
+    &-area {
+        background-size: cover;
+        background-position: center;
+
+        @media #{$xs} {
+            padding-top: 70px;
+            padding-bottom: 130px;
+        }
+    }
+
     &-box {
         @media #{$xl} {
             padding-left: 25px;
@@ -10,7 +20,7 @@
             padding-left: 14px;
         }
 
-        @media #{$md} {
+        @media #{$md,$xs} {
             padding-left: 0;
         }
 
@@ -22,6 +32,12 @@
             @media #{$lg} {
                 font-size: 13px;
             }
+
+            & br {
+                @media #{$xs} {
+                    display: none;
+                }
+            }
         }
     }
 
@@ -30,8 +46,15 @@
             padding-left: 0;
         }
 
-        & img {
+        @media #{$xs} {
+            margin-bottom: 44px;
+        }
 
+        @media #{$xs} {
+            padding-left: 0;
+        }
+
+        & img {
             border-radius: 20px;
         }
     }
@@ -45,7 +68,7 @@
             padding-left: 12px;
         }
 
-        @media #{$md} {
+        @media #{$md,$xs} {
             padding-left: 0;
         }
 
