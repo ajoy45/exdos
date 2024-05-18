@@ -24,4 +24,8 @@
     @media #{$xl} {
         font-size: 85px;
     }
+
+    @media #{$xs} {
+        font-size: 65px;
+    }
 }

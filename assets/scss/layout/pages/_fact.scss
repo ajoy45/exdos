@@ -41,4 +41,9 @@
     @media #{$md} {
         width: 50%;
     }
+
+    @media #{$xs} {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
