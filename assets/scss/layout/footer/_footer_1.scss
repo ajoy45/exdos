@@ -121,6 +121,10 @@
             @media #{$md} {
                 text-align: center;
             }
+
+            @media #{$xs} {
+                text-align: left;
+            }
         }
 
         &-nav {
@@ -132,6 +136,10 @@
                 display: flex;
                 justify-content: end;
 
+                @media #{$xs} {
+                    justify-content: start;
+                }
+
                 @media #{$md} {
                     justify-content: center;
                 }
@@ -141,6 +149,10 @@
 
                     @media #{$md} {
                         margin-left: 35px;
+                    }
+
+                    @media #{$xs} {
+                        margin-left: 15px;
                     }
 
                     position: relative;
@@ -157,11 +169,18 @@
                         @media #{md} {
                             left: -18px;
                         }
+
+                        @media #{$xs} {
+                            left: -9px;
+                        }
                     }
 
                     &:first-child {
+                        margin-left: 0;
+
                         &::before {
                             display: none;
+
                         }
                     }
 
@@ -201,6 +220,11 @@
                 display: none;
 
             }
+
+            @media #{$xs} {
+                display: none;
+
+            }
         }
     }
 
@@ -224,6 +248,11 @@
             }
 
             @media #{$md} {
+                display: none;
+
+            }
+
+            @media #{$xs} {
                 display: none;
 
             }

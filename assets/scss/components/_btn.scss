@@ -7,6 +7,21 @@
     font-size: 18px;
     color: var(--tp-white);
     font-family: var(--tp-fonts-heading);
+    overflow: clip;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 22px;
+        height: 100%;
+        background-color: var(--tp-white);
+        position: absolute;
+        top: 3px;
+        right: -10px;
+        transform: rotate(13deg);
+        transition: .3s;
+
+    }
 
     &-sec {
         background: var(--tp-yellow);
@@ -15,11 +30,75 @@
         font-size: 18px;
         color: var(--tp-theme-sec-color);
         font-family: var(--tp-fonts-heading);
+        overflow: clip;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 22px;
+            height: 100%;
+            background-color: var(--tp-yellow-slide);
+            position: absolute;
+            top: 3px;
+            right: -8px;
+            transform: rotate(13deg);
+            transition: .3s;
+
+        }
 
         &-lg {
             padding: 22px 46px;
+
+        }
+
+        &:hover {
+            &::before {
+                right: -30px;
+            }
+
+            & .tp-btn-y-1 {
+                transform: translateY(-100%);
+                display: inline-block;
+                visibility: hidden;
+            }
+
+            & .tp-btn-y-2 {
+                transform: translateY(0);
+                visibility: visible;
+                transition: .1s;
+            }
+        }
+
+    }
+
+    &:hover {
+        color: var(--tp-white);
+
+        &::before {
+            right: -30px;
+        }
+
+        & .tp-btn-y-1 {
+            transform: translateY(-100%);
+            display: inline-block;
+            visibility: hidden;
+        }
+
+        & .tp-btn-y-2 {
+            transform: translateY(0);
+            visibility: visible;
+            transition: .1s;
         }
     }
+
+    &-y-2 {
+        position: absolute;
+        left: 46px;
+        transform: translateY(100%);
+        visibility: hidden;
+        // transition: .2s;
+    }
+
 
     &-circle {
         font-family: var(--tp-fonts-heading);
@@ -30,6 +109,13 @@
         opacity: .3;
         padding: 44px 84px;
         border-radius: 100%;
+        transition: .3s;
+
+        &:hover {
+            background-color: var(--tp-theme-color);
+            opacity: 1;
+            color: var(--tp-white);
+        }
 
         @media #{$xs} {
             font-size: 55px;

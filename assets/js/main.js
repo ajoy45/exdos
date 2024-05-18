@@ -10,6 +10,15 @@
         $(this).css("background-color", $(this).attr("data-bg-color"))
 
     })
+    // magnify popup
+    $('.popup-image').magnificPopup({
+        type: 'image'
+
+    });
+    $('.popup-video').magnificPopup({
+        type: 'iframe'
+
+    });
     // testimonial slider
     var swiper = new Swiper(".tp-testimonial-active", {
         slidesPerView: 1,

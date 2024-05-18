@@ -101,9 +101,10 @@
         left: 385px;
         z-index: 1;
 
-        @media #{$xl} {
+        @media #{$xl,$xs} {
             display: none;
         }
+
 
         @media #{$md} {
             left: 30%;
