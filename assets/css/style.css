@@ -5389,6 +5389,22 @@ img {
   color: var(--tp-common-black);
 }
 
+.tp-section-subtitle {
+  font-family: var(--tp-fonts-body);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.67;
+  text-transform: uppercase;
+  color: var(--tp-theme-body);
+}
+.tp-section-subtitle span {
+  width: 10px;
+  height: 10px;
+  background-color: var(--tp-theme-color);
+  border-radius: 30px;
+  display: inline-block;
+  margin-right: 8px;
+}
 .tp-section-title {
   font-size: 60px;
 }

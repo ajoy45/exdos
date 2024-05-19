@@ -1,33 +1,53 @@
 @use"../utils" as *;
 
-.tp-section-title {
-    &-wrapper {
-        & p {
-            & br {
+.tp-section {
+    &-subtitle {
+        font-family: var(--tp-fonts-body);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.67;
+        text-transform: uppercase;
+        color: var(--tp-theme-body);
 
-                @media #{$xs} {
-                    display: none;
-                }
-            }
+        & span {
+            width: 10px;
+            height: 10px;
+            background-color: var(--tp-theme-color);
+            border-radius: 30px;
+            display: inline-block;
+            margin-right: 8px;
         }
     }
 
-    font-size: 60px;
+    &-title {
+        &-wrapper {
+            & p {
+                & br {
 
-    @media #{$lg} {
-        font-size: 50px;
-    }
+                    @media #{$xs} {
+                        display: none;
+                    }
+                }
+            }
+        }
 
-    @media #{$md} {
-        font-size: 38px;
-    }
+        font-size: 60px;
 
-    @media #{$xs} {
-        font-size: 40px;
-    }
+        @media #{$lg} {
+            font-size: 50px;
+        }
+
+        @media #{$md} {
+            font-size: 38px;
+        }
+
+        @media #{$xs} {
+            font-size: 40px;
+        }
 
 
-    &-white {
-        color: var(--tp-white);
+        &-white {
+            color: var(--tp-white);
+        }
     }
 }
