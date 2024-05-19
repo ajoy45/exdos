@@ -7,17 +7,17 @@
     font-size: 18px;
     color: var(--tp-white);
     font-family: var(--tp-fonts-heading);
-    overflow: clip;
+    overflow: hidden;
     position: relative;
+    display: inline-block;
 
-    &::before {
-        content: "";
+    & i {
         width: 22px;
         height: 100%;
-        background-color: var(--tp-white);
+        background: var(--tp-theme-color-slide);
         position: absolute;
-        top: 3px;
-        right: -10px;
+        bottom: -3px;
+        right: -12px;
         transform: rotate(13deg);
         transition: .3s;
 
@@ -30,21 +30,22 @@
         font-size: 18px;
         color: var(--tp-theme-sec-color);
         font-family: var(--tp-fonts-heading);
-        overflow: clip;
+        overflow: hidden;
+        display: inline-block;
         position: relative;
 
-        &::before {
-            content: "";
+        & i {
             width: 22px;
             height: 100%;
-            background-color: var(--tp-yellow-slide);
+            background: var(--tp-yellow-slide);
             position: absolute;
-            top: 3px;
-            right: -8px;
+            bottom: -3px;
+            right: -12px;
             transform: rotate(13deg);
             transition: .3s;
-
         }
+
+
 
         &-lg {
             padding: 22px 46px;
@@ -52,7 +53,7 @@
         }
 
         &:hover {
-            &::before {
+            & i {
                 right: -30px;
             }
 
@@ -74,7 +75,7 @@
     &:hover {
         color: var(--tp-white);
 
-        &::before {
+        & i {
             right: -30px;
         }
 
