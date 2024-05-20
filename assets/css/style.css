@@ -453,6 +453,10 @@ img {
   transform: rotate(180deg);
 }
 
+.tp-upper {
+  text-transform: uppercase;
+}
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -5280,6 +5284,10 @@ img {
   padding-bottom: 180px;
 }
 
+.ml-219 {
+  margin-left: 219px;
+}
+
 .tp-btn {
   background: var(--tp-theme-color);
   padding: 19px 45px;
@@ -5878,6 +5886,15 @@ img {
 .tp-about-img img {
   border-radius: 20px;
 }
+.tp-about-img-2 {
+  position: absolute;
+  left: -185px;
+  top: 0;
+  z-index: 2;
+}
+.tp-about-img img {
+  max-width: inherit;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-about-video {
     padding-left: 27px;
@@ -5912,20 +5929,33 @@ img {
   font-size: 30px;
   margin: 0;
 }
-
 .tp-about-shape-1 {
   top: 17%;
   left: 10px;
 }
-
 .tp-about-shape-2 {
   top: -4%;
   right: 0%;
 }
-
 .tp-about-shape-3 {
   top: 41%;
   left: 36%;
+}
+.tp-about-desc p {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--tp-theme-body);
+  margin-bottom: 30px;
+}
+.tp-about-desc ul li {
+  font-family: var(--tp-fonts-heading);
+  font-size: 30px;
+  line-height: 133%;
+  color: var(--tp-common-black);
+}
+.tp-about-desc ul li i {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .tp-hero {
@@ -6649,6 +6679,15 @@ img {
   .tpfact__count {
     font-size: 65px;
   }
+}
+.tpfact-2 .tpfact__icon span i {
+  color: var(--tp-theme-body);
+}
+.tpfact-2 .tpfact__title {
+  color: var(--tp-theme-sec-color);
+}
+.tpfact-2 .tpfact__count {
+  color: var(--tp-theme-sec-color);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

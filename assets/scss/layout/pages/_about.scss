@@ -1,9 +1,6 @@
 @use"../../utils" as *;
 
 .tp-about {
-
-
-
     &-area {
         background-size: cover;
         background-position: center;
@@ -60,6 +57,18 @@
         & img {
             border-radius: 20px;
         }
+
+        &-2 {
+            position: absolute;
+            left: -185px;
+            top: 0;
+            z-index: 2;
+        }
+
+        & img {
+            max-width: inherit;
+
+        }
     }
 
     &-video {
@@ -97,20 +106,41 @@
         }
     }
 
+    &-shape-1 {
+        top: 17%;
+        left: 10px;
+    }
 
-}
+    &-shape-2 {
+        top: -4%;
+        right: 0%;
+    }
 
-.tp-about-shape-1 {
-    top: 17%;
-    left: 10px;
-}
+    &-shape-3 {
+        top: 41%;
+        left: 36%;
+    }
 
-.tp-about-shape-2 {
-    top: -4%;
-    right: 0%;
-}
+    &-desc {
+        & p {
+            font-size: 17px;
+            line-height: 1.65;
+            color: var(--tp-theme-body);
+            margin-bottom: 30px;
+        }
 
-.tp-about-shape-3 {
-    top: 41%;
-    left: 36%;
+        & ul {
+            & li {
+                font-family: var(--tp-fonts-heading);
+                font-size: 30px;
+                line-height: 133%;
+                color: var(--tp-common-black);
+
+                & i {
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
 }

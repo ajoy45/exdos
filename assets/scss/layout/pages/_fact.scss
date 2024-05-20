@@ -9,8 +9,6 @@
 .tpfact {
     &__icon {
         & span {
-
-
             & i {
                 font-size: 110px;
                 color: var(--tp-yellow);
@@ -33,6 +31,28 @@
 
         @media #{$lg} {
             font-size: 65px;
+        }
+    }
+
+    &-2 {
+        & .tpfact {
+            &__icon {
+                & span {
+                    & i {
+
+                        color: var(--tp-theme-body);
+                    }
+                }
+            }
+
+            &__title {
+
+                color: var(--tp-theme-sec-color);
+            }
+
+            &__count {
+                color: var(--tp-theme-sec-color);
+            }
         }
     }
 }
