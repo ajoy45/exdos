@@ -2,8 +2,6 @@
 
 .tp-portfolio {
     &-area {
-        background-color: var(--tp-theme-blue);
-
         @media #{$xs} {
             padding-bottom: 100px;
             padding-top: 70px;
@@ -87,4 +85,50 @@
         }
     }
 
+    &-2 {
+        &:hover {
+            & .tp-portfolio-2-text {
+                display: block;
+            }
+        }
+
+        &-img {
+
+
+            & img {
+                border-radius: 20px;
+            }
+        }
+
+
+        &-text {
+            display: none;
+
+            & span {
+                font-weight: 500;
+                font-size: 15px;
+                color: var(--tp-theme-sec-color);
+                text-transform: uppercase;
+                background-color: var(--tp-white);
+                padding: 10px 21px;
+                bottom: 181px;
+                left: 126px;
+                position: absolute;
+
+            }
+
+            &-title {
+                position: absolute;
+                bottom: 80px;
+                left: 126px;
+                font-size: 30px;
+                color: var(--tp-theme-sec-color);
+                background-color: var(--tp-white);
+                padding: 22px 21px;
+
+            }
+        }
+
+
+    }
 }
