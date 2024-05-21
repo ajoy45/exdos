@@ -5292,6 +5292,14 @@ img {
   margin-left: 219px;
 }
 
+.pt-308 {
+  padding-top: 308px;
+}
+
+.pb-308 {
+  padding-bottom: 308px;
+}
+
 .tp-btn {
   background: var(--tp-theme-color);
   padding: 19px 45px;
