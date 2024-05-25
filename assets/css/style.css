@@ -5413,13 +5413,11 @@ img {
   border: 1px solid var(--tp-theme-body);
   border-radius: 10px;
 }
-
 .tp-accordion-header {
   font-size: 20px;
   line-height: 150%;
   color: var(--tp-theme-sec-color);
 }
-
 .tp-accordion-button {
   padding: 20px 30px;
   width: 100%;
@@ -5434,7 +5432,6 @@ img {
   transform: rotate(-90deg);
   color: var(--tp-black);
 }
-
 .tp-accordion-body {
   margin: 0 29px;
   border-top: 1px solid var(--tp-theme-body);
@@ -6667,6 +6664,46 @@ img {
 .tpteam__social i {
   font-size: 25px;
   margin-right: 19px;
+}
+.tpteam-2:hover .tpteam-2__social {
+  display: block;
+}
+.tpteam-2:hover .tpteam-2__info--title {
+  color: var(--tp-theme-color);
+}
+.tpteam-2__thumbe {
+  border: 1px solid #57595c;
+  border-radius: 15px;
+}
+.tpteam-2__thumbe img {
+  border-radius: 15px;
+  margin-left: 20px;
+  transform: translate(-9px, 9px);
+}
+.tpteam-2__info {
+  text-align: center;
+}
+.tpteam-2__info span {
+  font-size: 17px;
+  color: var(--tp-theme-body);
+}
+.tpteam-2__info--title {
+  font-size: 30px;
+  color: var(--tp-theme-sec-color);
+  margin-top: 10px;
+}
+.tpteam-2__social {
+  top: 34%;
+  left: 26%;
+  display: none;
+}
+.tpteam-2__social i {
+  background-color: white;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 3;
 }
 
 .tp-team-btn {
