@@ -1,1 +1,52 @@
 @use"../utils" as *;
+
+.tp-accordion-item {
+    border: 1px solid var(--tp-theme-body);
+    border-radius: 10px;
+}
+
+.tp-accordion-header {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--tp-theme-sec-color);
+}
+
+.tp-accordion-button {
+    padding: 20px 30px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+
+    & span {
+        & i {
+            color: var(--tp-theme-color);
+        }
+    }
+
+    &.collapsed {
+
+        & span {
+            & i {
+                transform: rotate(-90deg);
+                color: var(--tp-black);
+            }
+        }
+    }
+}
+
+.tp-accordion-body {
+    margin: 0 29px;
+    border-top: 1px solid var(--tp-theme-body);
+    padding-top: 20px;
+
+}
+
+.tp-faq-bg {
+    position: absolute;
+    left: 0;
+    width: calc(50% - 99px);
+    height: 100%;
+    background-size: cover;
+    border-radius: 0 20px 20px 0;
+}
