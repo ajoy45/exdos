@@ -50,4 +50,28 @@
         }
     }
 
+    &-2 {
+        border: 1px solid var(--tp-theme-body);
+        border-radius: 15px;
+
+        & .tpblog__thumb {
+            height: 100%;
+            left: 0;
+            top: 0;
+            transform: translateY(-12px);
+            margin-left: -2px;
+        }
+
+        & img {
+            border-radius: 15px;
+            height: calc(100% + 24px);
+            object-fit: cover;
+        }
+
+        & .tpblog__content {
+            padding-left: 228px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
 }

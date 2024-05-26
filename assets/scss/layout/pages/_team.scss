@@ -77,8 +77,9 @@
 
         &:hover {
             & .tpteam-2__social {
-                display: block;
-
+                opacity: 1;
+                visibility: visible;
+                top: 34%;
             }
 
             & .tpteam-2__info--title {
@@ -114,9 +115,11 @@
         }
 
         &__social {
-            top: 34%;
+            top: 30%;
             left: 26%;
-            display: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s;
 
             & i {
                 background-color: white;
@@ -125,6 +128,7 @@
                 height: 50px;
                 text-align: center;
                 line-height: 3;
+                margin: 0 3px;
 
             }
         }

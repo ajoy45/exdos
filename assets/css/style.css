@@ -411,7 +411,9 @@ img {
 .br-20 {
   border-radius: 20px;
 }
-
+.br-15 {
+  border-radius: 15px;
+}
 .br-5 {
   border-radius: 5px;
 }
@@ -6207,15 +6209,6 @@ img {
   white-space: nowrap;
 }
 
-.tp-newsletter-bg {
-  padding: 80px;
-  border-radius: 20px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .tp-newsletter-bg {
-    padding: 80px 25px;
-  }
-}
 .tp-newsletter-box form {
   display: flex;
   justify-content: space-between;
@@ -6290,6 +6283,45 @@ img {
 }
 .tp-newsletter-margin {
   margin-top: -113px;
+}
+.tp-newsletter-bg {
+  padding: 80px;
+  border-radius: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-newsletter-bg {
+    padding: 80px 25px;
+  }
+}
+.tp-newsletter-bg-2 {
+  padding: 80px 0px;
+}
+.tp-newsletter-bg-2 .tp-section-title {
+  color: var(--tp-theme-sec-color);
+}
+.tp-newsletter-bg-2 input {
+  border-color: var(--tp-black);
+  /* Firefox */
+  /* Internet Explorer 10+ */
+  /* Fallback for older browsers */
+}
+.tp-newsletter-bg-2 input::-moz-placeholder {
+  color: var(--tp-black);
+}
+.tp-newsletter-bg-2 input::placeholder {
+  color: var(--tp-black);
+}
+.tp-newsletter-bg-2 input:focus {
+  border-color: var(--tp-black);
+}
+.tp-newsletter-bg-2 input:focus::-moz-placeholder {
+  opacity: 0;
+}
+.tp-newsletter-bg-2 input:focus::placeholder {
+  opacity: 0;
+}
+.tp-newsletter-bg-2 .tp-newsletter-back {
+  color: black;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6506,6 +6538,15 @@ img {
     left: 70px;
   }
 }
+.tp-testimonial-slider-right-2 {
+  z-index: 1;
+  font-size: 52px;
+  bottom: 157px;
+  left: 41%;
+}
+.tp-testimonial-slider-right-2 i {
+  color: var(--tp-white);
+}
 .tp-testimonial-slider-left {
   top: 30%;
   right: 182px;
@@ -6524,6 +6565,15 @@ img {
   .tp-testimonial-slider-left {
     right: 73px;
   }
+}
+.tp-testimonial-slider-left-2 {
+  z-index: 1;
+  font-size: 52px;
+  left: 47%;
+  top: 72%;
+}
+.tp-testimonial-slider-left-2 i {
+  color: var(--tp-white);
 }
 @media (max-width: 767px) {
   .tp-testimonial-slider-button {
@@ -6594,6 +6644,42 @@ img {
     top: 42%;
     left: 1%;
   }
+}
+.tp-testimonial-2-text span {
+  display: inline-flex;
+}
+.tp-testimonial-2-text span i {
+  color: var(--tp-yellow);
+  font-size: 40px;
+  transform: scaleX(-1);
+}
+.tp-testimonial-2-text-title {
+  font-size: 60px;
+  color: var(--tp-white);
+}
+.tp-testimonial-2-text-title i {
+  color: var(--tp-yellow);
+  font-size: 40px;
+}
+.tp-testimonial-2-info-thumb img {
+  border-radius: 15px;
+}
+.tp-testimonial-2-info-deg h4 {
+  font-size: 30px;
+  color: var(--tp-white);
+}
+.tp-testimonial-2-info-deg span {
+  font-size: 17px;
+  color: var(--tp-white);
+}
+
+.tp-testimpnial-circle {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 33px;
+  bottom: 178px;
+  left: 45%;
 }
 
 .tpteam__thumbe img {
@@ -6666,7 +6752,9 @@ img {
   margin-right: 19px;
 }
 .tpteam-2:hover .tpteam-2__social {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  top: 34%;
 }
 .tpteam-2:hover .tpteam-2__info--title {
   color: var(--tp-theme-color);
@@ -6693,9 +6781,11 @@ img {
   margin-top: 10px;
 }
 .tpteam-2__social {
-  top: 34%;
+  top: 30%;
   left: 26%;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
 }
 .tpteam-2__social i {
   background-color: white;
@@ -6704,6 +6794,7 @@ img {
   height: 50px;
   text-align: center;
   line-height: 3;
+  margin: 0 3px;
 }
 
 .tp-team-btn {
@@ -6851,6 +6942,28 @@ img {
 }
 .tpblog__btn i {
   transform: rotate(-45deg);
+}
+.tpblog-2 {
+  border: 1px solid var(--tp-theme-body);
+  border-radius: 15px;
+}
+.tpblog-2 .tpblog__thumb {
+  height: 100%;
+  left: 0;
+  top: 0;
+  transform: translateY(-12px);
+  margin-left: -2px;
+}
+.tpblog-2 img {
+  border-radius: 15px;
+  height: calc(100% + 24px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tpblog-2 .tpblog__content {
+  padding-left: 228px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .tpform-title {

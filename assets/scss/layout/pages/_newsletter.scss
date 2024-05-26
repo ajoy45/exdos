@@ -1,14 +1,7 @@
 @use"../../utils" as *;
 
 .tp-newsletter {
-    &-bg {
-        padding: 80px;
-        border-radius: 20px;
 
-        @media #{$md,$xs} {
-            padding: 80px 25px;
-        }
-    }
 
     &-box {
         & form {
@@ -42,6 +35,8 @@
                 }
             }
         }
+
+
     }
 
     &-input {
@@ -85,6 +80,42 @@
 
     }
 
+    &-bg {
+        padding: 80px;
+        border-radius: 20px;
+
+        @media #{$md,$xs} {
+            padding: 80px 25px;
+        }
+
+        &-2 {
+            padding: 80px 0px;
+
+            & .tp-section-title {
+                color: var(--tp-theme-sec-color);
+            }
+
+            & input {
+                border-color: var(--tp-black);
+
+                @include tp-placeholder {
+                    color: var(--tp-black);
+                }
+
+                &:focus {
+                    border-color: var(--tp-black);
+
+                    &::placeholder {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            & .tp-newsletter-back {
+                color: black;
+            }
+        }
+    }
 }
 
 .tp-section-title-wrapper {
