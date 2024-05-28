@@ -81,6 +81,16 @@
             text-transform: uppercase;
             color: var(--tp-white)
         }
+
+        &-3 {
+
+            font-size: 100px;
+
+            text-transform: uppercase;
+            color: var(--tp-theme-sec-color);
+
+
+        }
     }
 
     &-desc {
@@ -113,6 +123,22 @@
             font-size: 52px;
             color: var(--tp-hero-small);
             margin-left: -25.5px;
+        }
+    }
+
+    &-box {
+        & p {
+            padding-left: 165px;
+        }
+    }
+
+    &-link {
+        padding-left: 165px;
+
+        & i {
+            transform: rotate(-30deg);
+            margin-left: 14px;
+
         }
     }
 }
@@ -212,5 +238,25 @@
         transform: rotate(-90deg);
         display: ruby;
         white-space: nowrap;
+    }
+
+    &-shape {
+        & .shape-1 {
+            top: 26%;
+            left: 40px;
+        }
+
+        & .shape-2 {
+            bottom: 19px;
+            right: 120px;
+            border-radius: 100%;
+            z-index: 2;
+        }
+
+        & .shape-3 {
+            bottom: 393px;
+            right: 86px;
+            border-radius: 100%;
+        }
     }
 }
