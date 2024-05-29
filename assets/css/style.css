@@ -145,6 +145,7 @@
   --tp-spring: #FBF6EF;
   --tp-neblue: #001d52;
   --tp-faq-border: #D9D9D9;
+  --tp-span-bg: #FFE9C9;
 }
 
 :root {
@@ -5503,6 +5504,9 @@ img {
 .tp-section-subtitle-2 span {
   background-color: var(--tp-orange);
 }
+.tp-section-subtitle-3 {
+  color: #a3aec3;
+}
 .tp-section-title {
   font-size: 60px;
 }
@@ -6605,6 +6609,44 @@ img {
   color: var(--tp-theme-sec-color);
   background-color: var(--tp-white);
   padding: 22px 21px;
+}
+.tp-portfolio-3-img img {
+  border-radius: 15px;
+}
+.tp-portfolio-3 p {
+  font-size: 17px;
+  color: #a3aec3;
+}
+.tp-portfolio-3 h4 {
+  font-size: 30px;
+  color: #a3aec3;
+}
+.tp-portfolio-3 h4 span {
+  width: 60px;
+  height: 1px;
+  background: #a3aec3;
+  display: inline-block;
+  transform: translateY(-8px);
+  margin-right: 14px;
+}
+.tp-portfolio-3-subtitle {
+  background-color: var(--tp-span-bg);
+  padding: 3px 15px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.tp-portfolio-3-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--tp-white);
+}
+.tp-portfolio-3-link {
+  font-size: 18px;
+  color: #a3aec3;
+}
+.tp-portfolio-3-link i {
+  transform: rotate(-30deg);
+  margin-left: 12px;
 }
 
 .tp-testimonial-title {
