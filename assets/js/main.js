@@ -45,12 +45,11 @@
             disableOnInteraction: true,
         },
     });
-    // brand slider
+    // brand slider title
     var swiper = new Swiper(".tp-brand-title-active", {
         slidesPerView: "auto",
         spaceBetween: 40,
         loop: true,
-        // freemode: true,
         speed: 2000,
         centeredSlides: true,
         allowTouchMove: false,

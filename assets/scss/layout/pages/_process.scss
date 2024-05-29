@@ -1,0 +1,81 @@
+@use"../../utils" as *;
+
+.tpprocess {
+    padding: 64px 35px;
+
+    &-border {
+        border: 1px solid var(--tp-theme-body);
+        border-radius: 215px;
+    }
+
+    & span {
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: var(--tp-orange);
+        border-radius: 15px;
+        padding: 5px 23px;
+        margin-bottom: 35px;
+        display: inline-block;
+    }
+
+    &__title {
+
+        font-size: 30px;
+
+        text-transform: capitalize;
+
+        color: var(--tp-theme-sec-color);
+    }
+
+    & p {
+        font-size: 17px;
+        color: #57595c;
+        text-align: center;
+    }
+
+    &__icon {
+
+        & i {
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            display: inline-block;
+            font-size: 62px;
+            line-height: 2.5;
+        }
+
+        & .first {
+
+            background-color: #ffe9c9;
+
+        }
+
+        & .second {
+
+            background-color: #d6f0ff;
+
+        }
+
+        & .third {
+
+            background-color: #ffe4fb;
+
+        }
+
+        & .four {
+
+            background-color: #e2ead7;
+
+
+        }
+
+    }
+
+    &:hover {
+        & span {
+            background-color: var(--tp-theme-color);
+        }
+    }
+}
