@@ -52,7 +52,42 @@
             }
         }
     }
+
+    &-2 {
+        margin-bottom: -1px;
+
+        & .shape-bg-1 {
+            left: -5px;
+            top: 7px;
+        }
+
+        &__icon {
+            font-size: 45px;
+            transition: .3s;
+        }
+
+        &__thumb {
+            & img {
+                border-radius: 20px;
+            }
+        }
+
+        &:hover {
+            & .tpservice-2__icon {
+                & i {
+                    color: var(--tp-orange);
+                }
+            }
+
+
+        }
+    }
+
 }
+
+
+
+
 
 .tpservice-btn {
     background: var(--tp-spw-color);

@@ -43,7 +43,33 @@
 
     }
 
+    &-2 {
+        &-accordion-item {
+            border-bottom: 1px solid var(--tp-faq-border);
+            padding: 18.5px 0;
+        }
 
+        & button {
+            font-size: 24px;
+
+            color: var(--tp-theme-sec-color);
+
+            & i {
+                margin-left: 14px;
+            }
+
+            &:after {
+                content: "-";
+            }
+
+            &.collapsed {
+                &:after {
+                    content: "+";
+                }
+            }
+        }
+
+    }
 }
 
 .tp-faq-bg {

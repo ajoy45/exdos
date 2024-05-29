@@ -17,6 +17,12 @@
             display: inline-block;
             margin-right: 8px;
         }
+
+        &-2 {
+            & span {
+                background-color: var(--tp-orange);
+            }
+        }
     }
 
     &-title {

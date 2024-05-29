@@ -1,0 +1,36 @@
+@use"../../utils" as *;
+
+.tp-faq-2 {
+    &-area {}
+
+    &-left {
+        &__duck {
+            & img {
+                position: relative;
+                z-index: 2;
+            }
+        }
+
+        &__back {
+            width: 615px;
+            height: 597px;
+            background-color: var(--tp-yellow-bg);
+            border-radius: 100%;
+            z-index: 1;
+            top: 164px;
+            left: -72px;
+        }
+
+        & .star-1 {
+            top: 133px;
+            left: -90px;
+
+        }
+
+        & .star-2 {
+            top: 0;
+            right: 276px;
+        }
+
+    }
+}

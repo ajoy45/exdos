@@ -123,6 +123,14 @@
             padding: 20px 30px;
         }
     }
+
+    &-2 {
+        background-color: var(--tp-orange);
+
+        & i {
+            background-color: #FFAD8A;
+        }
+    }
 }
 
 .tp-text-btn {
