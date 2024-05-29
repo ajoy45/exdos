@@ -1,0 +1,14 @@
+@use"../../utils" as *;
+
+.tp-brand {
+    &-bg {
+        background: radial-gradient(5198.42% 57.77% at 47.5% 62%, rgb(0, 88, 255) 0%, rgb(255, 76, 0) 100%);
+    }
+
+    &-title {
+        font-size: 100px;
+
+        text-transform: uppercase;
+        color: var(--tp-white);
+    }
+}

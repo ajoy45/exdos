@@ -7130,4 +7130,13 @@ img {
 .tp-faq-2-left .star-2 {
   top: 0;
   right: 276px;
+}
+
+.tp-brand-bg {
+  background: radial-gradient(5198.42% 57.77% at 47.5% 62%, rgb(0, 88, 255) 0%, rgb(255, 76, 0) 100%);
+}
+.tp-brand-title {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: var(--tp-white);
 }/*# sourceMappingURL=style.css.map */

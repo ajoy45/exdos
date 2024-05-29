@@ -45,6 +45,21 @@
             disableOnInteraction: true,
         },
     });
+    // brand slider
+    var swiper = new Swiper(".tp-brand-title-active", {
+        slidesPerView: "auto",
+        spaceBetween: 40,
+        loop: true,
+        // freemode: true,
+        speed: 2000,
+        centeredSlides: true,
+        allowTouchMove: false,
+
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: true,
+        },
+    });
     // Team slider
     var swiper = new Swiper(".tp-team-slider-active", {
         spaceBetween: 30,
