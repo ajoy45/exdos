@@ -137,6 +137,7 @@
   --tp-yellow: #FFE815;
   --tp-yellow-bg: #FEDC76;
   --tp-orange: #FF5B15;
+  --tp-orange-2: #FF8653;
   --tp-redis-orange: #F2DDD1;
   --tp-yellow-slide: #E5CF00;
   --tp-black: black;
@@ -6727,6 +6728,15 @@ img {
 .tp-testimonial-slider-right-2 i {
   color: var(--tp-white);
 }
+.tp-testimonial-slider-right-3 {
+  z-index: 1;
+  font-size: 52px;
+  bottom: 3%;
+  left: 58%;
+}
+.tp-testimonial-slider-right-3 i {
+  color: var(--tp-theme-sec-color);
+}
 .tp-testimonial-slider-left {
   top: 30%;
   right: 182px;
@@ -6753,7 +6763,16 @@ img {
   top: 72%;
 }
 .tp-testimonial-slider-left-2 i {
-  color: var(--tp-white);
+  color: var(--tp-theme-sec-color);
+}
+.tp-testimonial-slider-left-3 {
+  z-index: 1;
+  font-size: 52px;
+  left: 64%;
+  top: 89%;
+}
+.tp-testimonial-slider-left-3 i {
+  color: var(--tp-theme-sec-color);
 }
 @media (max-width: 767px) {
   .tp-testimonial-slider-button {
@@ -6852,6 +6871,38 @@ img {
   font-size: 17px;
   color: var(--tp-white);
 }
+.tp-testimonial-thumb img {
+  z-index: 2;
+  position: relative;
+}
+.tp-testimonial-bg {
+  width: 408px;
+  height: 360px;
+  background-color: var(--tp-orange-2);
+  border-radius: 180px 180px 80px 80px;
+  top: 22%;
+  left: -4px;
+  z-index: 1;
+}
+.tp-testimonial-quote {
+  margin-right: 30px;
+}
+.tp-testimonial-quote img {
+  width: 475px;
+}
+.tp-testimonial-3-info-deg {
+  margin-left: 141px;
+}
+.tp-testimonial-3-info-deg h4 {
+  color: var(--tp-theme-sec-color);
+}
+.tp-testimonial-3-info-deg span {
+  color: var(--tp-theme-sec-color);
+}
+.tp-testimonial-3-text-title {
+  font-size: 40px;
+  color: var(--tp-theme-sec-color);
+}
 
 .tp-testimpnial-circle {
   width: 8px;
@@ -6860,6 +6911,11 @@ img {
   border-radius: 33px;
   bottom: 178px;
   left: 45%;
+}
+.tp-testimpnial-circle-3 {
+  bottom: 6.2%;
+  left: 62.2%;
+  background-color: #DBDBDB;
 }
 
 .tpteam__thumbe img {
@@ -7199,14 +7255,14 @@ img {
   text-transform: uppercase;
   color: var(--tp-white);
 }
-.tp-brand-box {
+.tp-brand-box-2 {
   border: 1px solid #57595c;
   border-radius: 10px;
   padding: 40px 52px;
   margin-right: -1px;
   margin-bottom: -1px;
 }
-.tp-brand-box img {
+.tp-brand-box-2 img {
   width: 179px;
   height: 43px;
 }
