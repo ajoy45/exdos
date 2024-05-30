@@ -158,8 +158,22 @@
             }
         }
 
-        &-subtitle {
+        &-subtitle-1 {
             background-color: var(--tp-span-bg);
+            padding: 3px 15px;
+            border-radius: 15px;
+            display: inline-block
+        }
+
+        &-subtitle-2 {
+            background-color: #D6F0FF;
+            padding: 3px 15px;
+            border-radius: 15px;
+            display: inline-block
+        }
+
+        &-subtitle-3 {
+            background-color: #FFE4FB;
             padding: 3px 15px;
             border-radius: 15px;
             display: inline-block

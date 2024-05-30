@@ -1,0 +1,52 @@
+@use"../../utils" as*;
+
+.tpprice {
+    padding: 50px;
+    border-radius: 15px;
+
+    &-br {
+        border-radius: 0;
+        border: 1px solid #57595C;
+    }
+
+    &__icon {
+        & i {
+            font-size: 96px;
+            z-index: 2;
+            position: relative;
+        }
+
+        &--shape {
+            & img {
+                position: absolute;
+                top: -6px;
+                left: -21px;
+                z-index: 1;
+            }
+        }
+    }
+
+    &__price {
+        font-size: 70px;
+        color: var(--tp-theme-sec-color);
+    }
+
+    &__title {
+        font-size: 30px;
+        color: var(--tp-theme-sec-color);
+        border-bottom: 1px solid #57595C;
+        margin-bottom: 19px;
+    }
+
+    &__features {
+        & li {
+            font-size: 17px;
+            color: #57595c;
+            margin-bottom: 15px;
+
+            & i {
+                margin-right: 12px;
+            }
+        }
+    }
+}
