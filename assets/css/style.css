@@ -146,6 +146,7 @@
   --tp-neblue: #001d52;
   --tp-faq-border: #D9D9D9;
   --tp-span-bg: #FFE9C9;
+  --tp-rose-white: #FDF6F2;
 }
 
 :root {
@@ -449,6 +450,10 @@ img {
 
 .tp-theme-bg {
   background-color: var(--tp-theme-blue);
+}
+
+.tp-rose-bg {
+  background-color: var(--tp-rose-white);
 }
 
 .tp-slide-transition {
@@ -7193,6 +7198,17 @@ img {
   font-size: 100px;
   text-transform: uppercase;
   color: var(--tp-white);
+}
+.tp-brand-box {
+  border: 1px solid #57595c;
+  border-radius: 10px;
+  padding: 40px 52px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+.tp-brand-box img {
+  width: 179px;
+  height: 43px;
 }
 
 .tpprocess {
