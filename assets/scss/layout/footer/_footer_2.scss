@@ -69,4 +69,32 @@
             color: var(--tp-theme-sec-color);
         }
     }
+
+    &-copyright {
+        & P {
+            font-size: 17px;
+            color: var(--tp-theme-body);
+
+            & span {
+                color: var(--tp-orange);
+            }
+        }
+
+        &-nav {
+            & ul {
+                & li {
+                    & a {
+                        color: var(--tp-theme-body);
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-bottom {
+        border-top: 1px solid var(--tp-theme-body);
+        padding-top: 42px;
+
+    }
 }

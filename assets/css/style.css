@@ -6014,6 +6014,21 @@ img {
   font-size: 30px;
   color: var(--tp-theme-sec-color);
 }
+.tp-footer-2-copyright P {
+  font-size: 17px;
+  color: var(--tp-theme-body);
+}
+.tp-footer-2-copyright P span {
+  color: var(--tp-orange);
+}
+.tp-footer-2-copyright-nav ul li a {
+  color: var(--tp-theme-body);
+  font-size: 17px;
+}
+.tp-footer-2-bottom {
+  border-top: 1px solid var(--tp-theme-body);
+  padding-top: 42px;
+}
 
 .tp-about-area {
   background-size: cover;
