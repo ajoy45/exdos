@@ -5970,6 +5970,51 @@ img {
   }
 }
 
+.tp-footer-2-newsletter {
+  margin-right: 82px;
+}
+.tp-footer-2-newsletter h4 {
+  font-size: 20px;
+  color: var(--tp-theme-sec-color);
+}
+.tp-footer-2-submit {
+  position: absolute;
+  top: 21px;
+  right: 0;
+}
+.tp-footer-2-social i {
+  font-size: 29px;
+  margin-right: 20px;
+}
+.tp-footer-2-widget span {
+  font-size: 17px;
+  color: var(--tp-theme-body);
+}
+.tp-footer-2-widget-title {
+  font-size: 20px;
+  color: var(--tp-theme-sec-color);
+}
+.tp-footer-2-widget ul li {
+  margin-bottom: 10px;
+}
+.tp-footer-2-widget ul li a {
+  font-size: 17px;
+  color: var(--tp-theme-body);
+}
+.tp-footer-2-widget__title {
+  font-size: 20px;
+  color: var(--tp-theme-sec-color);
+}
+.tp-footer-2-contact span {
+  font-size: 17px;
+  display: inline-block;
+  color: var(--tp-theme-body);
+}
+.tp-footer-2-contact__title {
+  font-size: 30px;
+  color: var(--tp-theme-sec-color);
+}
+
 .tp-about-area {
   background-size: cover;
   background-position: center;

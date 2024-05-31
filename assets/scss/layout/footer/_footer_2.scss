@@ -1,1 +1,72 @@
 @use"../../utils" as *;
+
+.tp-footer-2 {
+    &-area {}
+
+    &-newsletter {
+        margin-right: 82px;
+
+        & h4 {
+            font-size: 20px;
+            color: var(--tp-theme-sec-color);
+        }
+    }
+
+    &-submit {
+        position: absolute;
+        top: 21px;
+        right: 0;
+    }
+
+    &-social {
+        & i {
+            font-size: 29px;
+            margin-right: 20px;
+        }
+    }
+
+    &-widget {
+        & span {
+            font-size: 17px;
+
+            color: var(--tp-theme-body);
+        }
+
+        &-title {
+            font-size: 20px;
+            color: var(--tp-theme-sec-color);
+        }
+
+        & ul {
+            & li {
+                margin-bottom: 10px;
+
+                & a {
+                    font-size: 17px;
+
+                    color: var(--tp-theme-body);
+                }
+            }
+        }
+
+        &__title {
+            font-size: 20px;
+            color: var(--tp-theme-sec-color);
+        }
+
+
+    }
+
+    &-contact {
+        & span {
+            font-size: 17px;
+            display: inline-block;
+            color: var(--tp-theme-body);
+        }
+
+        &__title {
+            font-size: 30px;
+            color: var(--tp-theme-sec-color);
+        }
+    }
+}
