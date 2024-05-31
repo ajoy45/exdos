@@ -5513,6 +5513,9 @@ img {
 .tp-section-subtitle-3 {
   color: #a3aec3;
 }
+.tp-section-subtitle-4 {
+  color: var(--tp-white);
+}
 .tp-section-title {
   font-size: 60px;
 }
@@ -5537,6 +5540,9 @@ img {
   }
 }
 .tp-section-title-white {
+  color: var(--tp-white);
+}
+.tp-section-title-3 {
   color: var(--tp-white);
 }
 
@@ -6321,6 +6327,22 @@ img {
   bottom: 393px;
   right: 86px;
   border-radius: 100%;
+}
+
+.tp-cta-area {
+  background-position: center;
+  background-size: cover;
+}
+.tp-cta-overlay::before {
+  background: linear-gradient(0deg, rgba(0, 23, 67, 0.8) 0%, rgba(0, 23, 67, 0.8) 100%), url(<path-to-image>) lightgray 50%/cover no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 1;
 }
 
 .tp-newsletter-box form {
@@ -7248,7 +7270,8 @@ img {
 }
 
 .tp-brand-bg {
-  background: radial-gradient(5198.42% 57.77% at 47.5% 62%, rgb(0, 88, 255) 0%, rgb(255, 76, 0) 100%);
+  background: rgb(0, 88, 255);
+  background: radial-gradient(circle, rgb(0, 88, 255) 0%, rgb(255, 76, 0) 100%);
 }
 .tp-brand-title {
   font-size: 100px;
