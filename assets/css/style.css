@@ -5301,6 +5301,10 @@ img {
   padding-top: 269px;
 }
 
+.pt-224 {
+  padding-top: 224px;
+}
+
 .pb-183 {
   padding-bottom: 183px;
 }
@@ -6291,6 +6295,9 @@ img {
 .tp-hero-box p {
   padding-left: 165px;
 }
+.tp-hero-box-4 {
+  padding-left: inherit;
+}
 .tp-hero-link {
   padding-left: 165px;
 }
@@ -6369,6 +6376,19 @@ img {
     bottom: 184px;
   }
 }
+.tp-hero-shape img {
+  right: 0;
+  bottom: 0;
+}
+.tp-hero-circle {
+  width: 717px;
+  height: 717px;
+  background-color: #FFE6CE;
+  border-radius: 100%;
+  position: absolute;
+  top: 16%;
+  left: -112px;
+}
 .tp-hero-info {
   display: flex;
   text-transform: uppercase;
@@ -6407,6 +6427,10 @@ img {
   bottom: 393px;
   right: 86px;
   border-radius: 100%;
+}
+
+.ml-m-9 {
+  margin-left: -9px;
 }
 
 .tp-cta-area {

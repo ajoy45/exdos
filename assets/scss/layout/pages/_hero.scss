@@ -85,7 +85,6 @@
         &-3 {
 
             font-size: 100px;
-
             text-transform: uppercase;
             color: var(--tp-theme-sec-color);
 
@@ -129,6 +128,10 @@
     &-box {
         & p {
             padding-left: 165px;
+        }
+
+        &-4 {
+            padding-left: inherit;
         }
     }
 
@@ -212,6 +215,24 @@
         }
     }
 
+    &-shape {
+        & img {
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    &-circle {
+        width: 717px;
+        height: 717px;
+        background-color: #FFE6CE;
+        border-radius: 100%;
+        position: absolute;
+        top: 16%;
+        left: -112px;
+
+    }
+
     &-info {
         display: flex;
         text-transform: uppercase;
@@ -259,4 +280,8 @@
             border-radius: 100%;
         }
     }
+}
+
+.ml-m-9 {
+    margin-left: -9px;
 }
