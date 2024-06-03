@@ -193,6 +193,14 @@
             height: 40px;
             background-color: var(--tp-redis-orange);
             display: inline-block;
+
+            &-4 {
+                width: 1px;
+                height: 40px;
+                background-color: #D8B09B;
+                display: inline-block;
+                margin-right: 30px;
+            }
         }
     }
 
@@ -279,6 +287,22 @@
             & i {
                 color: var(--tp-yellow);
                 font-size: 60px;
+            }
+        }
+    }
+
+    &-btn {
+        padding: 14px 35px;
+        border: 1px solid var(--tp-theme-body);
+
+        & a {
+            font-size: 18px;
+            color: var(--tp-theme-sec-color);
+            font-family: var(--tp-fonts-heading);
+
+            & i {
+                transform: rotate(-30deg);
+                margin-left: 8px;
             }
         }
     }

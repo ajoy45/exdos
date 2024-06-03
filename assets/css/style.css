@@ -5693,6 +5693,13 @@ img {
   background-color: var(--tp-redis-orange);
   display: inline-block;
 }
+.tp-header-right-hr-4 {
+  width: 1px;
+  height: 40px;
+  background-color: #D8B09B;
+  display: inline-block;
+  margin-right: 30px;
+}
 .tp-header-bar {
   padding: 22px 24px;
   background-color: #23252D;
@@ -5762,6 +5769,19 @@ img {
 .tp-header-cta-icon i {
   color: var(--tp-yellow);
   font-size: 60px;
+}
+.tp-header-btn {
+  padding: 14px 35px;
+  border: 1px solid var(--tp-theme-body);
+}
+.tp-header-btn a {
+  font-size: 18px;
+  color: var(--tp-theme-sec-color);
+  font-family: var(--tp-fonts-heading);
+}
+.tp-header-btn a i {
+  transform: rotate(-30deg);
+  margin-left: 8px;
 }
 
 .tp-footer-shape-1 {
