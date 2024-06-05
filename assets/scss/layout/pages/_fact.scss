@@ -92,3 +92,11 @@
         margin-bottom: 30px;
     }
 }
+
+.tp-faq {
+    &-thumb {
+        & img {
+            max-width: inherit;
+        }
+    }
+}

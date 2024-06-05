@@ -7360,6 +7360,10 @@ img {
   }
 }
 
+.tp-faq-thumb img {
+  max-width: inherit;
+}
+
 .tpblog__thumb img {
   border-radius: 20px;
   width: 100%;
