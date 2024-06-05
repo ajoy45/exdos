@@ -428,6 +428,13 @@ img {
 .br-5 img {
   border-radius: 20px;
 }
+.br-140 {
+  border-radius: 140px;
+}
+
+.service-br-20 {
+  border-radius: 20px;
+}
 
 .tp-black-bg {
   background-color: var(--tp-common-black);
@@ -463,6 +470,10 @@ img {
 
 .tp-rose-bg {
   background-color: var(--tp-milk-punch);
+}
+
+.tp-iceberg-bg {
+  background-color: #D6F0FF;
 }
 
 .tp-slide-transition {
@@ -6658,6 +6669,11 @@ img {
 }
 .tpservice-btn i {
   transform: rotate(-45deg);
+}
+
+.border-bg {
+  border: none;
+  background-color: var(--tp-white);
 }
 
 @media (max-width: 767px) {
