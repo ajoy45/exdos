@@ -7317,6 +7317,20 @@ img {
 .tpfact-2 .tpfact__count {
   color: var(--tp-theme-sec-color);
 }
+.tpfact-4__vr {
+  width: 1px;
+  height: 100px;
+  background-color: #D9D9D9;
+  margin: 0 25px;
+}
+.tpfact-4__count h4 {
+  font-size: 100px;
+  color: var(--tp-theme-sec-color);
+}
+.tpfact-4__count span {
+  font-size: 30px;
+  color: var(--tp-theme-sec-color);
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cols {
