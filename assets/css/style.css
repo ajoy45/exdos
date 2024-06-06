@@ -7233,6 +7233,27 @@ img {
   line-height: 3;
   margin: 0 3px;
 }
+.tpteam-3__thumbe img {
+  margin: -52px 0px;
+}
+.tpteam-bg {
+  width: 308px;
+  height: 360px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 140px 140px 0 0;
+}
+.tpteam-border {
+  width: 282px;
+  height: 360px;
+  border: 1px solid #57595c;
+  top: -15px;
+  left: 0;
+  z-index: -1;
+  border-radius: 185px 185px 0 0;
+  margin-left: 14px;
+}
 
 .tp-team-btn {
   display: flex;
@@ -7248,6 +7269,10 @@ img {
   display: inline-block;
   border-radius: 100%;
   margin: 0 10px;
+}
+
+.border-none {
+  border: none;
 }
 
 .tpaward-content {
