@@ -29,7 +29,23 @@
         },
 
     });
-
+    // testimonial slider 2
+    var swiper_thumb = new Swiper(".tp-testimonial-thumb-active", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+    });
+    var swiper_content = new Swiper(".tp-testimonial-content-active", {
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".tp-testimonial-slider-right",
+            prevEl: ".tp-testimonial-slider-left",
+        },
+        thumbs: {
+            swiper: swiper_thumb
+        },
+    });
     // brand slider
     var swiper = new Swiper(".tp-brand-top-active", {
         slidesPerView: "auto",
