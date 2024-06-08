@@ -7104,6 +7104,27 @@ img {
   font-size: 40px;
   color: var(--tp-theme-sec-color);
 }
+.tp-testimonial-4-info-deg {
+  position: relative;
+}
+.tp-testimonial-4-info-deg h4:before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: var(--tp-theme-body);
+  position: absolute;
+  top: 14px;
+  left: 30%;
+}
+.tp-testimonial-4-info-deg h4:after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: var(--tp-theme-body);
+  position: absolute;
+  top: 14px;
+  right: 30%;
+}
 
 .tp-testimpnial-circle {
   width: 8px;
@@ -7117,6 +7138,17 @@ img {
   bottom: 6.2%;
   left: 62.2%;
   background-color: #DBDBDB;
+}
+
+.ml-l-0 {
+  margin-left: 0;
+}
+
+.tp-testimonial-thumb-active .swiper-slide img {
+  transform: scale(0.7);
+}
+.tp-testimonial-thumb-active .swiper-slide-active img {
+  transform: scale(1);
 }
 
 .tpteam__thumbe img {

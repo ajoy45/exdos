@@ -31,19 +31,22 @@
     });
     // testimonial slider 2
     var swiper_thumb = new Swiper(".tp-testimonial-thumb-active", {
+        loop: true,
         spaceBetween: 10,
-        slidesPerView: 4,
+        slidesPerView: 3,
         freeMode: true,
+        centeredSlides: true,
         watchSlidesProgress: true,
     });
-    var swiper_content = new Swiper(".tp-testimonial-content-active", {
+    var swiper2_content = new Swiper(".tp-testimonial-content-active", {
+        loop: true,
         spaceBetween: 10,
         navigation: {
-            nextEl: ".tp-testimonial-slider-right",
-            prevEl: ".tp-testimonial-slider-left",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
         thumbs: {
-            swiper: swiper_thumb
+            swiper: swiper_thumb,
         },
     });
     // brand slider
