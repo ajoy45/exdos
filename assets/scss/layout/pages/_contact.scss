@@ -1,8 +1,6 @@
 @use"../../utils" as *;
 
 .tpform {
-
-
     &-title {
         font-size: 30px;
     }
@@ -14,6 +12,34 @@
             color: #57595c;
             font-size: 15px;
             padding: 40px 0;
+        }
+    }
+
+    &-4 {
+
+        & input,
+        & textarea {
+            border: 1px solid var(--tp-theme-body);
+
+            padding: 0 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            font-weight: 500;
+
+        }
+
+        & textarea {
+            padding: 25px 25px;
+            height: 160px;
+        }
+
+        & .p-relative {
+            & i {
+                position: absolute;
+                top: 20px;
+                right: 25px;
+
+            }
         }
     }
 }
@@ -28,4 +54,8 @@
     @media #{$xs} {
         font-size: 65px;
     }
+}
+
+.tp-contact-thumb {
+    margin-left: -40px;
 }

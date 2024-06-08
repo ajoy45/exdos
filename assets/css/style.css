@@ -7532,6 +7532,22 @@ img {
   font-size: 15px;
   padding: 40px 0;
 }
+.tpform-4 input, .tpform-4 textarea {
+  border: 1px solid var(--tp-theme-body);
+  padding: 0 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.tpform-4 textarea {
+  padding: 25px 25px;
+  height: 160px;
+}
+.tpform-4 .p-relative i {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
 
 .fs-100 {
   font-size: 100px;
@@ -7545,6 +7561,10 @@ img {
   .fs-100 {
     font-size: 65px;
   }
+}
+
+.tp-contact-thumb {
+  margin-left: -40px;
 }
 
 .tp-faq-2-left__duck img {
