@@ -74,4 +74,56 @@
             padding-bottom: 25px;
         }
     }
+
+    &__data {
+
+        height: 170px;
+        width: 55px;
+
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px 5px;
+        display: flex;
+        align-items: end;
+
+        & span {
+            display: flex;
+            flex-direction: column-reverse;
+            position: relative;
+
+            & cite {
+                position: absolute;
+                width: 106px;
+                font-style: normal;
+                font-weight: 500;
+                transform: rotate(-90deg);
+                left: -33px;
+                top: -71px;
+
+            }
+
+            & i {
+                width: 45px;
+                height: 45px;
+                background-color: var(--tp-white);
+                text-align: center;
+                line-height: 42px;
+                border-radius: 5px;
+                border: 1px solid var(--tp-theme-body);
+            }
+        }
+
+
+
+    }
+
+    &__box {
+        & .icon-color {
+            & span {
+                & i {
+                    color: var(--tp-orange);
+                }
+            }
+        }
+    }
 }

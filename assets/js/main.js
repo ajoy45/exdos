@@ -10,6 +10,11 @@
         $(this).css("background-color", $(this).attr("data-bg-color"))
 
     })
+    // data  color
+    $("[data-color]").each(function () {
+        $(this).css("color", $(this).attr("data-color"))
+
+    })
     // magnify popup
     $('.popup-image').magnificPopup({
         type: 'image'
