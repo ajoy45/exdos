@@ -1,100 +1,157 @@
 @use"../../utils" as *;
 
-.tp-footer-2 {
-    &-area {}
+.tp-footer {
+    &-2 {
+        &-area {}
 
-    &-newsletter {
-        margin-right: 82px;
+        &-newsletter {
+            margin-right: 82px;
 
-        & h4 {
-            font-size: 20px;
-            color: var(--tp-theme-sec-color);
-        }
-    }
-
-    &-submit {
-        position: absolute;
-        top: 21px;
-        right: 0;
-    }
-
-    &-social {
-        & i {
-            font-size: 29px;
-            margin-right: 20px;
-        }
-    }
-
-    &-widget {
-        & span {
-            font-size: 17px;
-
-            color: var(--tp-theme-body);
-        }
-
-        &-title {
-            font-size: 20px;
-            color: var(--tp-theme-sec-color);
-        }
-
-        & ul {
-            & li {
-                margin-bottom: 10px;
-
-                & a {
-                    font-size: 17px;
-
-                    color: var(--tp-theme-body);
-                }
+            & h4 {
+                font-size: 20px;
+                color: var(--tp-theme-sec-color);
             }
         }
 
-        &__title {
-            font-size: 20px;
-            color: var(--tp-theme-sec-color);
+        &-submit {
+            position: absolute;
+            top: 21px;
+            right: 0;
         }
 
-
-    }
-
-    &-contact {
-        & span {
-            font-size: 17px;
-            display: inline-block;
-            color: var(--tp-theme-body);
+        &-social {
+            & i {
+                font-size: 29px;
+                margin-right: 20px;
+            }
         }
 
-        &__title {
-            font-size: 30px;
-            color: var(--tp-theme-sec-color);
-        }
-    }
-
-    &-copyright {
-        & P {
-            font-size: 17px;
-            color: var(--tp-theme-body);
-
+        &-widget {
             & span {
-                color: var(--tp-orange);
-            }
-        }
+                font-size: 17px;
 
-        &-nav {
+                color: var(--tp-theme-body);
+            }
+
+            &-title {
+                font-size: 20px;
+                color: var(--tp-theme-sec-color);
+            }
+
             & ul {
                 & li {
+                    margin-bottom: 10px;
+
                     & a {
-                        color: var(--tp-theme-body);
                         font-size: 17px;
+
+                        color: var(--tp-theme-body);
+                    }
+                }
+            }
+
+            &__title {
+                font-size: 20px;
+                color: var(--tp-theme-sec-color);
+            }
+
+
+        }
+
+        &-contact {
+            & span {
+                font-size: 17px;
+                display: inline-block;
+                color: var(--tp-theme-body);
+            }
+
+            &__title {
+                font-size: 30px;
+                color: var(--tp-theme-sec-color);
+            }
+        }
+
+        &-copyright {
+            & P {
+                font-size: 17px;
+                color: var(--tp-theme-body);
+
+                & span {
+                    color: var(--tp-orange);
+                }
+            }
+
+            &-nav {
+                & ul {
+                    & li {
+                        & a {
+                            color: var(--tp-theme-body);
+                            font-size: 17px;
+                        }
                     }
                 }
             }
         }
+
+        &-bottom {
+            border-top: 1px solid var(--tp-theme-body);
+            padding-top: 42px;
+
+        }
+
     }
 
-    &-bottom {
-        border-top: 1px solid var(--tp-theme-body);
-        padding-top: 42px;
+    &-3 {
+        &-newsletter {
+            & h4 {
+                font-size: 20px;
+                color: var(--tp-white);
+            }
 
+            & .form-check {
+                & input {
+
+                    --bs-form-check-bg: none;
+                    border: 1px solid var(--tp-theme-body);
+                }
+
+                & label {
+                    color: #B1B4BA;
+                }
+            }
+
+            & form {
+                & i {
+                    color: var(--tp-orange);
+                }
+            }
+        }
+
+        &-social {
+            & i {
+                color: #B1B4BA;
+                margin-right: 20px;
+                font-size: 29px;
+                transition: .3s;
+
+                &:hover {
+                    color: var(--tp-orange);
+                }
+            }
+        }
     }
+}
+
+.brand-section-title {
+    border-top: 1px solid var(--tp-theme-body);
+
+}
+
+.brand-section-title h2 {
+    color: white;
+    font-size: 30px;
+    background-color: #1A1A1A;
+    display: inline-block;
+    transform: translateY(-20px);
+    padding: 0 40px;
 }

@@ -6083,6 +6083,42 @@ img {
   border-top: 1px solid var(--tp-theme-body);
   padding-top: 42px;
 }
+.tp-footer-3-newsletter h4 {
+  font-size: 20px;
+  color: var(--tp-white);
+}
+.tp-footer-3-newsletter .form-check input {
+  --bs-form-check-bg: none;
+  border: 1px solid var(--tp-theme-body);
+}
+.tp-footer-3-newsletter .form-check label {
+  color: #B1B4BA;
+}
+.tp-footer-3-newsletter form i {
+  color: var(--tp-orange);
+}
+.tp-footer-3-social i {
+  color: #B1B4BA;
+  margin-right: 20px;
+  font-size: 29px;
+  transition: 0.3s;
+}
+.tp-footer-3-social i:hover {
+  color: var(--tp-orange);
+}
+
+.brand-section-title {
+  border-top: 1px solid var(--tp-theme-body);
+}
+
+.brand-section-title h2 {
+  color: white;
+  font-size: 30px;
+  background-color: #1A1A1A;
+  display: inline-block;
+  transform: translateY(-20px);
+  padding: 0 40px;
+}
 
 .tp-about-area {
   background-size: cover;
