@@ -700,6 +700,10 @@ img {
   background-color: var(--tp-milk-punch);
 }
 
+.tp-black {
+  color: var(--tp-theme-sec-color);
+}
+
 .tp-iceberg-bg {
   background-color: #D6F0FF;
 }
