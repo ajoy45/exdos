@@ -78,4 +78,73 @@
             background-color: var(--tp-theme-color);
         }
     }
+
+    &-2 {
+        &__icon {
+            & span {
+                width: 260px;
+                height: 260px;
+                border-radius: 100%;
+                text-align: center;
+                display: inline-block;
+                background-color: #FFE9C9;
+                line-height: 203px;
+                margin-left: 36px;
+
+                & i {
+                    font-size: 100px;
+
+                }
+            }
+
+            &--width {
+                & span {
+                    width: 250px;
+                    height: 250px;
+                    line-height: 322px;
+                }
+            }
+        }
+
+        &__count {
+
+            background-color: var(--tp-orange-3);
+            font-size: 30px;
+            color: var(--tp-white);
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 46px;
+            border-radius: 100%;
+            border: 8px solid var(--tp-white);
+            font-weight: 500;
+            font-family: var(--tp-fonts-heading);
+            bottom: -22px;
+            left: 134px;
+
+            &-2 {
+                top: -25px;
+                left: 134px;
+            }
+        }
+
+        &__shape {
+            top: -36px;
+            left: 0;
+        }
+
+        &__shape-2 {
+            top: 104px;
+            left: -8px;
+        }
+
+        &__shape-3 {
+            top: -65px;
+            left: -8px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+    }
 }
