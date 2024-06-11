@@ -138,6 +138,7 @@
   --tp-yellow-bg: #FEDC76;
   --tp-orange: #FF5B15;
   --tp-orange-2: #FF8653;
+  --tp-orange-3: #FF3838;
   --tp-redis-orange: #F2DDD1;
   --tp-yellow-slide: #E5CF00;
   --tp-black: black;
@@ -270,6 +271,7 @@
 }
 .tp-btn-200 {
   padding: 19px 31px;
+  background-color: var(--tp-orange-3);
 }
 .tp-btn-200 span i {
   transform: rotate(-30deg);
@@ -6272,6 +6274,11 @@ img {
 }
 .tp-about-4-thumb {
   text-align: center;
+}
+.tp-about-5-right {
+  background-color: white;
+  right: 0;
+  top: 0;
 }
 
 .tp-abput-radius {
