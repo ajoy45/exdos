@@ -11,7 +11,7 @@
     position: relative;
     display: inline-block;
 
-    & i {
+    &>i {
         width: 22px;
         height: 100%;
         background: var(--tp-theme-color-slide);
@@ -97,7 +97,10 @@
         left: 46px;
         transform: translateY(100%);
         visibility: hidden;
-        // transition: .2s;
+
+        &-left {
+            left: 31px;
+        }
     }
 
 
@@ -129,6 +132,20 @@
 
         & i {
             background-color: #FFAD8A;
+        }
+    }
+
+    &-200 {
+        padding: 19px 31px;
+
+        & {
+
+            & span {
+                & i {
+                    transform: rotate(-30deg);
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }

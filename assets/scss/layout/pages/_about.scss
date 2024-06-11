@@ -157,3 +157,23 @@
     border-radius: 357px;
     margin-left: 100px;
 }
+
+.tp-founder {
+    &-author {
+        & .tp-founder-title {
+            font-size: 30px;
+        }
+
+        & span {
+            font-size: 17px;
+            color: var(--tp-theme-body);
+        }
+    }
+}
+
+.tp-founder-sep {
+    width: 1px;
+    height: 40px;
+    background: red;
+    margin: 10px auto;
+}

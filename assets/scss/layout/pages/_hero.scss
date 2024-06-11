@@ -216,9 +216,24 @@
     }
 
     &-shape {
-        & img {
+        & .right-img {
             right: 0;
             bottom: 0;
+        }
+
+        & .h-5-star-1 {
+            left: 65px;
+            top: 270px;
+        }
+
+        & .h-5-star-2 {
+            left: 40%;
+            top: 170px;
+        }
+
+        & .h-5-star-3 {
+            left: 47%;
+            bottom: 105px;
         }
     }
 
@@ -252,6 +267,17 @@
             transform: rotate(-90deg);
             display: ruby;
             white-space: nowrap;
+        }
+
+        &-bottom {
+            & h4 {
+                font-size: 30px;
+            }
+
+            & span {
+                color: var(--tp-theme-body);
+                font-size: 15px;
+            }
         }
     }
 
