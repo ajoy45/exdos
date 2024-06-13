@@ -110,3 +110,45 @@
     border: none;
     background-color: var(--tp-white);
 }
+
+.tp-service {
+    &-box {
+        border-top: 1px solid #514f4f;
+        padding: 41px 0 33px 0;
+    }
+
+    &-thumb {
+        & img {}
+    }
+
+    &-count {
+        & span {
+            font-size: 15px;
+            color: var(--tp-hero-small);
+        }
+
+    }
+
+    &-text {
+        &-title {
+            font-size: 100px;
+            color: var(--tp-white);
+            line-height: .9;
+            transition: .3s;
+
+            &:hover {
+                color: var(--tp-orange-3);
+            }
+        }
+
+        & span {
+            color: #b1b4ba;
+        }
+    }
+}
+
+.tp-service-tab-item {
+    & .nav-link:last-child {
+        border-bottom: 1px solid #514f4f;
+    }
+}
