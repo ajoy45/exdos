@@ -195,6 +195,46 @@
             }
         }
     }
+
+    &-4 {
+
+
+        &-logo {
+            border: 1px solid var(--tp-theme-body);
+            padding: 103px 0;
+            margin-right: -1px;
+
+            & img {}
+        }
+
+        &-text {
+            & span {
+                font-weight: 500;
+                font-size: 15px;
+                text-transform: uppercase;
+                color: var(--tp-theme-sec-color);
+                padding: 4px 17px;
+                border-radius: 15px;
+            }
+
+            &-heading {
+                font-weight: 400;
+                font-size: 39px;
+            }
+        }
+
+        &-show {
+
+            & img {}
+        }
+
+        &-wrapper {
+            border: 1px solid var(--tp-theme-body);
+            padding: 30px;
+            margin-bottom: -1px;
+        }
+    }
+
 }
 
 .tpportfolio {

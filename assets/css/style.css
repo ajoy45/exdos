@@ -6970,6 +6970,28 @@ img {
   transform: rotate(-30deg);
   margin-left: 12px;
 }
+.tp-portfolio-4-logo {
+  border: 1px solid var(--tp-theme-body);
+  padding: 103px 0;
+  margin-right: -1px;
+}
+.tp-portfolio-4-text span {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: var(--tp-theme-sec-color);
+  padding: 4px 17px;
+  border-radius: 15px;
+}
+.tp-portfolio-4-text-heading {
+  font-weight: 400;
+  font-size: 39px;
+}
+.tp-portfolio-4-wrapper {
+  border: 1px solid var(--tp-theme-body);
+  padding: 30px;
+  margin-bottom: -1px;
+}
 
 .tpportfolio {
   padding: 20px;
