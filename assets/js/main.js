@@ -34,6 +34,17 @@
         },
 
     });
+    // testimonial h-5 slider
+    var swiper = new Swiper(".tp-testimonial-h-5-active", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+            nextEl: ".tp-testimonial-5-right",
+            prevEl: ".tp-testimonial-5-left",
+        },
+
+    });
     // testimonial slider 2
     var swiper_thumb = new Swiper(".tp-testimonial-thumb-active", {
         loop: true,
@@ -54,6 +65,8 @@
             swiper: swiper_thumb,
         },
     });
+
+
     // brand slider
     var swiper = new Swiper(".tp-brand-top-active", {
         slidesPerView: "auto",
