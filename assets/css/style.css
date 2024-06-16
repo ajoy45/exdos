@@ -7834,6 +7834,17 @@ img {
   height: 43px;
 }
 
+.tp-brand-normal-border {
+  border: 1px solid var(--tp-theme-body);
+  padding: 79px 80px;
+}
+
+.tp-brand-trans .title {
+  transform: translateY(25px);
+  background-color: var(--tp-white);
+  color: var(--tp-theme-body);
+}
+
 .tpprocess {
   padding: 64px 35px;
 }

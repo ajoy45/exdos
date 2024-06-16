@@ -82,6 +82,30 @@
             disableOnInteraction: true,
         },
     });
+    // brand normal slider
+    var swiper = new Swiper(".tp-brand-normal-active", {
+        spaceBetween: 30,
+
+        navigation: {
+            nextEl: ".tp-team-swiper-next",
+            prevEl: ".tp-team-swiper-prev",
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+
+            },
+            992: {
+                slidesPerView: 3,
+
+            },
+            1200: {
+                slidesPerView: 5,
+
+            },
+        },
+
+    });
     // brand slider title
     var swiper = new Swiper(".tp-brand-title-active", {
         slidesPerView: "auto",
