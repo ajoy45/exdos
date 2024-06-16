@@ -752,6 +752,10 @@ img {
   margin: 0 100px;
 }
 
+.tp-cap {
+  text-transform: capitalize;
+}
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -7672,6 +7676,19 @@ img {
 }
 .tpblog__btn i {
   transform: rotate(-45deg);
+}
+.tpblog__btn-arrow span i {
+  font-size: 45px;
+}
+.tpblog__btn-circle {
+  width: 38px;
+  height: 38px;
+  background-color: #F8F5FF;
+  border-radius: 100%;
+  position: absolute;
+  top: 2px;
+  right: 476px;
+  z-index: -1;
 }
 .tpblog-2 {
   border: 1px solid var(--tp-theme-body);
