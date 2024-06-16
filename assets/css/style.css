@@ -6142,6 +6142,21 @@ img {
 .tp-footer-3-social i:hover {
   color: var(--tp-orange);
 }
+.tp-footer-btn {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 36px 0;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.tp-footer-btn a {
+  font-size: 30px;
+  text-align: center;
+  color: var(--tp-white);
+  display: inherit;
+}
+.tp-footer-btn:hover {
+  background-color: var(--tp-orange-3);
+}
 
 .brand-section-title {
   border-top: 1px solid var(--tp-theme-body);
