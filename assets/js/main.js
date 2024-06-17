@@ -1,5 +1,16 @@
 (function ($) {
     "use strict";
+
+    $(".tp-header-offcanvas").on("click", function () {
+        $(".tp-offcanvas-wrapper").addClass("tp-offcanvas-open");
+        $(".tp-all-overlay").addClass("tp-all-overlay-open");
+    });
+    $(".tp-offcanvas-close,.tp-all-overlay").on("click", function () {
+        $(".tp-offcanvas-wrapper").removeClass("tp-offcanvas-open");
+        $(".tp-all-overlay").removeClass("tp-all-overlay-open");
+    });
+
+
     // data background-img
     $("[data-bg-img]").each(function () {
         $(this).css("background-image", "url(" + $(this).attr("data-bg-img") + ")")
