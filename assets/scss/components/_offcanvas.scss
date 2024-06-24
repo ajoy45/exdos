@@ -10,7 +10,7 @@
     padding: 80px 40px;
     opacity: 0;
     visibility: hidden;
-    transition: .45s;
+    @include transition(.45s);
 
     @media only screen and (max-width: 500px) {
         width: 100%;

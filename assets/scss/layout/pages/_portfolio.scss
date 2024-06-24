@@ -28,7 +28,7 @@
             padding: 12px 0;
             padding-left: 100px;
             padding-right: 22px;
-            transition: .3s;
+            @include transition(.3s);
 
             @media #{$xxlm} {
                 font-size: 65px;
@@ -153,7 +153,8 @@
                 height: 1px;
                 background: #a3aec3;
                 display: inline-block;
-                transform: translateY(-8px);
+                @include transform(translateY(-8px));
+
                 margin-right: 14px;
             }
         }
@@ -190,7 +191,8 @@
             color: #a3aec3;
 
             & i {
-                transform: rotate(-30deg);
+                @include transform(rotate(-30deg));
+
                 margin-left: 12px;
             }
         }
@@ -275,7 +277,8 @@
             border-radius: 50%;
 
             & i {
-                transform: rotate(-30deg);
+                @include transform(rotate(-30deg));
+
             }
         }
     }

@@ -37,7 +37,8 @@
             height: 1px;
             display: inline-block;
             background-color: var(--tp-theme-body);
-            transform: translate(-8px, -4px);
+            @include transform(translate(-8px, -4px));
+
 
         }
     }
@@ -206,7 +207,8 @@
                 & i {
                     color: var(--tp-yellow);
                     font-size: 40px;
-                    transform: scaleX(-1);
+                    @include transform(scaleX(-1));
+
                 }
             }
 
@@ -389,14 +391,18 @@
 .tp-testimonial-thumb-active {
     & .swiper-slide {
         & img {
-            transform: scale(.7);
+
+
+            @include transform(scale(.7));
         }
 
     }
 
     & .swiper-slide-active {
         & img {
-            transform: scale(1);
+
+            @include transform(scale(1));
+
         }
     }
 
@@ -413,7 +419,7 @@
     border: 1px solid var(--tp-theme-body);
     border-radius: 100%;
     display: inline-block;
-    transition: .3s;
+    @include transition(.3s);
 
     &:hover {
         background-color: var(--tp-orange-3);

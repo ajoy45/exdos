@@ -56,7 +56,8 @@
                 height: 1px;
                 display: inline-block;
                 background-color: var(--tp-theme-body);
-                transform: translate(-8px, -4px);
+
+                @include transform(translate(-8px, -4px));
             }
         }
     }
@@ -94,7 +95,8 @@
             img {
                 border-radius: 15px;
                 margin-left: 20px;
-                transform: translate(-9px, 9px);
+
+                @include transform(translate(-9px, 9px));
             }
         }
 
@@ -119,7 +121,7 @@
             left: 26%;
             opacity: 0;
             visibility: hidden;
-            transition: .3s;
+            @include transition(.3s);
 
             & i {
                 background-color: white;

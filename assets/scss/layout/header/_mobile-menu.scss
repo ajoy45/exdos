@@ -34,7 +34,7 @@
                 border-color: var(--tp-theme-color);
 
                 & i {
-                    transform: rotate(90deg);
+                    @include transform(rotate(90deg));
                 }
             }
         }
@@ -61,6 +61,6 @@
     font-size: 14px;
 
     & i {
-        transition: .3s;
+        @include transition(.3s);
     }
 }

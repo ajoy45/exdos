@@ -18,8 +18,9 @@
         position: absolute;
         bottom: -3px;
         right: -12px;
-        transform: rotate(13deg);
-        transition: .3s;
+        @include transform(rotate(13deg));
+
+        @include transition(.3s);
 
     }
 
@@ -41,8 +42,9 @@
             position: absolute;
             bottom: -3px;
             right: -12px;
-            transform: rotate(13deg);
-            transition: .3s;
+            @include transform(rotate(13deg));
+            @include transition(.3s);
+
         }
 
 
@@ -58,15 +60,16 @@
             }
 
             & .tp-btn-y-1 {
-                transform: translateY(-100%);
+                @include transform(translateY(-100%));
+
                 display: inline-block;
                 visibility: hidden;
             }
 
             & .tp-btn-y-2 {
-                transform: translateY(0);
+                @include transform(translateY(0));
                 visibility: visible;
-                transition: .1s;
+                @include transition(.1s);
             }
         }
 
@@ -80,22 +83,24 @@
         }
 
         & .tp-btn-y-1 {
-            transform: translateY(-100%);
+            @include transform(translateY(-100%));
+
             display: inline-block;
             visibility: hidden;
         }
 
         & .tp-btn-y-2 {
-            transform: translateY(0);
+            @include transform(translateY(0));
             visibility: visible;
-            transition: .1s;
+            @include transition(.1s);
         }
     }
 
     &-y-2 {
         position: absolute;
         left: 46px;
-        transform: translateY(100%);
+        @include transform(translateY(100%));
+
         visibility: hidden;
 
         &-left {
@@ -113,7 +118,7 @@
         opacity: .3;
         padding: 44px 84px;
         border-radius: 100%;
-        transition: .3s;
+        @include transition(.3s);
 
         &:hover {
             background-color: var(--tp-theme-color);
@@ -143,7 +148,8 @@
 
             & span {
                 & i {
-                    transform: rotate(-30deg);
+                    @include transform(rotate(-30deg));
+
                     margin-left: 10px;
                 }
             }

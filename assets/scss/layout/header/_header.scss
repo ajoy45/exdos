@@ -93,7 +93,7 @@
                         & .sub-menu {
                             opacity: 1;
                             visibility: visible;
-                            transition: .3s;
+                            @include transition(.3s);
                             top: 0;
 
                         }
@@ -109,7 +109,7 @@
                         top: 10%;
                         opacity: 0;
                         visibility: hidden;
-                        transition: .3s;
+                        @include transition(.3s);
 
 
                     }
@@ -130,7 +130,7 @@
 
                 & .sub-menu {
                     top: 100%;
-                    transition: .3s;
+                    @include transition(.3s);
                     opacity: 1;
                     visibility: visible;
 
@@ -304,7 +304,8 @@
             font-family: var(--tp-fonts-heading);
 
             & i {
-                transform: rotate(-30deg);
+                @include transform(rotate(-30deg));
+
                 margin-left: 8px;
             }
         }

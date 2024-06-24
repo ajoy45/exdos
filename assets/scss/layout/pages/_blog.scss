@@ -46,7 +46,8 @@
         align-items: center;
 
         & i {
-            transform: rotate(-45deg);
+            @include transform(rotate(-45deg));
+
         }
 
         &-arrow {
@@ -81,7 +82,8 @@
             height: 100%;
             left: 0;
             top: 0;
-            transform: translateY(-12px);
+            @include transform(translateY(-12px));
+
             margin-left: -2px;
         }
 
@@ -119,7 +121,8 @@
                 width: 106px;
                 font-style: normal;
                 font-weight: 500;
-                transform: rotate(-90deg);
+                @include transform(rotate(-90deg));
+
                 left: -33px;
                 top: -71px;
 

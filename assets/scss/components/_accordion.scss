@@ -29,7 +29,7 @@
 
             & span {
                 & i {
-                    transform: rotate(-90deg);
+                    @include transform(rotate(-90deg));
                     color: var(--tp-black);
                 }
             }

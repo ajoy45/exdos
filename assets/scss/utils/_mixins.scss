@@ -20,3 +20,23 @@
         @content;
     }
 }
+
+// transition
+@mixin transition($args) {
+    transition: $args;
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+
+}
+
+// transform
+@mixin transform($transforms) {
+    transform: $transforms;
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+
+}
