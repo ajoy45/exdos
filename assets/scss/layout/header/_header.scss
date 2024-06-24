@@ -6,7 +6,7 @@
     left: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 99;
 }
 
 .tp-header-area {
@@ -66,12 +66,13 @@
                 position: absolute;
                 top: 105%;
                 left: 0;
-                background: white;
+                background: rgb(136, 57, 57);
                 width: 213px;
                 padding: 10px 0;
                 border-radius: 5px;
                 opacity: 0;
                 visibility: hidden;
+
 
                 & li {
                     margin-right: 0;
@@ -94,6 +95,7 @@
                             visibility: visible;
                             transition: .3s;
                             top: 0;
+
                         }
 
                         &>a {
@@ -131,6 +133,7 @@
                     transition: .3s;
                     opacity: 1;
                     visibility: visible;
+
                 }
             }
 

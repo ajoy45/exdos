@@ -1,18 +1,20 @@
 @use"../utils" as *;
 
 .tp-offcanvas {
-    &-wrapper {
-        width: 500px;
-        height: 100%;
-        position: fixed;
-        right: -200px;
-        z-index: 99;
-        background: #ffffff;
-        padding: 80px 40px;
-        opacity: 0;
-        visibility: hidden;
-        transition: .45s;
+    width: 500px;
+    height: 100%;
+    position: fixed;
+    right: -200px;
+    z-index: 99;
+    background: #ffffff;
+    padding: 80px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .45s;
 
+    @media only screen and (max-width: 500px) {
+        width: 100%;
+        padding: 80px 17px;
     }
 
     &-open {
@@ -20,6 +22,9 @@
         visibility: visible;
         right: 0;
     }
+
+    overflow-y: scroll;
+    scrollbar-width: none;
 
 }
 
