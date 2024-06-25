@@ -42,7 +42,8 @@
     }
 
     &__btn {
-        display: flex;
+        @include flexbox();
+
         align-items: center;
 
         & i {
@@ -108,11 +109,13 @@
         border-radius: 10px;
         text-align: center;
         padding: 5px 5px;
-        display: flex;
+        @include flexbox();
+
         align-items: end;
 
         & span {
-            display: flex;
+            @include flexbox();
+
             flex-direction: column-reverse;
             position: relative;
 

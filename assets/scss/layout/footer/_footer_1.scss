@@ -133,7 +133,7 @@
             }
 
             & ul {
-                display: flex;
+                @include flexbox();
                 justify-content: end;
 
                 @media #{$xs} {

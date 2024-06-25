@@ -96,7 +96,7 @@
 
 .tpservice-btn {
     background: var(--tp-spw-color);
-    display: flex;
+    @include flexbox();
     justify-content: space-around;
     align-items: center;
     padding: 7px 0;

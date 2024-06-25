@@ -94,7 +94,7 @@
         }
 
         &-info {
-            display: flex;
+            @include flexbox();
             column-gap: 17px;
             align-items: center;
         }

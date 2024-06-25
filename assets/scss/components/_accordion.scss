@@ -16,7 +16,8 @@
         padding: 20px 30px;
         width: 100%;
         text-align: left;
-        display: flex;
+        @include flexbox();
+
         justify-content: space-between;
 
         & span {

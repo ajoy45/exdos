@@ -1,3 +1,12 @@
+@use "sass:selector";
+
+// root
+@mixin tp-root($child) {
+    @at-root #{selector.unify(&, $child)} {
+        @content;
+    }
+}
+
 // input placeholder
 @mixin tp-placeholder {
 
@@ -38,5 +47,16 @@
     -o-transform: $transforms;
     -ms-transform: $transforms;
     -webkit-transform: $transforms;
+
+}
+
+// Flexbox display
+@mixin flexbox {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
 
 }
