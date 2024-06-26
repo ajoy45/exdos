@@ -34,43 +34,48 @@
     }
 
     &-title {
-        &-wrapper {
-            & p {
-                & br {
+        &-space {
+            @media #{$lg,$md,$xs} {
+                margin-left: 0;
+            }
 
-                    @media #{$xs} {
-                        display: none;
+            &-wrapper {
+                & p {
+                    & br {
+                        @media #{$xs} {
+                            display: none;
+                        }
                     }
                 }
             }
-        }
 
-        font-size: 60px;
-
-
-        @media #{$lg} {
-            font-size: 50px;
-        }
-
-        @media #{$md} {
-            font-size: 38px;
-        }
-
-        @media #{$xs} {
-            font-size: 40px;
-        }
+            font-size: 60px;
 
 
-        &-white {
-            color: var(--tp-white);
-        }
+            @media #{$lg} {
+                font-size: 50px;
+            }
 
-        &-3 {
-            color: var(--tp-white);
-        }
+            @media #{$md} {
+                font-size: 38px;
+            }
 
-        &-40 {
-            font-size: 40px;
+            @media #{$xs} {
+                font-size: 40px;
+            }
+
+
+            &-white {
+                color: var(--tp-white);
+            }
+
+            &-3 {
+                color: var(--tp-white);
+            }
+
+            &-40 {
+                font-size: 40px;
+            }
         }
     }
 }

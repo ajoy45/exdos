@@ -24,6 +24,10 @@
             padding-left: 0;
         }
 
+        @media #{$md,$xs} {
+            margin-bottom: 28px;
+        }
+
         & p {
             @media #{$xl} {
                 font-size: 15px;
