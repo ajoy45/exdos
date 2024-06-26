@@ -6,6 +6,12 @@
     flex-wrap: wrap;
 }
 
+.tp-fact-space {
+    @media #{$md,$xs} {
+        padding-bottom: 0;
+    }
+}
+
 .tpfact {
     &__icon {
         & span {

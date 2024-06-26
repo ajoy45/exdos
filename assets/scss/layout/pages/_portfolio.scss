@@ -97,6 +97,11 @@
 
             & img {
                 border-radius: 20px;
+
+                @media #{$md,$xs} {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
             }
         }
 
@@ -115,7 +120,17 @@
                 left: 126px;
                 position: absolute;
 
+                @media #{$lg} {
+                    left: 50px;
+                }
+
+                @media #{$xs} {
+                    left: 30px;
+                }
+
             }
+
+
 
             &-title {
                 position: absolute;
@@ -125,6 +140,14 @@
                 color: var(--tp-theme-sec-color);
                 background-color: var(--tp-white);
                 padding: 22px 21px;
+
+                @media #{$lg} {
+                    left: 50px;
+                }
+
+                @media #{$xs} {
+                    left: 30px;
+                }
 
             }
         }
