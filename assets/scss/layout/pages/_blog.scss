@@ -84,20 +84,54 @@
             left: 0;
             top: 0;
             @include transform(translateY(-12px));
-
             margin-left: -2px;
+
+            & img {
+                border-radius: 15px;
+                height: calc(100% + 24px);
+                object-fit: cover;
+            }
+
+            @media #{$md,$xs} {
+                position: static;
+                padding: 20px;
+                @include transform(translateY(0));
+            }
         }
 
-        & img {
-            border-radius: 15px;
-            height: calc(100% + 24px);
-            object-fit: cover;
+        & .tpblog__title {
+            font-size: 20px;
         }
+
+
 
         & .tpblog__content {
             padding-left: 228px;
             padding-top: 25px;
             padding-bottom: 25px;
+            padding-right: 10px;
+
+            @media #{$lg} {
+                padding-left: 216px;
+            }
+
+            @media #{$md,$xs} {
+                padding-left: 30px;
+
+            }
+
+            & span {
+                @media #{$lg} {
+
+                    font-size: 14px;
+                }
+            }
+        }
+
+        & cite {
+            @media #{$lg} {
+                margin: 0 5px;
+            }
         }
     }
 
