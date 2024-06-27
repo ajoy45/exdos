@@ -7591,6 +7591,21 @@ img {
 .tp-testimonial-slider-right-2 i {
   color: var(--tp-white);
 }
+@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimonial-slider-right-2 {
+    left: 39%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-slider-right-2 {
+    left: 48%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-testimonial-slider-right-2 {
+    left: 63%;
+  }
+}
 .tp-testimonial-slider-right-3 {
   z-index: 1;
   font-size: 52px;
@@ -7626,7 +7641,29 @@ img {
   top: 72%;
 }
 .tp-testimonial-slider-left-2 i {
-  color: var(--tp-theme-sec-color);
+  color: var(--tp-white);
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimonial-slider-left-2 {
+    left: 48%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimonial-slider-left-2 {
+    top: 74%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-slider-left-2 {
+    left: 59%;
+    top: 68%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-testimonial-slider-left-2 {
+    left: 75%;
+    top: 65%;
+  }
 }
 .tp-testimonial-slider-left-3 {
   z-index: 1;
@@ -7722,6 +7759,21 @@ img {
 .tp-testimonial-2-text-title {
   font-size: 60px;
   color: var(--tp-white);
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-2-text-title {
+    font-size: 41px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-testimonial-2-text-title {
+    font-size: 27px;
+  }
+}
+@media (max-width: 767px) {
+  .tp-testimonial-2-text-title {
+    font-size: 31px;
+  }
 }
 .tp-testimonial-2-text-title i {
   color: var(--tp-yellow);
@@ -7827,6 +7879,16 @@ img {
   border-radius: 33px;
   bottom: 178px;
   left: 45%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimpnial-circle {
+    left: 56%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-testimpnial-circle {
+    left: 72%;
+  }
 }
 .tp-testimpnial-circle-3 {
   bottom: 6.2%;

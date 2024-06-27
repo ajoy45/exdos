@@ -68,6 +68,20 @@
             & i {
                 color: var(--tp-white);
             }
+
+            @media #{$xxlm,$xl} {
+                left: 39%;
+            }
+
+            @media #{$lg} {
+                left: 48%;
+            }
+
+            @media #{$md} {
+                left: 63%;
+            }
+
+
         }
 
         &-3 {
@@ -107,7 +121,25 @@
             top: 72%;
 
             & i {
-                color: var(--tp-theme-sec-color);
+                color: var(--tp-white);
+            }
+
+            @media #{$xxlm,$xl} {
+                left: 48%;
+            }
+
+            @media #{$xl} {
+                top: 74%;
+            }
+
+            @media #{$lg} {
+                left: 59%;
+                top: 68%;
+            }
+
+            @media #{$md} {
+                left: 75%;
+                top: 65%;
             }
         }
 
@@ -216,6 +248,17 @@
                 font-size: 60px;
                 color: var(--tp-white);
 
+                @media #{$lg} {
+                    font-size: 41px;
+                }
+
+                @media #{$md} {
+                    font-size: 27px;
+                }
+
+                @media #{$xs} {
+                    font-size: 31px;
+                }
 
                 & i {
                     color: var(--tp-yellow);
@@ -320,6 +363,7 @@
                     position: absolute;
                     top: 14px;
                     right: 30%;
+
                 }
             }
         }
@@ -376,6 +420,14 @@
     border-radius: 33px;
     bottom: 178px;
     left: 45%;
+
+    @media #{$lg} {
+        left: 56%;
+    }
+
+    @media #{$md} {
+        left: 72%;
+    }
 
     &-3 {
         bottom: 6.2%;
