@@ -314,3 +314,15 @@
 .tp-team-slider-active-margin {
     margin: 0 -100px;
 }
+
+.tp-video-area {
+    @media #{$lg} {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    @media #{$md,$xs} {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}

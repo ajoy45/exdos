@@ -74,7 +74,11 @@
     }
 
     &-2 {
+        @media #{$md,$xs,$sm} {
+            width: 64%;
+            margin: 30px auto;
 
+        }
 
         &:hover {
             & .tpteam-2__social {
@@ -113,6 +117,10 @@
                 font-size: 30px;
                 color: var(--tp-theme-sec-color);
                 margin-top: 10px;
+
+                @media #{$lg} {
+                    font-size: 23px;
+                }
             }
         }
 
@@ -122,6 +130,10 @@
             opacity: 0;
             visibility: hidden;
             @include transition(.3s);
+
+            @media #{$lg} {
+                left: 13%;
+            }
 
             & i {
                 background-color: white;
