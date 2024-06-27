@@ -118,7 +118,7 @@
                 color: var(--tp-theme-sec-color);
                 margin-top: 10px;
 
-                @media #{$lg} {
+                @media #{$lg,$xs,$md} {
                     font-size: 23px;
                 }
             }
@@ -131,8 +131,12 @@
             visibility: hidden;
             @include transition(.3s);
 
-            @media #{$lg} {
+            @media #{$lg,$md,$xs} {
                 left: 13%;
+            }
+
+            @media #{$xs} {
+                left: 10%;
             }
 
             & i {
