@@ -125,6 +125,33 @@
             text-transform: uppercase;
             color: var(--tp-theme-sec-color);
 
+            @media #{$xl} {
+                font-size: 80px;
+            }
+
+            @media #{$lg,$md} {
+                font-size: 61px;
+            }
+
+
+
+            @media #{$xs} {
+                font-size: 30px;
+            }
+
+            @media #{$sm} {
+                font-size: 50px;
+            }
+
+            & br {
+                @media #{$sm} {
+                    display: none;
+                }
+            }
+
+            & img {
+                width: 15%;
+            }
         }
     }
 
@@ -147,6 +174,8 @@
             @media #{$xs} {
                 font-size: 17px;
             }
+
+
         }
     }
 
@@ -176,6 +205,16 @@
     &-box {
         & p {
             padding-left: 165px;
+
+            @media #{$xs} {
+                padding-left: 0;
+            }
+
+            & br {
+                @media #{$xs} {
+                    display: none;
+                }
+            }
         }
 
         &-4 {
@@ -185,6 +224,10 @@
 
     &-link {
         padding-left: 165px;
+
+        @media #{$xs} {
+            padding-left: 0;
+        }
 
         & i {
             @include transform(rotate(-30deg));
@@ -342,6 +385,23 @@
         & .shape-1 {
             top: 26%;
             left: 40px;
+
+            @media only screen and (min-width: 1400px) and (max-width:1800px) {
+                width: 25%;
+            }
+
+            @media #{$xl} {
+                width: 23%;
+            }
+
+            @media #{$lg} {
+                width: 21%;
+            }
+
+            @media #{$md} {
+                top: 16%;
+                width: 16%;
+            }
         }
 
         & .shape-2 {
@@ -349,12 +409,46 @@
             right: 120px;
             border-radius: 100%;
             z-index: 2;
+
+            @media only screen and (min-width: 1400px) and (max-width:1800px) {
+                width: 20%;
+            }
+
+            @media #{$xl} {
+                width: 23%;
+            }
+
+            @media #{$lg} {
+                width: 17%;
+            }
+
+            @media #{$md} {
+
+                width: 20%;
+            }
+
         }
 
         & .shape-3 {
             bottom: 393px;
             right: 86px;
-            border-radius: 100%;
+
+
+            @media #{$xl} {
+                bottom: 327px;
+                right: 25px;
+            }
+
+            @media #{$lg} {
+                bottom: 272px;
+                right: 41px;
+                width: 18%;
+            }
+
+            @media #{$md} {
+                right: 30px;
+                width: 9%;
+            }
         }
     }
 }
