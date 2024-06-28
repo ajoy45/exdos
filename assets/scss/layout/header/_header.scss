@@ -14,8 +14,6 @@
         padding-left: 35px;
     }
 
-
-
     @media #{$xxlm} {
         padding-left: 80px;
         padding-right: 80px;
@@ -33,6 +31,22 @@
         @media #{$xl,$lg,$md,$sm,$xs} {
             padding-right: 35px;
         }
+
+    }
+
+    &-3 {
+        @media #{$lg} {
+            padding-right: 40px;
+        }
+
+        @media #{$xl} {
+            padding-right: 35px;
+        }
+
+        @media #{$xs} {
+            padding-right: 15px
+        }
+
 
     }
 }

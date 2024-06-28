@@ -5823,6 +5823,21 @@ img {
     padding-right: 35px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-header-area-3 {
+    padding-right: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-header-area-3 {
+    padding-right: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .tp-header-area-3 {
+    padding-right: 15px;
+  }
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-main-menu {
