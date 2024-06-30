@@ -7296,6 +7296,11 @@ img {
 .tpservice-2 {
   margin-bottom: -1px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tpservice-2 {
+    padding: 22px;
+  }
+}
 .tpservice-2 .shape-bg-1 {
   left: -5px;
   top: 7px;

@@ -57,6 +57,10 @@
     &-2 {
         margin-bottom: -1px;
 
+        @media #{$xl} {
+            padding: 22px;
+        }
+
         & .shape-bg-1 {
             left: -5px;
             top: 7px;
