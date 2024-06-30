@@ -4,6 +4,11 @@
     &-area {}
 
     &-left {
+        @media #{$md,$xs} {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
         &__duck {
             & img {
                 position: relative;
@@ -19,17 +24,45 @@
             z-index: 1;
             top: 164px;
             left: -72px;
+
+            @media #{$lg} {
+                width: 557px;
+                height: 568px;
+                left: -39px;
+            }
+
+            @media #{$md} {
+                left: 29px;
+            }
+
+            @media #{$xs} {
+                width: 40%;
+                height: 40%;
+            }
         }
 
         & .star-1 {
             top: 133px;
             left: -90px;
 
+            @media #{$md} {
+                left: -14px;
+            }
+
         }
 
         & .star-2 {
             top: 0;
             right: 276px;
+
+            @media #{$md} {
+                right: 125px;
+            }
+
+            @media #{$lg} {
+                right: 88px;
+
+            }
         }
 
     }

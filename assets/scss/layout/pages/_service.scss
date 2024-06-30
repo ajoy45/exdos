@@ -77,6 +77,12 @@
             }
         }
 
+        &__title {
+            @media #{$md} {
+                font-size: 22px;
+            }
+        }
+
         &:hover {
             & .tpservice-2__icon {
                 & i {

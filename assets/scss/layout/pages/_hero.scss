@@ -150,7 +150,7 @@
             }
 
             & img {
-                width: 15%;
+                width: 12%;
             }
         }
     }
@@ -405,8 +405,8 @@
         }
 
         & .shape-2 {
-            bottom: 19px;
-            right: 120px;
+            bottom: 50px;
+            right: 100px;
             border-radius: 100%;
             z-index: 2;
 
@@ -423,15 +423,14 @@
             }
 
             @media #{$md} {
-
                 width: 20%;
             }
 
         }
 
         & .shape-3 {
-            bottom: 393px;
-            right: 86px;
+            bottom: 389px;
+            right: 70px;
 
 
             @media #{$xl} {
