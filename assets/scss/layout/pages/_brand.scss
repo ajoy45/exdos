@@ -39,3 +39,9 @@
         color: var(--tp-theme-body);
     }
 }
+
+.pl-0 {
+    @media #{$md,$xs} {
+        padding-left: 0;
+    }
+}

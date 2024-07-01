@@ -7770,6 +7770,21 @@ img {
   bottom: 3%;
   left: 58%;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimonial-slider-right-3 {
+    left: 62%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-slider-right-3 {
+    left: 44%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-testimonial-slider-right-3 {
+    left: 52%;
+  }
+}
 .tp-testimonial-slider-right-3 i {
   color: var(--tp-theme-sec-color);
 }
@@ -7828,6 +7843,21 @@ img {
   font-size: 52px;
   left: 64%;
   top: 89%;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimonial-slider-left-3 {
+    left: 69%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-slider-left-3 {
+    left: 58%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-testimonial-slider-left-3 {
+    left: 67%;
+  }
 }
 .tp-testimonial-slider-left-3 i {
   color: var(--tp-theme-sec-color);
@@ -7961,6 +7991,11 @@ img {
   left: -4px;
   z-index: 1;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimonial-bg {
+    left: -36px;
+  }
+}
 .tp-testimonial-quote {
   margin-right: 30px;
 }
@@ -7979,6 +8014,11 @@ img {
 .tp-testimonial-3-text-title {
   font-size: 40px;
   color: var(--tp-theme-sec-color);
+}
+@media (max-width: 767px) {
+  .tp-testimonial-3-text-title {
+    font-size: 25px;
+  }
 }
 .tp-testimonial-4-info-deg {
   position: relative;
@@ -8052,6 +8092,16 @@ img {
   bottom: 6.2%;
   left: 62.2%;
   background-color: #DBDBDB;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-testimpnial-circle-3 {
+    left: 67.2%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimpnial-circle-3 {
+    left: 53.2%;
+  }
 }
 
 .ml-l-0 {
@@ -8702,6 +8752,12 @@ img {
   transform: translateY(25px);
   background-color: var(--tp-white);
   color: var(--tp-theme-body);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .pl-0 {
+    padding-left: 0;
+  }
 }
 
 .tpprocess {

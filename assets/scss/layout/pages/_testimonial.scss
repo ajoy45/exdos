@@ -90,6 +90,18 @@
             bottom: 3%;
             left: 58%;
 
+            @media #{$xl} {
+                left: 62%;
+            }
+
+            @media #{$lg} {
+                left: 44%;
+            }
+
+            @media #{$md} {
+                left: 52%;
+            }
+
             & i {
                 color: var(--tp-theme-sec-color);
             }
@@ -148,6 +160,18 @@
             font-size: 52px;
             left: 64%;
             top: 89%;
+
+            @media #{$xl} {
+                left: 69%;
+            }
+
+            @media #{$lg} {
+                left: 58%;
+            }
+
+            @media #{$md} {
+                left: 67%;
+            }
 
             & i {
                 color: var(--tp-theme-sec-color);
@@ -304,6 +328,10 @@
         top: 22%;
         left: -4px;
         z-index: 1;
+
+        @media #{$xl} {
+            left: -36px;
+        }
     }
 
     &-quote {
@@ -336,6 +364,10 @@
             &-title {
                 font-size: 40px;
                 color: var(--tp-theme-sec-color);
+
+                @media #{$xs} {
+                    font-size: 25px;
+                }
             }
         }
     }
@@ -425,6 +457,7 @@
         left: 56%;
     }
 
+
     @media #{$md} {
         left: 72%;
     }
@@ -433,6 +466,14 @@
         bottom: 6.2%;
         left: 62.2%;
         background-color: #DBDBDB;
+
+        @media #{$xl} {
+            left: 67.2%;
+        }
+
+        @media #{$lg} {
+            left: 53.2%;
+        }
     }
 }
 
