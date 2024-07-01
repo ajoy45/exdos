@@ -156,7 +156,22 @@
     }
 
     &-3 {
+        @media #{$md,$xs} {
+            padding-left: 2px;
+            margin-bottom: 30px;
+        }
+
+        &-box {
+            @media #{$lg} {
+                padding-left: 16px;
+            }
+        }
+
         &-img {
+            @media #{$xl,$lg} {
+                margin-bottom: 30px;
+            }
+
             & img {
                 border-radius: 15px;
             }
@@ -207,6 +222,18 @@
             font-size: 40px;
             text-transform: uppercase;
             color: var(--tp-white);
+
+            @media #{$xl} {
+                font-size: 37px;
+            }
+
+            @media #{$lg} {
+                font-size: 34px;
+            }
+
+            @media #{$xs} {
+                font-size: 24px;
+            }
         }
 
         &-link {
