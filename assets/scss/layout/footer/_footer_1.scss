@@ -147,6 +147,10 @@
                 & li {
                     margin-left: 65px;
 
+                    @media #{$xl,$lg} {
+                        margin-left: 51px;
+                    }
+
                     @media #{$md} {
                         margin-left: 35px;
                     }

@@ -4,6 +4,12 @@
     &-2 {
         &-area {}
 
+        &-logo {
+            @media #{$md,$xs} {
+                padding-left: 0;
+            }
+        }
+
         &-newsletter {
             margin-right: 82px;
 
@@ -27,6 +33,10 @@
         }
 
         &-widget {
+            @media #{$md,$xs} {
+                padding-left: 0;
+            }
+
             & span {
                 font-size: 17px;
 
