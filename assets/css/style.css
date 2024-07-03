@@ -5347,6 +5347,16 @@ img {
 .pt-224 {
   padding-top: 224px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .pt-224 {
+    padding-top: 167px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pt-224 {
+    padding-top: 187px;
+  }
+}
 
 .pt-249 {
   padding-top: 249px;
@@ -6910,6 +6920,16 @@ img {
 .tp-hero-box-4 {
   padding-left: inherit;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .tp-hero-box-4 {
+    padding-left: 49px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+  .tp-hero-box-4 p br {
+    display: none;
+  }
+}
 .tp-hero-link {
   padding-left: 165px;
 }
@@ -7001,6 +7021,16 @@ img {
   right: 0;
   bottom: 0;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .tp-hero-shape .right-img {
+    width: 64%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-shape .right-img {
+    width: 70%;
+  }
+}
 .tp-hero-shape .h-5-star-1 {
   left: 65px;
   top: 270px;
@@ -7021,6 +7051,19 @@ img {
   position: absolute;
   top: 16%;
   left: -112px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-circle {
+    width: 532px;
+    height: 451px;
+    top: 29%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-circle {
+    width: 500px;
+    height: 500px;
+  }
 }
 .tp-hero-info {
   display: flex;

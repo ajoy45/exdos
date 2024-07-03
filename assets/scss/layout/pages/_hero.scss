@@ -219,6 +219,19 @@
 
         &-4 {
             padding-left: inherit;
+
+            @media #{$xxlm} {
+                padding-left: 49px;
+            }
+
+            & p {
+                & br {
+
+                    @media #{$lg,$xs} {
+                        display: none;
+                    }
+                }
+            }
         }
     }
 
@@ -311,6 +324,14 @@
         & .right-img {
             right: 0;
             bottom: 0;
+
+            @media #{$xl,$xxlm} {
+                width: 64%;
+            }
+
+            @media #{$lg} {
+                width: 70%;
+            }
         }
 
         & .h-5-star-1 {
@@ -338,6 +359,19 @@
         position: absolute;
         top: 16%;
         left: -112px;
+
+        @media #{$xl} {
+            width: 532px;
+            height: 451px;
+            top: 29%;
+
+        }
+
+        @media #{$lg} {
+            width: 500px;
+            height: 500px;
+
+        }
 
     }
 

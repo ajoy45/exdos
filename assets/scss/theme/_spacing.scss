@@ -77,6 +77,15 @@
 
 .pt-224 {
     padding-top: 224px;
+
+    @media #{$xl} {
+        padding-top: 167px;
+    }
+
+    @media #{$lg} {
+        padding-top: 187px;
+
+    }
 }
 
 .pt-249 {
