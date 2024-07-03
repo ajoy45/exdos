@@ -5838,6 +5838,21 @@ img {
     padding-right: 15px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-header-area-4 {
+    padding-right: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-header-area-4 {
+    padding-right: 35px;
+  }
+}
+@media (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-header-area-4 {
+    padding-right: 15px;
+  }
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-main-menu {
@@ -5995,6 +6010,11 @@ img {
   background-color: #D8B09B;
   display: inline-block;
   margin-right: 30px;
+}
+@media (max-width: 767px) {
+  .tp-header-right-hr-4 {
+    display: none;
+  }
 }
 .tp-header-bar {
   padding: 22px 24px;

@@ -49,6 +49,22 @@
 
 
     }
+
+    &-4 {
+        @media #{$lg} {
+            padding-right: 40px;
+        }
+
+        @media #{$xl} {
+            padding-right: 35px;
+        }
+
+        @media #{$xs,$md} {
+            padding-right: 15px
+        }
+
+
+    }
 }
 
 .tp-main-menu {
@@ -253,6 +269,10 @@
                 background-color: #D8B09B;
                 display: inline-block;
                 margin-right: 30px;
+
+                @media #{$xs} {
+                    display: none;
+                }
             }
         }
     }
