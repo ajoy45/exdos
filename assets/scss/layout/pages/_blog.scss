@@ -39,6 +39,14 @@
     &__title {
         font-size: 30px;
         line-height: 1.5;
+
+        @media #{$lg} {
+            font-size: 21px;
+        }
+
+        @media #{$md} {
+            font-size: 26px;
+        }
     }
 
     &__btn {
