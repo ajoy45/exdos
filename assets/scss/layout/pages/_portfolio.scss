@@ -340,6 +340,10 @@
 
 .tp-team-slider-active-margin {
     margin: 0 -100px;
+
+    @media #{$lg,$md,$xs} {
+        margin: 0;
+    }
 }
 
 .tp-video-area {
