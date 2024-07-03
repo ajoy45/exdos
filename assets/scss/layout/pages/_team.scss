@@ -153,11 +153,22 @@
     }
 
     &-3 {
+        @media #{$lg} {
+            margin-bottom: 80px;
+        }
 
         &__thumbe {
 
             & img {
                 margin: -52px 0px;
+
+                @media #{$md} {
+                    margin: -52px 51px;
+                }
+
+                @media #{$xl} {
+                    margin: -52px 17px;
+                }
             }
         }
     }
@@ -171,6 +182,15 @@
         z-index: -1;
         border-radius: 140px 140px 0 0;
 
+        @media #{$xl} {
+            width: 279px;
+        }
+
+        @media #{$md} {
+            width: 308px;
+            height: 309px;
+        }
+
     }
 
     &-border {
@@ -182,8 +202,15 @@
         left: 0;
         z-index: -1;
         border-radius: 185px 185px 0 0;
-
         margin-left: 14px;
+
+        @media #{$xl} {
+            width: 259px;
+        }
+
+        @media #{$md} {
+            height: 312px;
+        }
 
 
     }
