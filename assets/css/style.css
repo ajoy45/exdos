@@ -5671,6 +5671,11 @@ img {
   color: var(--tp-white);
 }
 @media (max-width: 767px) {
+  .tp-section-title-4 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
   .tp-section-title-size {
     font-size: 20px;
   }
@@ -7378,6 +7383,11 @@ img {
 }
 .tpservice__title {
   font-size: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpservice__title {
+    font-size: 28px;
+  }
 }
 .tpservice__list ul li {
   margin-bottom: 16px;

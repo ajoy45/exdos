@@ -38,6 +38,10 @@
 
     &__title {
         font-size: 30px;
+
+        @media #{$lg} {
+            font-size: 28px;
+        }
     }
 
     &__list {
