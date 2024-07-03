@@ -34,6 +34,13 @@
     }
 
     &-title {
+        & br {
+
+            @media #{$xl} {
+                display: none;
+            }
+        }
+
         &-4 {
             @media #{$xs} {
                 font-size: 30px;

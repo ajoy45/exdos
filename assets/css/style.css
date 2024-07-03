@@ -5670,6 +5670,11 @@ img {
 .tp-section-subtitle-4 {
   color: var(--tp-white);
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-section-title br {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .tp-section-title-4 {
     font-size: 30px;
