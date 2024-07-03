@@ -6674,13 +6674,21 @@ img {
   font-size: 30px;
   line-height: 133%;
   color: var(--tp-common-black);
+  display: flex;
+  display: -webkit-flex;
 }
 .tp-about-desc ul li i {
   font-size: 30px;
   margin-bottom: 30px;
+  margin-top: 5px;
 }
 .tp-about-4-thumb {
   text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-about-4-thumb {
+    margin-bottom: 40px;
+  }
 }
 .tp-about-5-right {
   background-color: white;
@@ -6691,6 +6699,18 @@ img {
 .tp-abput-radius {
   border-radius: 357px;
   margin-left: 100px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-abput-radius {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-abput-radius {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 .tp-founder-author .tp-founder-title {
