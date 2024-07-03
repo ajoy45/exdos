@@ -63,6 +63,10 @@
     }
 
     &-4 {
+        @media #{$md,$xs} {
+            padding-left: 0;
+        }
+
         &__icon {
             & img {}
         }

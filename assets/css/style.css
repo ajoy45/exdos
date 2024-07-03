@@ -8545,6 +8545,11 @@ img {
 .tpfact-2 .tpfact__count {
   color: var(--tp-theme-sec-color);
 }
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tpfact-4 {
+    padding-left: 0;
+  }
+}
 .tpfact-4__vr {
   width: 1px;
   height: 100px;
