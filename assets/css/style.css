@@ -7347,6 +7347,11 @@ img {
 .tpservice:hover .tpservice-btn a {
   color: var(--tp-white);
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpservice__text {
+    padding-left: 0;
+  }
+}
 .tpservice__icon span {
   font-size: 92px;
   display: inline-flex;
@@ -7404,6 +7409,11 @@ img {
 }
 .tpservice-3 {
   padding-top: 50px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tpservice-3 {
+    padding: 14px;
+  }
 }
 
 .tpservice-btn {

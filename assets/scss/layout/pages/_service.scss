@@ -23,6 +23,12 @@
         }
     }
 
+    &__text {
+        @media #{$lg} {
+            padding-left: 0;
+        }
+    }
+
     &__icon {
         & span {
             font-size: 92px;
@@ -96,6 +102,10 @@
 
     &-3 {
         padding-top: 50px;
+
+        @media #{$xl} {
+            padding: 14px;
+        }
     }
 
 }
