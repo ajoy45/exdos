@@ -6,6 +6,9 @@
     }
 
     &-box {
+        @media #{$md,$xs} {
+            margin-top: 50px;
+        }
 
         & input,
         & textarea {

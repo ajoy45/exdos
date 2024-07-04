@@ -5,7 +5,7 @@
         &-area {}
 
         &-logo {
-            @media #{$md,$xs} {
+            @media #{$md,$xs,$lg} {
                 padding-left: 0;
             }
         }

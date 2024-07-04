@@ -159,6 +159,10 @@ img {
 
 .mr-l-r-100 {
 	margin: 0 100px;
+
+	@media #{$xs} {
+		margin: 0;
+	}
 }
 
 .tp-cap {

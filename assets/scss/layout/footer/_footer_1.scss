@@ -52,6 +52,10 @@
         position: relative;
         z-index: 2;
 
+        @media #{$md,$xs} {
+            padding-left: 0;
+        }
+
         &__title {
             color: var(--tp-white);
             font-size: 20px;
