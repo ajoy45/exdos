@@ -26,11 +26,11 @@
                             <a href="index.html"> <img src="assets/img/home-3/logo/logo-black.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-xl-8">
+                    <div class="col-xl-8 ">
                         <div class="tp-header-right-box text-center">
 
                             <div class="tp-main-menu tp-main-menu-2 pl-41 d-none d-xl-block">
-                                <nav>
+                                <nav class="tp-mobile-menu-active">
                                     <ul>
                                         <li><a href="#">Home</a>
                                             <ul class="sub-menu">
@@ -61,7 +61,7 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 ">
                         <div class="tp-header-right">
                             <div class="tp-header-search tp-header-search-2 d-md-flex align-items-center ">
                                 <button class="d-flex align-items-center">
@@ -70,7 +70,7 @@
                             </div>
                             <span class="tp-header-right-hr"></span>
                             <div class="tp-header-bar tp-header-bar-2">
-                                <button>
+                                <button class="tp-header-offcanvas">
                                     <i class="flaticon-menu"></i>
                                 </button>
                             </div>
@@ -84,14 +84,61 @@
     <!--=============
          Header End
      ================-->
+    <!-- offcanvas -->
+    <div class="tp-offcanvas">
+
+        <div class="tp-offcanvas-top d-flex justify-content-between align-items-center mb-50">
+            <div class="tp-offcanvas-logo">
+                <img src="assets/img/home-3/logo/logo-black.png" alt="">
+            </div>
+            <div class="tp-offcanvas-close">
+                <i class="far fa-times"></i>
+            </div>
+        </div>
+        <div class="tp-offcanvas-menu d-xl-none">
+            <nav></nav>
+        </div>
+        <div class="tp-offcanvas-content mb-50 d-none d-xl-block">
+            <h3 class="tp-offcanvas-title"> Hello There</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, illum.</p>
+        </div>
+        <div class="tp-offcanvas-gallery mb-30">
+            <a class="popup-image" href="assets/img/blog/blog-4-1.png"><img src="assets/img/blog/blog-4-1.png"
+                    alt=""></a>
+
+            <a class="popup-image" href="assets/img/blog/blog-4-2.png"><img src="assets/img/blog/blog-4-2.png"
+                    alt=""></a>
+
+            <a class="popup-image" href="assets/img/blog/blog-4-3.png"><img src="assets/img/blog/blog-4-3.png"
+                    alt=""></a>
+
+            <a class="popup-image" href="assets/img/blog/blog-4-1.png"><img src="assets/img/blog/blog-4-1.png"
+                    alt=""></a>
+
+        </div>
+        <div class="tp-offcanvas-info mb-20">
+            <h3 class="tp-offcanvas-info-title">information</h3>
+            <a href="#">+45769607-6089</a>
+            <a href="#">infoexdos@gmail.cpm</a>
+            <a href="#">new york usa</a>
+        </div>
+        <div class="tp-offcanvas-social">
+            <h3 class="tp-offcanvas-social-title"> social link</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+    </div>
+    <div class="tp-all-overlay"></div>
 
     <main>
         <!--===========
              Hero Start
          ==============-->
-        <section class="tp-hero-area pt-249 pb-140 p-relative" data-bg-img="assets/img/hero/h-5-bg.png">
+        <section class="tp-hero-area fix pt-249 pb-140 p-relative" data-bg-img="assets/img/hero/h-5-bg.png">
             <div class="tp-hero-shape">
-                <img class="p-absolute right-img" src="assets/img/hero/h-5-1.png" alt="">
+                <img class="p-absolute right-img right-img-5" src="assets/img/hero/h-5-1.png" alt="">
                 <img class="h-5-star-1 p-absolute " src="assets/img/icons/h-5-star-1.png" alt="">
                 <img class="h-5-star-2 p-absolute " src="assets/img/icons/h-5-star-2.png" alt="">
                 <img class="h-5-star-3 p-absolute " src="assets/img/icons/h-5-star-3.png" alt="">
@@ -169,17 +216,16 @@
                 </div>
             </div>
         </section>
+
         <!--=============
              About Start 
          ===================-->
-        <section class="tp-about-area pt-130 pb-130 p-relative" data-bg-img="assets/img/bg/h-5-about-bg.png">
+        <section class="tp-about-area  pt-130 pb-130 p-relative "
+            data-bg-img="assets/img/bg/h-5-about-bg.png">
 
-            <div class="container">
-                <div class="row ">
-
-
-                    <div class="col-xl-6">
-
+            <div class="container ">
+                <div class="row">
+                    <div class="col-xl-5">
                         <div class="tp-section-title-wrapper mb-50 ">
                             <span class="tp-section-subtitle tp-section-subtitle-2"><span></span>get service
                                 now</span>
@@ -208,8 +254,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tp-about-5-right p-absolute">
-
+            <div class="tp-about-5-right p-absolute ">
                 <div class="row g-0">
                     <div class="col-xl-6">
                         <div class="tpfact-4 d-flex align-items-center mb-60 pl-50">
@@ -236,17 +281,17 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="tp-about-5-thumb">
+                <div class="tp-about-5-thumb h">
                     <img src="assets/img/about/h-5-about-1.png" alt="">
                 </div>
             </div>
+
         </section>
 
         <!--=============
          process section 
        ===================-->
-        <section class="tp-process-area pt-150 pb-136">
+        <section class="tp-process-area pt-150 pb-136 p-relative z-index-1">
             <div class="container">
                 <div class="tp-section-title-wrapper mb-54 text-center">
                     <span class="tp-section-subtitle tp-section-subtitle-2"><span></span>Working
@@ -355,7 +400,7 @@
         <!--====================
              service section 
         ======================-->
-        <section class="tp-portfolio-area pt-140 pb-130" data-bg-color="#0A0E1A">
+        <section class="tp-portfolio-area pt-140 pb-130 " data-bg-color="#0A0E1A">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9">

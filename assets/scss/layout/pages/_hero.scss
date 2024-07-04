@@ -332,11 +332,21 @@
             @media #{$lg} {
                 width: 70%;
             }
+
+            &-5 {
+                @media #{$xl} {
+                    width: 53%;
+                }
+            }
         }
 
         & .h-5-star-1 {
             left: 65px;
             top: 270px;
+
+            @media #{$xl} {
+                top: 194px;
+            }
         }
 
         & .h-5-star-2 {

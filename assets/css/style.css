@@ -409,6 +409,10 @@ img {
   overflow-y: hidden;
 }
 
+.h {
+  overflow-x: hidden;
+}
+
 .p-relative {
   position: relative;
 }
@@ -5675,6 +5679,9 @@ img {
 .tp-section-subtitle-4 {
   color: var(--tp-white);
 }
+.tp-section-title {
+  font-size: 60px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-section-title br {
     display: none;
@@ -5725,6 +5732,9 @@ img {
   color: var(--tp-white);
 }
 .tp-section-title-space-40 {
+  font-size: 40px;
+}
+.tp-section-title-40 {
   font-size: 40px;
 }
 
@@ -6714,6 +6724,7 @@ img {
   background-color: white;
   right: 0;
   top: 0;
+  width: 50%;
 }
 
 .tp-abput-radius {
@@ -7071,9 +7082,19 @@ img {
     width: 70%;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-shape .right-img-5 {
+    width: 53%;
+  }
+}
 .tp-hero-shape .h-5-star-1 {
   left: 65px;
   top: 270px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-shape .h-5-star-1 {
+    top: 194px;
+  }
 }
 .tp-hero-shape .h-5-star-2 {
   left: 40%;
