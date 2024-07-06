@@ -90,6 +90,45 @@
             }
         }
     }
+
+    &-5 {
+        @media #{$xxlm} {
+            padding-left: 10px;
+        }
+
+        @media #{$xxl} {
+            padding-left: 18px;
+        }
+
+        @media #{$xl} {
+            padding-left: 20px;
+        }
+
+        @media #{$lg} {
+            padding-left: 29px;
+            margin-top: 30px;
+
+        }
+
+        & .tpfact-4__count {
+            & h4 {
+                @media #{$xl} {
+                    font-size: 74px;
+                }
+
+            }
+
+            & span {
+                @media #{$xxlm} {
+                    font-size: 22px;
+                }
+
+                @media #{$xl} {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
 
 .cols {

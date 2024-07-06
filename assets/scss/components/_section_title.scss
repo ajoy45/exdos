@@ -97,11 +97,23 @@
 
             &-40 {
                 font-size: 40px;
+
+
             }
         }
 
         &-40 {
             font-size: 40px;
+
+            @media #{$lg} {
+                font-size: 35px;
+            }
+        }
+
+        &-37 {
+            @media #{$xl} {
+                font-size: 37px;
+            }
         }
     }
 }

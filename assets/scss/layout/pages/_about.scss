@@ -9,6 +9,25 @@
             padding-top: 70px;
             padding-bottom: 130px;
         }
+
+        &-5 {
+            @media #{$xxlm} {
+                padding-bottom: 40px;
+            }
+
+            @media only screen and (min-width: 1600px) and (max-width: 1850px) {
+                padding-bottom: 40px;
+            }
+
+            @media #{$xl} {
+                padding-bottom: 14px;
+            }
+
+            @media #{$lg} {
+                padding-bottom: 0;
+            }
+
+        }
     }
 
     &-box {
@@ -163,9 +182,30 @@
     &-5 {
         &-right {
             background-color: white;
+            position: absolute;
             right: 0;
             top: 0;
             width: 50%;
+
+            @media #{$xxlm} {
+                width: 58%;
+            }
+
+            @media #{$lg,$md,$xs} {
+                position: static;
+                width: 100%;
+                background: none;
+            }
+
+
+        }
+
+        &-thumb {
+            & img {
+                @media #{$lg} {
+                    width: 100%;
+                }
+            }
         }
     }
 

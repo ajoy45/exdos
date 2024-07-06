@@ -337,6 +337,14 @@
                 @media #{$xl} {
                     width: 53%;
                 }
+
+                @media #{$xxlm} {
+                    width: 50%;
+                }
+
+                @media #{$lg} {
+                    width: 49%;
+                }
             }
         }
 
@@ -347,6 +355,16 @@
             @media #{$xl} {
                 top: 194px;
             }
+
+            @media #{$xxlm} {
+                left: 45px;
+            }
+
+            @media #{$lg} {
+                top: 195px;
+            }
+
+
         }
 
         & .h-5-star-2 {
@@ -415,6 +433,12 @@
             & span {
                 color: var(--tp-theme-body);
                 font-size: 15px;
+            }
+        }
+
+        &-5 {
+            @media #{$xxlm} {
+                padding-left: 30px;
             }
         }
     }

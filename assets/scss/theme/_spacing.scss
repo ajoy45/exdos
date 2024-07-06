@@ -111,6 +111,21 @@
 .plr-100 {
     padding-left: 100px;
     padding-right: 100px;
+
+    @media only screen and (min-width: 1600px) and (max-width: 1850px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @media #{$xxlm} {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    @media #{$xl} {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 .ml-219 {

@@ -158,6 +158,18 @@
             line-height: .9;
             @include transition(.3s);
 
+            @media only screen and (min-width: 1600px) and (max-width: 1850px) {
+                font-size: 80px;
+            }
+
+            @media #{$xxlm} {
+                font-size: 37px;
+            }
+
+            @media #{$xl} {
+                font-size: 40px;
+            }
+
             &:hover {
                 color: var(--tp-orange-3);
             }
