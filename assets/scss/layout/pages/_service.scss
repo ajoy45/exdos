@@ -141,6 +141,10 @@
     &-box {
         border-top: 1px solid #514f4f;
         padding: 41px 0 33px 0;
+
+        @media #{$lg} {
+            padding: 22px 0 22px 0;
+        }
     }
 
     &-count {
@@ -168,6 +172,10 @@
 
             @media #{$xl} {
                 font-size: 40px;
+            }
+
+            @media #{$lg} {
+                font-size: 28px;
             }
 
             &:hover {

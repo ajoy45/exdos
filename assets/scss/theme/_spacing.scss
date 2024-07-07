@@ -122,10 +122,11 @@
         padding-right: 80px;
     }
 
-    @media #{$xl} {
+    @media #{$xl,$lg} {
         padding-left: 40px;
         padding-right: 40px;
     }
+
 }
 
 .ml-219 {

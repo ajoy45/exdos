@@ -47,6 +47,19 @@
         @media #{$md} {
             font-size: 26px;
         }
+
+        &-5 {
+
+            @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+                font-size: 28px;
+            }
+
+            @media #{$xl} {
+                font-size: 26px;
+            }
+
+
+        }
     }
 
     &__btn {
@@ -60,13 +73,9 @@
         }
 
         &-arrow {
-
             & span {
-
-
                 & i {
                     font-size: 45px;
-
                 }
             }
         }
@@ -77,8 +86,8 @@
             background-color: #F8F5FF;
             border-radius: 100%;
             position: absolute;
-            top: 2px;
-            right: 476px;
+            top: 174px;
+            right: 448px;
             z-index: -1;
         }
     }

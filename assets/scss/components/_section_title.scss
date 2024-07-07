@@ -97,9 +97,9 @@
 
             &-40 {
                 font-size: 40px;
-
-
             }
+
+
         }
 
         &-40 {
@@ -114,6 +114,13 @@
             @media #{$xl} {
                 font-size: 37px;
             }
+        }
+
+        &-49 {
+            @media #{$lg} {
+                font-size: 49px;
+            }
+
         }
     }
 }

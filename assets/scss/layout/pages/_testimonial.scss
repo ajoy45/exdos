@@ -448,6 +448,10 @@
         padding: 50px;
         border-radius: 20px;
 
+        @media #{$lg} {
+            padding: 44px;
+        }
+
         &__star {
             & i {
                 font-size: 14px;
@@ -467,22 +471,24 @@
                 text-align: center;
                 line-height: 62px;
                 border-radius: 100%;
-
-
             }
 
-            &__deg {
-                &--name {
-                    font-size: 24px;
+        }
 
-                    color: var(--tp-theme-sec-color);
-                }
+        &__deg {
+            &--name {
+                font-size: 24px;
+                color: var(--tp-theme-sec-color);
 
-                & span {
-                    font-size: 15px;
-                    text-transform: uppercase;
-                    color: var(--tp-theme-body);
+                @media #{$lg} {
+                    font-size: 20px;
                 }
+            }
+
+            & span {
+                font-size: 15px;
+                text-transform: uppercase;
+                color: var(--tp-theme-body);
             }
         }
     }

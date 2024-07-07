@@ -5403,7 +5403,7 @@ img {
     padding-right: 80px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .plr-100 {
     padding-left: 40px;
     padding-right: 40px;
@@ -5763,6 +5763,11 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-section-title-37 {
     font-size: 37px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-section-title-49 {
+    font-size: 49px;
   }
 }
 
@@ -7603,6 +7608,11 @@ img {
   border-top: 1px solid #514f4f;
   padding: 41px 0 33px 0;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-service-box {
+    padding: 22px 0 22px 0;
+  }
+}
 .tp-service-count span {
   font-size: 15px;
   color: var(--tp-hero-small);
@@ -7630,6 +7640,11 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-service-text-title {
     font-size: 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-service-text-title {
+    font-size: 28px;
   }
 }
 .tp-service-text-title:hover {
@@ -7869,6 +7884,11 @@ img {
   padding: 103px 0;
   margin-right: -1px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-portfolio-4-logo {
+    padding: 75px 0;
+  }
+}
 .tp-portfolio-4-text span {
   font-weight: 500;
   font-size: 15px;
@@ -7881,10 +7901,20 @@ img {
   font-weight: 400;
   font-size: 39px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-portfolio-4-text-heading {
+    font-size: 33px;
+  }
+}
 .tp-portfolio-4-wrapper {
   border: 1px solid var(--tp-theme-body);
   padding: 30px;
   margin-bottom: -1px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-portfolio-4-wrapper {
+    padding: 26px;
+  }
 }
 
 .tpportfolio {
@@ -8357,6 +8387,11 @@ img {
   padding: 50px;
   border-radius: 20px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-5 {
+    padding: 44px;
+  }
+}
 .tp-testimonial-5__star i {
   font-size: 14px;
   color: #ff824d;
@@ -8372,11 +8407,16 @@ img {
   line-height: 62px;
   border-radius: 100%;
 }
-.tp-testimonial-5__text__deg--name {
+.tp-testimonial-5__deg--name {
   font-size: 24px;
   color: var(--tp-theme-sec-color);
 }
-.tp-testimonial-5__text__deg span {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-5__deg--name {
+    font-size: 20px;
+  }
+}
+.tp-testimonial-5__deg span {
   font-size: 15px;
   text-transform: uppercase;
   color: var(--tp-theme-body);
@@ -8889,6 +8929,16 @@ img {
     font-size: 26px;
   }
 }
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+  .tpblog__title-5 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tpblog__title-5 {
+    font-size: 26px;
+  }
+}
 .tpblog__btn {
   display: flex;
   display: -webkit-flex;
@@ -8910,8 +8960,8 @@ img {
   background-color: #F8F5FF;
   border-radius: 100%;
   position: absolute;
-  top: 2px;
-  right: 476px;
+  top: 174px;
+  right: 448px;
   z-index: -1;
 }
 .tpblog-2 {

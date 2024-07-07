@@ -256,6 +256,10 @@
             padding: 103px 0;
             margin-right: -1px;
 
+            @media #{$lg} {
+                padding: 75px 0;
+            }
+
             & img {}
         }
 
@@ -272,6 +276,10 @@
             &-heading {
                 font-weight: 400;
                 font-size: 39px;
+
+                @media #{$lg} {
+                    font-size: 33px;
+                }
             }
         }
 
@@ -284,6 +292,10 @@
             border: 1px solid var(--tp-theme-body);
             padding: 30px;
             margin-bottom: -1px;
+
+            @media #{$lg} {
+                padding: 26px;
+            }
         }
     }
 
