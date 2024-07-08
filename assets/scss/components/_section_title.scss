@@ -97,6 +97,7 @@
 
             &-40 {
                 font-size: 40px;
+
             }
 
 
@@ -107,6 +108,22 @@
 
             @media #{$lg} {
                 font-size: 35px;
+            }
+
+            @media #{$md} {
+                font-size: 25px;
+
+                & br {
+                    display: none;
+                }
+            }
+
+            @media #{$xs} {
+                font-size: 20px;
+
+                & br {
+                    display: none;
+                }
             }
         }
 

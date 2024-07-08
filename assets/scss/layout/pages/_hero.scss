@@ -6,6 +6,19 @@
             padding-bottom: 100px;
             padding-top: 163px;
         }
+
+
+        &-5 {
+            @media #{$md,$xs} {
+                padding-top: 156px;
+                padding-bottom: 25px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+            }
+        }
+
     }
 
     &-space {
@@ -203,6 +216,7 @@
     }
 
     &-box {
+
         & p {
             padding-left: 165px;
 
@@ -233,6 +247,7 @@
                 }
             }
         }
+
     }
 
     &-link {
@@ -249,6 +264,19 @@
 
         }
     }
+
+    &-bottom-box {
+        display: flex;
+
+        @media only screen and (max-width: 472px) {
+            display: inherit;
+
+            & .tp-hero-info-bottom {
+                margin-left: 0;
+            }
+        }
+    }
+
 }
 
 .tp-hero {
@@ -345,6 +373,13 @@
                 @media #{$lg} {
                     width: 49%;
                 }
+
+                @media #{$md,$xs} {
+                    position: static;
+                    width: 70%;
+                    display: block;
+                    margin: 30px auto;
+                }
             }
         }
 
@@ -365,16 +400,23 @@
             }
 
 
+
+
         }
 
         & .h-5-star-2 {
             left: 40%;
             top: 170px;
+
         }
 
         & .h-5-star-3 {
             left: 47%;
             bottom: 105px;
+
+            @media #{$xs} {
+                display: none;
+            }
         }
 
     }

@@ -5760,6 +5760,22 @@ img {
     font-size: 35px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-section-title-40 {
+    font-size: 25px;
+  }
+  .tp-section-title-40 br {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .tp-section-title-40 {
+    font-size: 20px;
+  }
+  .tp-section-title-40 br {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-section-title-37 {
     font-size: 37px;
@@ -5868,6 +5884,11 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-header-area {
     padding-left: 35px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-header-area {
+    padding-right: 35px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -6840,6 +6861,15 @@ img {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-hero-area-5 {
+    padding-top: 156px;
+    padding-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-hero-space {
     padding-bottom: 0px;
     padding-top: 170px;
@@ -7068,6 +7098,17 @@ img {
   -webkit-transform: rotate(-30deg);
   margin-left: 14px;
 }
+.tp-hero-bottom-box {
+  display: flex;
+}
+@media only screen and (max-width: 472px) {
+  .tp-hero-bottom-box {
+    display: inherit;
+  }
+  .tp-hero-bottom-box .tp-hero-info-bottom {
+    margin-left: 0;
+  }
+}
 
 .tp-hero {
   position: relative;
@@ -7168,6 +7209,14 @@ img {
     width: 49%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-hero-shape .right-img-5 {
+    position: static;
+    width: 70%;
+    display: block;
+    margin: 30px auto;
+  }
+}
 .tp-hero-shape .h-5-star-1 {
   left: 65px;
   top: 270px;
@@ -7194,6 +7243,11 @@ img {
 .tp-hero-shape .h-5-star-3 {
   left: 47%;
   bottom: 105px;
+}
+@media (max-width: 767px) {
+  .tp-hero-shape .h-5-star-3 {
+    display: none;
+  }
 }
 .tp-hero-circle {
   width: 717px;
