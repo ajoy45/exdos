@@ -452,6 +452,11 @@
             padding: 44px;
         }
 
+        @media #{$md,$xs} {
+            margin-top: 30px;
+
+        }
+
         &__star {
             & i {
                 font-size: 14px;
@@ -480,7 +485,7 @@
                 font-size: 24px;
                 color: var(--tp-theme-sec-color);
 
-                @media #{$lg} {
+                @media #{$lg,$md} {
                     font-size: 20px;
                 }
             }
@@ -553,6 +558,10 @@
 
 .tp-testimonial-space {
     margin-right: -444px;
+
+    @media #{$md,$xs} {
+        margin-right: 0;
+    }
 }
 
 .tp-test-circle {

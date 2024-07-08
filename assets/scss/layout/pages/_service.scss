@@ -178,6 +178,10 @@
                 font-size: 28px;
             }
 
+            @media #{$md} {
+                font-size: 75px;
+            }
+
             &:hover {
                 color: var(--tp-orange-3);
             }
@@ -185,6 +189,12 @@
 
         & span {
             color: #b1b4ba;
+        }
+    }
+
+    &-thumb {
+        & img {
+            width: 100%;
         }
     }
 }

@@ -110,12 +110,16 @@
 
         }
 
+        @media #{$md} {
+            padding-left: 43px;
+
+        }
+
         & .tpfact-4__count {
             & h4 {
                 @media #{$xl} {
                     font-size: 74px;
                 }
-
             }
 
             & span {
@@ -125,6 +129,10 @@
 
                 @media #{$xl} {
                     font-size: 16px;
+                }
+
+                @media #{$md} {
+                    font-size: 23px;
                 }
             }
         }

@@ -74,7 +74,23 @@
             nextEl: ".tp-testimonial-5-right",
             prevEl: ".tp-testimonial-5-left",
         },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
 
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            992: {
+                slidesPerView: 3,
+
+            },
+            1200: {
+                slidesPerView: 4,
+
+            },
+        },
     });
     // testimonial slider 2
     var swiper_thumb = new Swiper(".tp-testimonial-thumb-active", {
@@ -123,11 +139,12 @@
         },
         breakpoints: {
             0: {
-                slidesPerView: 1,
+                slidesPerView: 3,
 
             },
+
             992: {
-                slidesPerView: 3,
+                slidesPerView: 4,
 
             },
             1200: {

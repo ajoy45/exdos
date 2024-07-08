@@ -5409,6 +5409,12 @@ img {
     padding-right: 40px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .plr-100 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 .ml-219 {
   margin-left: 219px;
@@ -5784,6 +5790,11 @@ img {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-section-title-49 {
     font-size: 49px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-section-title-54 {
+    font-size: 54px;
   }
 }
 
@@ -6552,6 +6563,11 @@ img {
   font-size: 30px;
   color: var(--tp-theme-sec-color);
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-footer-2-copyright {
+    text-align: center;
+  }
+}
 .tp-footer-2-copyright P {
   font-size: 17px;
   color: var(--tp-theme-body);
@@ -6566,6 +6582,11 @@ img {
 .tp-footer-2-bottom {
   border-top: 1px solid var(--tp-theme-body);
   padding-top: 42px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-footer-3-newsletter {
+    padding-left: 0;
+  }
 }
 .tp-footer-3-newsletter h4 {
   font-size: 20px;
@@ -6603,6 +6624,11 @@ img {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-footer-btn {
+    margin-top: 30px;
+  }
 }
 .tp-footer-btn a {
   font-size: 30px;
@@ -6644,6 +6670,11 @@ img {
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-about-area-5 {
     padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-about-area-5 {
+    padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 1600px) and (max-width: 1850px) {
@@ -7701,11 +7732,19 @@ img {
     font-size: 28px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-service-text-title {
+    font-size: 75px;
+  }
+}
 .tp-service-text-title:hover {
   color: var(--tp-orange-3);
 }
 .tp-service-text span {
   color: #b1b4ba;
+}
+.tp-service-thumb img {
+  width: 100%;
 }
 
 .tp-service-tab-item .nav-link:last-child {
@@ -7943,6 +7982,12 @@ img {
     padding: 75px 0;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-portfolio-4-logo {
+    margin-bottom: -1px;
+    margin-right: 0;
+  }
+}
 .tp-portfolio-4-text span {
   font-weight: 500;
   font-size: 15px;
@@ -7958,6 +8003,12 @@ img {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-portfolio-4-text-heading {
     font-size: 33px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-portfolio-4-show img {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 .tp-portfolio-4-wrapper {
@@ -8446,6 +8497,11 @@ img {
     padding: 44px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-testimonial-5 {
+    margin-top: 30px;
+  }
+}
 .tp-testimonial-5__star i {
   font-size: 14px;
   color: #ff824d;
@@ -8465,7 +8521,7 @@ img {
   font-size: 24px;
   color: var(--tp-theme-sec-color);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-testimonial-5__deg--name {
     font-size: 20px;
   }
@@ -8531,6 +8587,11 @@ img {
 
 .tp-testimonial-space {
   margin-right: -444px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-testimonial-space {
+    margin-right: 0;
+  }
 }
 
 .tp-test-circle {
@@ -8914,6 +8975,11 @@ img {
     margin-top: 30px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tpfact-5 {
+    padding-left: 43px;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpfact-5 .tpfact-4__count h4 {
     font-size: 74px;
@@ -8927,6 +8993,11 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpfact-5 .tpfact-4__count span {
     font-size: 16px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tpfact-5 .tpfact-4__count span {
+    font-size: 23px;
   }
 }
 

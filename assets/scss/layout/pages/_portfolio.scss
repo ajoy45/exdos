@@ -260,6 +260,11 @@
                 padding: 75px 0;
             }
 
+            @media #{$md} {
+                margin-bottom: -1px;
+                margin-right: 0;
+            }
+
             & img {}
         }
 
@@ -285,7 +290,12 @@
 
         &-show {
 
-            & img {}
+            & img {
+                @media #{$md} {
+                    width: 100%;
+                    margin-top: 20px;
+                }
+            }
         }
 
         &-wrapper {
