@@ -253,3 +253,15 @@
     background: red;
     margin: 10px auto;
 }
+
+.tp-about-feature-icon i {
+    font-size: 80px;
+}
+
+
+
+.tp-about-feature-wrapper {
+    &> :not(:last-child) {
+        margin-bottom: 24px;
+    }
+}

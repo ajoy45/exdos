@@ -1,0 +1,47 @@
+@use"../utils" as *;
+
+.tp-breadcrumb {
+    text-align: center;
+
+    &-title {
+        font-size: 70px;
+
+        @media #{$xs} {
+            font-size: 50px;
+        }
+    }
+
+    & span {
+        margin: 0 2px;
+
+        & a {
+            font-size: 20px;
+        }
+
+        &.active {
+            & a {
+                color: var(--tp-yellow);
+            }
+        }
+
+    }
+}
+
+.tp-breadcrumb {
+    &-shape {
+        &-1 {
+            top: 50%;
+            left: 11%;
+        }
+
+        &-2 {
+            top: 50%;
+            right: 11%;
+        }
+
+        &-3 {
+            top: 34%;
+            right: 31%;
+        }
+    }
+}

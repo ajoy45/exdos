@@ -5367,6 +5367,10 @@ img {
   }
 }
 
+.pt-236 {
+  padding-top: 236px;
+}
+
 .pt-249 {
   padding-top: 249px;
 }
@@ -5385,6 +5389,10 @@ img {
 
 .pb-155 {
   padding-bottom: 155px;
+}
+
+.pb-132 {
+  padding-bottom: 132px;
 }
 
 .plr-100 {
@@ -5667,6 +5675,12 @@ img {
   background-size: cover;
   border-radius: 0 20px 20px 0;
 }
+.tp-faq-bg-right {
+  position: absolute;
+  right: 0;
+  left: inherit;
+  border-radius: 0;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-faq-bg {
@@ -5902,6 +5916,40 @@ img {
 .tp-all-overlay-open {
   opacity: 1;
   visibility: visible;
+}
+
+.tp-breadcrumb {
+  text-align: center;
+}
+.tp-breadcrumb-title {
+  font-size: 70px;
+}
+@media (max-width: 767px) {
+  .tp-breadcrumb-title {
+    font-size: 50px;
+  }
+}
+.tp-breadcrumb span {
+  margin: 0 2px;
+}
+.tp-breadcrumb span a {
+  font-size: 20px;
+}
+.tp-breadcrumb span.active a {
+  color: var(--tp-yellow);
+}
+
+.tp-breadcrumb-shape-1 {
+  top: 50%;
+  left: 11%;
+}
+.tp-breadcrumb-shape-2 {
+  top: 50%;
+  right: 11%;
+}
+.tp-breadcrumb-shape-3 {
+  top: 34%;
+  right: 31%;
 }
 
 .tp-header-transparent {
@@ -6916,6 +6964,14 @@ img {
   height: 40px;
   background: red;
   margin: 10px auto;
+}
+
+.tp-about-feature-icon i {
+  font-size: 80px;
+}
+
+.tp-about-feature-wrapper > :not(:last-child) {
+  margin-bottom: 24px;
 }
 
 .tp-hero {
