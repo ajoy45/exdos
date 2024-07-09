@@ -1,5 +1,17 @@
 @use"../../utils" as *;
 
+.tp-process {
+    &-area {
+        &-5 {
+            @media #{$xs} {
+                padding-bottom: 15px;
+                padding-top: 97px;
+
+            }
+        }
+    }
+}
+
 .tpprocess {
     padding: 64px 35px;
 
@@ -78,7 +90,18 @@
     }
 
     &-2 {
+        &__text {
+            @media #{$xs} {
+                text-align: center;
+                margin-top: 50px;
+            }
+        }
+
         &__icon {
+            @media #{$xs} {
+                text-align: center;
+            }
+
             & span {
                 width: 260px;
                 height: 260px;
@@ -89,9 +112,12 @@
                 line-height: 203px;
                 margin-left: 36px;
 
+                @media #{$xs} {
+                    margin-left: 0;
+                }
+
                 & i {
                     font-size: 100px;
-
                 }
             }
 
@@ -120,9 +146,25 @@
             bottom: -22px;
             left: 134px;
 
+            @media #{$xs} {
+                left: 99px;
+            }
+
+            @media #{$sm} {
+                left: 232px;
+            }
+
             &-2 {
                 top: -25px;
                 left: 134px;
+
+                @media #{$xs} {
+                    left: 94px;
+                }
+
+                @media #{$sm} {
+                    left: 232px;
+                }
             }
         }
 

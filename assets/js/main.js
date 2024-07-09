@@ -139,7 +139,7 @@
         },
         breakpoints: {
             0: {
-                slidesPerView: 3,
+                slidesPerView: 2,
 
             },
 

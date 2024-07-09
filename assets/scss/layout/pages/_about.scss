@@ -15,7 +15,7 @@
                 padding-bottom: 40px;
             }
 
-            @media #{$md} {
+            @media #{$md,$xs} {
                 padding-bottom: 0;
             }
 
@@ -234,6 +234,10 @@
     &-author {
         & .tp-founder-title {
             font-size: 30px;
+
+            @media #{$xs} {
+                font-size: 20px;
+            }
         }
 
         & span {

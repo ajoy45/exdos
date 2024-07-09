@@ -131,6 +131,11 @@
             @media #{$xl} {
                 font-size: 37px;
             }
+
+            @media #{$xs} {
+                font-size: 28px;
+            }
+
         }
 
         &-49 {
@@ -138,11 +143,26 @@
                 font-size: 49px;
             }
 
+            @media #{$xs} {
+                font-size: 37px;
+                margin-bottom: 30px;
+            }
+
         }
 
         &-54 {
             @media #{$md} {
                 font-size: 54px;
+            }
+
+            @media #{$xs} {
+                font-size: 34px;
+            }
+        }
+
+        &-29 {
+            @media #{$xs} {
+                font-size: 29px;
             }
         }
     }

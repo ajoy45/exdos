@@ -115,10 +115,19 @@
 
         }
 
+        @media #{$xs} {
+            padding-left: 19px;
+
+        }
+
         & .tpfact-4__count {
             & h4 {
                 @media #{$xl} {
                     font-size: 74px;
+                }
+
+                @media #{$xs} {
+                    font-size: 40px;
                 }
             }
 
@@ -133,6 +142,10 @@
 
                 @media #{$md} {
                     font-size: 23px;
+                }
+
+                @media #{$xs} {
+                    font-size: 15px;
                 }
             }
         }

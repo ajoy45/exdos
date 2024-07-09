@@ -457,6 +457,11 @@
 
         }
 
+        @media #{$xs} {
+            padding: 20px;
+
+        }
+
         &__star {
             & i {
                 font-size: 14px;
@@ -485,9 +490,10 @@
                 font-size: 24px;
                 color: var(--tp-theme-sec-color);
 
-                @media #{$lg,$md} {
+                @media #{$lg,$md,$xs} {
                     font-size: 20px;
                 }
+
             }
 
             & span {

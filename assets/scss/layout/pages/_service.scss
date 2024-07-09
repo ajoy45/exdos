@@ -182,6 +182,10 @@
                 font-size: 75px;
             }
 
+            @media #{$xs} {
+                font-size: 22px;
+            }
+
             &:hover {
                 color: var(--tp-orange-3);
             }

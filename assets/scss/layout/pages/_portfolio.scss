@@ -260,9 +260,10 @@
                 padding: 75px 0;
             }
 
-            @media #{$md} {
+            @media #{$md,$xs} {
                 margin-bottom: -1px;
                 margin-right: 0;
+                padding: 48px 0;
             }
 
             & img {}
@@ -285,13 +286,17 @@
                 @media #{$lg} {
                     font-size: 33px;
                 }
+
+                @media #{$xs} {
+                    font-size: 21px;
+                }
             }
         }
 
         &-show {
 
             & img {
-                @media #{$md} {
+                @media #{$md,$xs} {
                     width: 100%;
                     margin-top: 20px;
                 }
