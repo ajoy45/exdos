@@ -5952,6 +5952,52 @@ img {
   right: 31%;
 }
 
+.tp-skill-outer {
+  border: 1px solid var(--tp-theme-body);
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.progress {
+  background: transparent;
+  height: 12px;
+}
+
+.tp-skill-num {
+  position: absolute;
+  top: 0;
+  left: calc(25% - 110px);
+  background: #0057FC;
+  padding: 6px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+  position: relative;
+  color: var(--tp-white);
+}
+.tp-skill-num::before {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 14px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 11px 11px 0;
+  border-color: transparent #0057FC transparent transparent;
+  transform: rotate(0deg);
+}
+
+label {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 17px;
+}
+
+.tp-skill-img img {
+  max-width: inherit;
+}
+
 .tp-header-transparent {
   position: absolute;
   top: 0;
@@ -6972,6 +7018,34 @@ img {
 
 .tp-about-feature-wrapper > :not(:last-child) {
   margin-bottom: 24px;
+}
+
+.tp-about-exp-bg {
+  position: absolute;
+  top: -34px;
+  right: 40px;
+  background-color: white;
+  padding: 94px 176px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.tp-about-exp {
+  position: absolute;
+  top: -46px;
+  right: 30px;
+  background-color: var(--tp-yellow);
+  padding: 30px 44px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.tp-about-exp-title {
+  font-size: 30px;
+}
+
+.tp-about-exp-num {
+  font-size: 100px;
 }
 
 .tp-hero {
@@ -9019,6 +9093,7 @@ img {
 .tpfact__title {
   font-size: 30px;
   color: var(--tp-white);
+  opacity: 0.4;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tpfact__title {

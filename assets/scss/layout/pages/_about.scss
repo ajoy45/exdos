@@ -265,3 +265,31 @@
         margin-bottom: 24px;
     }
 }
+
+.tp-about-exp-bg {
+    position: absolute;
+    top: -34px;
+    right: 40px;
+    background-color: white;
+    padding: 94px 176px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.tp-about-exp {
+    position: absolute;
+    top: -46px;
+    right: 30px;
+    background-color: var(--tp-yellow);
+    padding: 30px 44px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.tp-about-exp-title {
+    font-size: 30px;
+}
+
+.tp-about-exp-num {
+    font-size: 100px;
+}
