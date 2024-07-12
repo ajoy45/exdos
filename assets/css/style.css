@@ -8193,6 +8193,10 @@ img {
   text-transform: uppercase;
   color: var(--tp-white);
 }
+.tp-portfolio-3-title-black {
+  color: var(--tp-theme-sec-color);
+  font-size: 30px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-portfolio-3-title {
     font-size: 37px;

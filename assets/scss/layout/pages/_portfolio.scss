@@ -223,6 +223,11 @@
             text-transform: uppercase;
             color: var(--tp-white);
 
+            &-black {
+                color: var(--tp-theme-sec-color);
+                font-size: 30px;
+            }
+
             @media #{$xl} {
                 font-size: 37px;
             }
