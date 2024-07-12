@@ -1,0 +1,77 @@
+@use"../utils" as *;
+
+.tp-services-widget {
+    padding: 40px;
+    border-radius: 10px;
+
+    & ul {
+        & li {
+            border: 1px solid #57595c;
+            border-radius: 5px;
+            padding: 16px 30px;
+            margin-bottom: 15px;
+            background-color: var(--tp-white);
+            position: relative;
+            transition: .4s;
+
+            & a {
+                color: var(--tp-theme-body);
+            }
+
+            & i {
+                transform: rotate(-30deg) translateY(5px);
+                position: absolute;
+                right: 19px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                border: 1px solid var(--tp-theme-color);
+                border-radius: 5px;
+                padding: 16px 30px;
+                margin-bottom: 15px;
+                background-color: var(--tp-theme-color);
+
+                & a,
+                & i {
+                    color: var(--tp-white);
+                }
+
+            }
+        }
+    }
+
+    &-title {
+        & span {
+            width: 10px;
+            height: 10px;
+            background: var(--tp-theme-color);
+            display: inline-block;
+            border-radius: 50%;
+            transform: translateY(-3px);
+            margin-right: 8px;
+        }
+    }
+
+    &-banner {
+        & img {
+            width: 100%;
+        }
+
+        &-text {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            right: 40px;
+            text-align: center;
+
+            &-title {
+                color: var(--tp-white);
+                font-size: 30px;
+            }
+        }
+    }
+}

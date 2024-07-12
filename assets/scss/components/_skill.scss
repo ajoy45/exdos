@@ -1,53 +1,55 @@
 @use "../utils" as *;
 
-.tp-skill-outer {
-    border: 1px solid var(--tp-theme-body);
-    border-radius: 5px;
-    padding: 4px;
+.tp-skill {
+    &-outer {
+        border: 1px solid var(--tp-theme-body);
+        border-radius: 5px;
+        padding: 4px;
 
-
-}
-
-.progress {
-    background: transparent;
-    height: 12px;
-}
-
-.tp-skill-num {
-    position: absolute;
-    top: 0;
-    left: calc(25% - 110px);
-    background: #0057FC;
-    padding: 6px 8px;
-    font-size: 11px;
-    font-weight: 700;
-    border-radius: 5px;
-    position: relative;
-    color: var(--tp-white);
-
-    &::before {
-        content: "";
-        position: absolute;
-        bottom: -9px;
-        left: 14px;
-        width: 0px;
-        height: 0px;
-        border-style: solid;
-        border-width: 0 11px 11px 0;
-        border-color: transparent #0057FC transparent transparent;
-        transform: rotate(0deg);
-
+        & .progress {
+            background: transparent;
+            height: 12px;
+        }
     }
-}
 
-label {
-    font-weight: 500;
-    font-size: 15px;
-    margin-bottom: 17px;
-}
+    &-num {
+        position: absolute;
+        top: 0;
+        left: calc(25% - 110px);
+        background: #0057FC;
+        padding: 6px 8px;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 5px;
+        position: relative;
+        color: var(--tp-white);
 
-.tp-skill-img {
-    & img {
-        max-width: inherit;
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -9px;
+            left: 14px;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 0 11px 11px 0;
+            border-color: transparent #0057FC transparent transparent;
+            transform: rotate(0deg);
+
+        }
+    }
+
+    &-img {
+        & img {
+            max-width: inherit;
+        }
+    }
+
+    &-bar {
+        & label {
+            font-weight: 500;
+            font-size: 15px;
+            margin-bottom: 17px;
+        }
     }
 }

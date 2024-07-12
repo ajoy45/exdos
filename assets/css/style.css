@@ -428,7 +428,10 @@ img {
   border-radius: 20px;
 }
 .br-15 img {
-  border-radius: 20px;
+  border-radius: 15px;
+}
+.br-10 img {
+  border-radius: 10px;
 }
 .br-5 img {
   border-radius: 20px;
@@ -5957,12 +5960,10 @@ img {
   border-radius: 5px;
   padding: 4px;
 }
-
-.progress {
+.tp-skill-outer .progress {
   background: transparent;
   height: 12px;
 }
-
 .tp-skill-num {
   position: absolute;
   top: 0;
@@ -5987,15 +5988,71 @@ img {
   border-color: transparent #0057FC transparent transparent;
   transform: rotate(0deg);
 }
-
-label {
+.tp-skill-img img {
+  max-width: inherit;
+}
+.tp-skill-bar label {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 17px;
 }
 
-.tp-skill-img img {
-  max-width: inherit;
+.tp-services-widget {
+  padding: 40px;
+  border-radius: 10px;
+}
+.tp-services-widget ul li {
+  border: 1px solid #57595c;
+  border-radius: 5px;
+  padding: 16px 30px;
+  margin-bottom: 15px;
+  background-color: var(--tp-white);
+  position: relative;
+  transition: 0.4s;
+}
+.tp-services-widget ul li a {
+  color: var(--tp-theme-body);
+}
+.tp-services-widget ul li i {
+  transform: rotate(-30deg) translateY(5px);
+  position: absolute;
+  right: 19px;
+}
+.tp-services-widget ul li:last-child {
+  margin-bottom: 0;
+}
+.tp-services-widget ul li:hover {
+  border: 1px solid var(--tp-theme-color);
+  border-radius: 5px;
+  padding: 16px 30px;
+  margin-bottom: 15px;
+  background-color: var(--tp-theme-color);
+}
+.tp-services-widget ul li:hover a, .tp-services-widget ul li:hover i {
+  color: var(--tp-white);
+}
+.tp-services-widget-title span {
+  width: 10px;
+  height: 10px;
+  background: var(--tp-theme-color);
+  display: inline-block;
+  border-radius: 50%;
+  transform: translateY(-3px);
+  margin-right: 8px;
+}
+.tp-services-widget-banner img {
+  width: 100%;
+}
+.tp-services-widget-banner-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  text-align: center;
+}
+.tp-services-widget-banner-text-title {
+  color: var(--tp-white);
+  font-size: 30px;
 }
 
 .tp-header-transparent {
@@ -7916,6 +7973,26 @@ label {
 }
 .tp-service-thumb img {
   width: 100%;
+}
+.tp-service-details-items {
+  background-color: var(--tp-spw-color);
+  border-radius: 10px;
+  padding: 20px 0 20px 30px;
+}
+.tp-service-details-items span {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: var(--tp-theme-color);
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  line-height: 2;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.tp-service-details-title {
+  font-size: 30px;
 }
 
 .tp-service-tab-item .nav-link:last-child {

@@ -201,6 +201,31 @@
             width: 100%;
         }
     }
+
+    &-details {
+        &-items {
+            background-color: var(--tp-spw-color);
+            border-radius: 10px;
+            padding: 20px 0 20px 30px;
+
+            & span {
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+                background: var(--tp-theme-color);
+                font-size: 24px;
+                color: white;
+                text-align: center;
+                line-height: 2;
+                border-radius: 100%;
+                margin-right: 20px;
+            }
+        }
+
+        &-title {
+            font-size: 30px;
+        }
+    }
 }
 
 .tp-service-tab-item {
