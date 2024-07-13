@@ -319,6 +319,90 @@
         }
     }
 
+    &-arrow {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+
+
+        & a {
+            width: 135px;
+            height: 75px;
+            display: inline-block;
+            background-color: var(--tp-yellow);
+            line-height: 92px;
+            border-radius: 100%;
+            transform: translateY(-50%) scale(.7);
+            transition: .4s;
+
+            & i {
+                font-size: 52px;
+            }
+        }
+    }
+
+    &-img {
+        &:before {
+            content: "";
+            position: absolute;
+            background: var(--tp-theme-color);
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            opacity: 0;
+            visibility: hidden;
+            transition: .4s;
+        }
+
+
+    }
+
+    &-item:hover {
+        & .tp-portfolio-img {
+            &:before {
+                opacity: .7;
+                visibility: visible;
+            }
+        }
+
+        & .tp-portfolio-arrow {
+            opacity: 1;
+            visibility: visible;
+
+            & a {
+                transform: translateY(-50%) scale(1);
+            }
+        }
+
+    }
+
+    &-text {
+        text-align: center;
+
+        &-title {
+            font-size: 30px;
+        }
+
+        & span {
+            position: relative;
+            display: inline-block;
+            padding-left: 134px;
+
+            &:before {
+                content: "";
+                position: absolute;
+                width: 52px;
+                height: 1px;
+                background-color: var(--tp-theme-body);
+                top: 13px;
+                left: 71px;
+            }
+        }
+    }
 }
 
 .tpportfolio {
