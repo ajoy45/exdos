@@ -55,6 +55,25 @@
         type: 'iframe'
 
     });
+    // filter
+    var $grid = $('.grid').isotope({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+            columnWidth: 1
+        }
+    })
+    // filter items on button click
+    $('.tp-portfolio-tab-list').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+    // for tab active class
+    $('.tp-portfolio-tab-list button').on('click', function (event) {
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+        event.preventDefault();
+    });
     // testimonial slider
     var swiper = new Swiper(".tp-testimonial-active", {
         slidesPerView: 1,

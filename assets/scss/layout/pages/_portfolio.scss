@@ -403,6 +403,34 @@
             }
         }
     }
+
+    &-tab-list {
+        & button {
+            font-size: 15px;
+            position: relative;
+            padding: 0 20px;
+            text-transform: uppercase;
+            color: var(--tp-theme-body);
+            font-weight: 500;
+
+            &.active {
+                color: var(--tp-theme-sec-color);
+            }
+
+            &:after {
+                content: "|";
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            &:last-child {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 .tpportfolio {

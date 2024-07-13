@@ -8343,6 +8343,26 @@ img {
   top: 13px;
   left: 71px;
 }
+.tp-portfolio-tab-list button {
+  font-size: 15px;
+  position: relative;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: var(--tp-theme-body);
+  font-weight: 500;
+}
+.tp-portfolio-tab-list button.active {
+  color: var(--tp-theme-sec-color);
+}
+.tp-portfolio-tab-list button:after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tp-portfolio-tab-list button:last-child:after {
+  display: none;
+}
 
 .tpportfolio {
   padding: 20px;
