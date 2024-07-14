@@ -501,3 +501,62 @@
         padding-bottom: 150px;
     }
 }
+
+.tp-portfolio {
+    &-details {
+        padding: 40px;
+        border-radius: 10px;
+
+        & ul {
+            & li {
+                padding: 21.4px 30px;
+                border: 1px solid var(--tp-theme-body);
+                margin-bottom: 15px;
+                border-radius: 5px;
+
+                & span {
+                    margin-bottom: 9px;
+                    display: inline-block;
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: var(--tp-theme-body);
+                }
+
+                &-title {
+                    font-size: 20px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+        }
+
+        &-info {
+            & ul {
+                & li {
+                    font-size: 17px;
+                    font-weight: 500;
+                    color: var(--tp-theme-body);
+                    margin-bottom: 16px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    &:before {
+                        content: "\f178";
+                        font-family: "Font Awesome 5 Pro";
+                        font-weight: 900;
+                        transform: rotate(-40deg);
+                        display: inline-block;
+                        margin-right: 9px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
