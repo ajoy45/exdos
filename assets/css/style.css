@@ -5431,6 +5431,10 @@ img {
   margin-left: 219px;
 }
 
+.pl-225 {
+  padding-left: 225px;
+}
+
 .tp-btn {
   background: var(--tp-theme-color);
   padding: 19px 45px;
