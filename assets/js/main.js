@@ -75,6 +75,16 @@
         event.preventDefault();
     });
     // testimonial slider
+    var swiper = new Swiper(".tp-blog-active", {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: ".tp-blogpost-slider-right",
+            prevEl: ".tp-blogpost-slider-left",
+        },
+
+    });
+    // testimonial slider
     var swiper = new Swiper(".tp-testimonial-active", {
         slidesPerView: 1,
         loop: true,

@@ -214,3 +214,244 @@
         padding-right: 12px;
     }
 }
+
+.tp-blogpost {
+    &-thumb {
+        & img {}
+    }
+
+    &-meta {
+        & span {
+            font-size: 17px;
+            color: var(--tp-theme-body);
+            position: relative;
+            padding-right: 20px;
+            padding-left: 20px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            font-weight: 500;
+
+            & i {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+
+            &:after {
+                content: "|";
+                position: absolute;
+                top: -3px;
+                right: 0;
+            }
+
+            &:last-child {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+
+
+    }
+
+    &-title {
+        font-size: 40px;
+    }
+
+    &-link {
+        & a {
+            color: var(--tp-theme-body);
+        }
+
+        & i {
+            transform: rotate(-40deg);
+        }
+    }
+
+    &-arrow {
+
+
+
+        & i {
+            width: 80px;
+            height: 80px;
+            background-color: var(--tp-yellow);
+            color: white;
+            font-size: 53px;
+            display: inline-block;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 101px;
+        }
+
+
+    }
+
+    &-slider-right {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 30px;
+        transform: translateY(-50%) rotate(180deg);
+        ;
+    }
+
+    &-slider-left {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+    }
+
+    &-video {
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+
+        & a {
+            background-color: var(--tp-orange);
+            width: 80px;
+            height: 80px;
+            display: inline-block;
+            border-radius: 100%;
+            line-height: 82px;
+
+            & i {
+                font-size: 23px;
+                color: white;
+            }
+        }
+    }
+
+    &-pagination {
+        & ul {
+            display: flex;
+
+            & li {
+                border: 1px solid #222;
+                padding: 16px 16px;
+                font-size: 17px;
+                color: var(--tp-theme-body);
+                margin-right: 10px;
+                border-radius: 20px;
+
+                & i {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.tp-blog-widget {
+    &-form {
+        background-color: white;
+
+        & input {
+            border: 1px solid #222;
+            border-radius: 5px;
+            padding: 29px 24px;
+            font-size: 17px;
+
+            @include tp-placeholder {
+                text-transform: capitalize;
+            }
+        }
+
+        & button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 24px;
+
+            & i {
+                transform: rotate(-40deg);
+            }
+        }
+    }
+
+    &-sidebar {
+        &-search {
+            padding: 40px;
+            border-radius: 10px;
+
+        }
+
+        &-title {
+            & span {
+                width: 10px;
+                height: 10px;
+                background: var(--tp-theme-color);
+                display: inline-block;
+                border-radius: 100%;
+                transform: translateY(-3px);
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+.tp-blog {
+    &-post {
+        &-sidebar {
+            padding: 40px;
+            border-radius: 10px;
+
+            &-item {
+                border-bottom: 1px solid var(--tp-theme-body);
+
+                &:last-child {
+                    border: 0;
+                }
+            }
+        }
+
+        &-thumb {
+            & img {}
+        }
+
+        &-meta {
+            & span {
+                color: var(--tp-theme-body);
+
+                & i {
+                    font-size: 20px;
+                    margin-right: 8px;
+                }
+            }
+        }
+
+        &-title {
+            font-size: 20px;
+        }
+    }
+
+    &-sidebar {
+        &-tag {
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        &-tagcloud {
+            & a {
+                border: 1px solid var(--tp-theme-body);
+                padding: 16px;
+                margin-bottom: 20px;
+                display: inline-block;
+                border-radius: 5px;
+                margin-right: 7px;
+                text-transform: uppercase;
+                font-size: 15px;
+            }
+        }
+    }
+}
