@@ -525,10 +525,6 @@ img {
   }
 }
 
-.tp-cap {
-  text-transform: capitalize;
-}
-
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -5839,6 +5835,9 @@ img {
     font-size: 29px;
   }
 }
+.tp-section-title-30 {
+  font-size: 30px;
+}
 
 .tp-offcanvas {
   width: 500px;
@@ -6841,6 +6840,83 @@ img {
   .brand-section-title h2 {
     font-size: 18px;
   }
+}
+
+.tp-blog-details-quote {
+  border: 1px solid var(--tp-theme-body);
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 36px;
+}
+.tp-blog-details-quote blockquote {
+  text-align: center;
+}
+.tp-blog-details-quote blockquote i {
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+.tp-blog-details-quote blockquote P {
+  font-size: 30px;
+  color: #000;
+  line-height: 1.3em;
+  margin-bottom: 35px;
+}
+.tp-blog-details-quote blockquote cite {
+  font-size: 20px;
+  color: var(--tp-theme-sec-color);
+  font-style: normal;
+}
+.tp-blog-details-tag-list span {
+  font-weight: 500;
+}
+.tp-blog-details-tag-list li {
+  display: inline-block;
+  padding: 12px 20px;
+  font-weight: 500;
+  color: var(--tp-theme-sec-color);
+  background: var(--tp-spw-color);
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-left: 11px;
+}
+.tp-blog-details-social i {
+  border: 1px solid var(--tp-theme-body);
+  padding: 14px;
+  border-radius: 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.tp-blog-details-social i:hover {
+  background-color: var(--tp-theme-color);
+  border-color: var(--tp-theme-color);
+  color: var(--tp-white);
+  cursor: pointer;
+}
+.tp-blog-details-comment-replay {
+  position: absolute;
+  color: var(--tp-theme-body);
+  top: 0;
+  right: 0;
+}
+.tp-blog-details-comment-replay:hover {
+  color: var(--tp-theme-color);
+  cursor: pointer;
+}
+.tp-blog-details-comment-replay:hover span {
+  color: var(--tp-theme-color);
+}
+.tp-blog-details-comment-thumb img {
+  max-width: inherit;
+}
+.tp-blog-details-comment h4 {
+  font-size: 20px;
+}
+.tp-blog-details-comment span {
+  font-size: 15px;
+  color: var(--tp-theme-body);
 }
 
 .tp-about-area {

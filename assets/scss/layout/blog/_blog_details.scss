@@ -1,1 +1,113 @@
 @use"../../utils" as *;
+
+.tp-blog-details {
+
+
+    &-quote {
+        border: 1px solid var(--tp-theme-body);
+        padding: 50px;
+        border-radius: 20px;
+        margin-top: 36px;
+
+
+        & blockquote {
+            text-align: center;
+
+            & i {
+                font-size: 70px;
+                margin-bottom: 25px;
+            }
+
+            & P {
+                font-size: 30px;
+                color: #000;
+                line-height: 1.3em;
+                margin-bottom: 35px;
+            }
+
+            & cite {
+                font-size: 20px;
+                color: var(--tp-theme-sec-color);
+                font-style: normal;
+
+            }
+        }
+    }
+
+    &-tag {
+        &-list {
+            & span {
+                font-weight: 500;
+            }
+
+            & li {
+                display: inline-block;
+                padding: 12px 20px;
+                font-weight: 500;
+                color: var(--tp-theme-sec-color);
+                background: var(--tp-spw-color);
+                border-radius: 5px;
+                text-transform: uppercase;
+                margin-left: 11px;
+            }
+
+        }
+    }
+
+    &-social {
+        & i {
+            border: 1px solid var(--tp-theme-body);
+            padding: 14px;
+            border-radius: 10px;
+            @include transition(.3s);
+
+            &:hover {
+
+                background-color: var(--tp-theme-color);
+                border-color: var(--tp-theme-color);
+                color: var(--tp-white);
+                cursor: pointer;
+            }
+
+
+        }
+
+
+    }
+
+    &-comment {
+        &-replay {
+            position: absolute;
+            color: var(--tp-theme-body);
+            top: 0;
+            right: 0;
+
+            &:hover {
+                color: var(--tp-theme-color);
+                cursor: pointer;
+
+                & span {
+                    color: var(--tp-theme-color);
+                }
+            }
+
+
+        }
+
+        &-thumb {
+            & img {
+                max-width: inherit;
+            }
+        }
+
+        & h4 {
+            font-size: 20px;
+        }
+
+        & span {
+            font-size: 15px;
+            color: var(--tp-theme-body);
+
+        }
+    }
+}
