@@ -6879,6 +6879,11 @@ img {
   text-transform: uppercase;
   margin-left: 11px;
 }
+.tp-blog-details-tag-wrapper {
+  border: 1px solid var(--tp-theme-body);
+  padding: 24px 40px;
+  border-radius: 20px;
+}
 .tp-blog-details-social i {
   border: 1px solid var(--tp-theme-body);
   padding: 14px;
