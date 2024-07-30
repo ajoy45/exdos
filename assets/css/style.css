@@ -9906,6 +9906,33 @@ img {
   margin-left: -40px;
 }
 
+.tp-contact-wrapper {
+  padding: 50px 49px 26px 49px;
+  border: 1px solid var(--tp-theme-body);
+  border-radius: 10px;
+}
+
+.tp-contact__icon span {
+  font-size: 83px;
+  color: #000;
+}
+
+.tp-contact__text span {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: var(--tp-theme-body);
+}
+
+.tp-contact__text p a {
+  font-size: 30px;
+  font-family: var(--tp-fonts-heading);
+  line-height: 1.33em;
+  color: var(--tp-theme-sec-color);
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-faq-2-left {
     text-align: center;
