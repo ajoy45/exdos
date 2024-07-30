@@ -94,3 +94,10 @@
         }
     }
 }
+
+.tp-map {
+    & iframe {
+        height: 700px;
+        width: 100%;
+    }
+}

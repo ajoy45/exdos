@@ -9933,6 +9933,11 @@ img {
   color: var(--tp-theme-sec-color);
 }
 
+.tp-map iframe {
+  height: 700px;
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-faq-2-left {
     text-align: center;
