@@ -336,14 +336,11 @@
                     font-size: 16px;
 
                     color: var(--tp-theme-sec-color);
-                    ;
                 }
 
                 & label {
-
                     font-weight: 500;
                     font-size: 16px;
-
                     color: var(--tp-theme-body);
                     width: 180px;
 
@@ -351,6 +348,18 @@
             }
         }
 
+        &-experience {
+            & li {
+                list-style-type: disc;
+                list-style-position: inside;
+                margin-bottom: 16px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+            }
+        }
     }
 
 }
