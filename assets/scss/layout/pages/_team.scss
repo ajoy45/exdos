@@ -241,3 +241,116 @@
 .border-none {
     border: none;
 }
+
+.tp-team-details-thumb img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.tp-team-details {
+    &-contact {
+
+        &-media {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 8px 10px;
+
+            & span {
+                font-weight: 700;
+                font-size: 12px;
+                ;
+                text-transform: uppercase;
+                color: #2f3233;
+                position: relative;
+
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 4px;
+                    width: 2px;
+                    height: 83%;
+                    background-color: #222;
+
+
+
+                }
+
+                &:first-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                & i {
+
+                    font-size: 15px;
+                    color: var(--tp-theme-color);
+                    padding-left: 14px;
+
+                }
+            }
+        }
+
+        &-social {
+            & i {
+                border: 1px solid var(--tp-theme-body);
+                padding: 14px;
+                border-radius: 10px;
+                @include transition(.3s);
+
+                &:hover {
+
+                    background-color: var(--tp-theme-color);
+                    border-color: var(--tp-theme-color);
+                    color: var(--tp-white);
+                    cursor: pointer;
+                }
+
+
+            }
+
+
+        }
+    }
+
+    &-content {
+        &-title {
+            font-weight: 700;
+            font-size: 34px;
+            color: var(--tp-theme-sec-color);
+
+            &-sm {
+                font-weight: 700;
+                font-size: 24px;
+                color: var(--tp-theme-sec-color);
+                margin-top: 40px;
+            }
+        }
+
+        &-list {
+            & li {
+
+                & span {
+                    font-size: 16px;
+
+                    color: var(--tp-theme-sec-color);
+                    ;
+                }
+
+                & label {
+
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    color: var(--tp-theme-body);
+                    width: 180px;
+
+                }
+            }
+        }
+
+    }
+
+}
