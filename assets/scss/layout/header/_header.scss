@@ -444,7 +444,16 @@
     padding: 32px;
     visibility: hidden;
     opacity: 0;
-    @include transition(.3s)
+    @include transition(.3s);
+
+    @media #{$lg,$md,$xs} {
+        visibility: visible;
+        opacity: 1;
+        width: auto;
+        position: static;
+        @include transition(inherit);
+        display: none;
+    }
 }
 
 

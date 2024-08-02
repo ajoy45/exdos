@@ -6431,6 +6431,20 @@ img {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-mega-menu {
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+    position: static;
+    transition: inherit;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -ms-transition: inherit;
+    -o-transition: inherit;
+    display: none;
+  }
+}
 
 .tp-home-thumb {
   box-shadow: -1px 11px 5px -8px rgb(135, 128, 135);
