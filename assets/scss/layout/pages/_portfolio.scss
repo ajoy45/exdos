@@ -358,6 +358,12 @@
             transition: .4s;
         }
 
+        @media #{$md,$sm,$xs} {
+            & img {
+                width: 100%;
+            }
+        }
+
 
     }
 

@@ -8159,9 +8159,15 @@ img {
   line-height: 2;
   border-radius: 100%;
   margin-right: 20px;
+  flex: 0 0 auto;
 }
 .tp-service-details-title {
   font-size: 30px;
+}
+@media (max-width: 767px) {
+  .tp-service-details-title {
+    font-size: 26px;
+  }
 }
 
 .tp-service-tab-item .nav-link:last-child {
@@ -8480,6 +8486,11 @@ img {
   opacity: 0;
   visibility: hidden;
   transition: 0.4s;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
+  .tp-portfolio-img img {
+    width: 100%;
+  }
 }
 .tp-portfolio-item:hover .tp-portfolio-img:before {
   opacity: 0.7;
