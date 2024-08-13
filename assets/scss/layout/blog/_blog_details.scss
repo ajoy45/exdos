@@ -9,6 +9,9 @@
         border-radius: 20px;
         margin-top: 36px;
 
+        @media #{$sm,$xs} {
+            padding: 6px;
+        }
 
         & blockquote {
             text-align: center;
@@ -23,6 +26,10 @@
                 color: #000;
                 line-height: 1.3em;
                 margin-bottom: 35px;
+
+                @media #{$sm,$xs} {
+                    font-size: 25px;
+                }
             }
 
             & cite {
@@ -112,11 +119,20 @@
         &-thumb {
             & img {
                 max-width: inherit;
+
+                @media #{$xs} {
+                    max-width: 100%;
+                }
             }
         }
 
         & h4 {
             font-size: 20px;
+
+            @media #{$xs} {
+                font-size: 14px;
+
+            }
         }
 
         & span {
@@ -124,5 +140,11 @@
             color: var(--tp-theme-body);
 
         }
+    }
+}
+
+.tp-blog-details-comments {
+    @media #{$xs} {
+        padding-left: 0;
     }
 }
