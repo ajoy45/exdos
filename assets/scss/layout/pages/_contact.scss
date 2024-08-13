@@ -86,18 +86,64 @@
 
 .tp-contact__text {
     & p {
+
         & a {
             font-size: 30px;
             font-family: var(--tp-fonts-heading);
             line-height: 1.33em;
             color: var(--tp-theme-sec-color);
+
+            @media #{$xl} {
+                font-size: 23px;
+            }
+
+            @media #{$md,$sm} {
+                font-size: 21px;
+            }
+
+
+
+            @media #{$xs} {
+                font-size: 19px;
+            }
+
+            @media #{$sm} {
+                font-size: 30px;
+            }
         }
+
+
     }
 }
+
 
 .tp-map {
     & iframe {
         height: 700px;
         width: 100%;
+
+        @media #{$md} {
+            height: 600px;
+        }
+
+        @media #{$sm} {
+            height: 500px;
+        }
+
+        @media #{$xs} {
+            height: 400px;
+        }
     }
+}
+
+.tp-contact-description {
+
+    @media #{$sm,$xs} {
+
+        & br {
+            display: none;
+        }
+
+    }
+
 }
