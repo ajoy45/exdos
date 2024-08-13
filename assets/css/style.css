@@ -6926,10 +6926,21 @@ img {
   text-transform: uppercase;
   margin-left: 11px;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
+  .tp-blog-details-tag-list li {
+    margin-bottom: 10px;
+  }
+}
 .tp-blog-details-tag-wrapper {
   border: 1px solid var(--tp-theme-body);
   padding: 24px 40px;
   border-radius: 20px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
+  .tp-blog-details-tag-wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
 .tp-blog-details-social i {
   border: 1px solid var(--tp-theme-body);

@@ -49,6 +49,10 @@
                 border-radius: 5px;
                 text-transform: uppercase;
                 margin-left: 11px;
+
+                @media #{$sm,$xs} {
+                    margin-bottom: 10px;
+                }
             }
 
         }
@@ -57,6 +61,11 @@
             border: 1px solid var(--tp-theme-body);
             padding: 24px 40px;
             border-radius: 20px;
+
+            @media #{$sm,$xs} {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
         }
     }
 
