@@ -411,6 +411,10 @@
     }
 
     &-tab-list {
+        @media #{$xs} {
+            margin-bottom: 100px;
+        }
+
         & button {
             font-size: 15px;
             position: relative;

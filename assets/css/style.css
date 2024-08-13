@@ -8523,6 +8523,11 @@ img {
   top: 13px;
   left: 71px;
 }
+@media (max-width: 767px) {
+  .tp-portfolio-tab-list {
+    margin-bottom: 100px;
+  }
+}
 .tp-portfolio-tab-list button {
   font-size: 15px;
   position: relative;
