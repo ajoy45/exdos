@@ -316,6 +316,10 @@
     }
 
     &-content {
+        @media #{$xs,$sm} {
+            padding-left: 0;
+        }
+
         &-title {
             font-weight: 700;
             font-size: 34px;

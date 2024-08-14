@@ -6101,7 +6101,6 @@ img {
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-header-area {
     padding-left: 80px;
-    padding-right: 80px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9488,6 +9487,11 @@ img {
   border-color: var(--tp-theme-color);
   color: var(--tp-white);
   cursor: pointer;
+}
+@media (max-width: 767px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .tp-team-details-content {
+    padding-left: 0;
+  }
 }
 .tp-team-details-content-title {
   font-weight: 700;
