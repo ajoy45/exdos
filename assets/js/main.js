@@ -30,6 +30,15 @@
         $(".tp-all-overlay").removeClass("tp-all-overlay-open");
     });
 
+    //  search
+    $(".tp-header-search").on("click", function () {
+        $(".tp-header-search-area").addClass("tp-header-search-area-open");
+        $(".tp-all-overlay").addClass("tp-all-overlay-open");
+    });
+    $(".tp-search-close,.tp-all-overlay").on("click", function () {
+        $(".tp-header-search-area").removeClass("tp-header-search-area-open");
+        $(".tp-all-overlay").removeClass("tp-all-overlay-open");
+    });
 
     // data background-img
     $("[data-bg-img]").each(function () {

@@ -452,6 +452,10 @@
         @include transition(inherit);
         display: none;
     }
+
+    @media #{$xl} {
+        width: 900px;
+    }
 }
 
 
