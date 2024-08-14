@@ -5799,6 +5799,16 @@ img {
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .tp-section-title-46 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .tp-section-title-46 {
+    font-size: 46px;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-section-title-37 {
     font-size: 37px;
@@ -5837,6 +5847,12 @@ img {
 }
 .tp-section-title-30 {
   font-size: 30px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
+  .tp-description br {
+    display: none;
+  }
 }
 
 .tp-offcanvas {
@@ -5993,6 +6009,11 @@ img {
 }
 .tp-skill-img img {
   max-width: inherit;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .tp-skill-img img {
+    max-width: 100%;
+  }
 }
 .tp-skill-bar label {
   font-weight: 500;

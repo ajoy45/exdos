@@ -127,6 +127,18 @@
             }
         }
 
+        &-46 {
+            @media #{$xs} {
+                font-size: 28px;
+            }
+
+            @media #{$sm} {
+                font-size: 46px;
+            }
+
+
+        }
+
         &-37 {
             @media #{$xl} {
                 font-size: 37px;
@@ -168,6 +180,14 @@
 
         &-30 {
             font-size: 30px;
+        }
+    }
+}
+
+.tp-description {
+    @media #{$sm,$xs} {
+        & br {
+            display: none;
         }
     }
 }

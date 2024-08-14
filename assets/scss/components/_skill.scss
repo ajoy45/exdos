@@ -42,6 +42,10 @@
     &-img {
         & img {
             max-width: inherit;
+
+            @media #{$xl,$lg,$sm} {
+                max-width: 100%;
+            }
         }
     }
 
