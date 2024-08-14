@@ -161,13 +161,13 @@
          ==============-->
         <section class="tp-breadcrumb-area pt-236 pb-132 p-relative" data-bg-color="#0A0E1A"
             data-bg-img="assets/img/breadcrumb/vector-bg.png">
-            <div class="tp-breadcrumb-shape">
+            <div class="tp-breadcrumb-shape p-relative z-index-1 d-none d-md-block">
                 <img class="tp-breadcrumb-shape-1 p-absolute" src="assets/img/breadcrumb/shape-1.png" alt="">
                 <img class="tp-breadcrumb-shape-2 p-absolute" src="assets/img/breadcrumb/shape-2.png" alt="">
                 <img class="tp-breadcrumb-shape-3 p-absolute" src="assets/img/breadcrumb/shape-3.png" alt="">
             </div>
             <div class="container">
-                <div class="tp-breadcrumb">
+                <div class="tp-breadcrumb  p-relative z-index-11">
                     <h2 class="tp-breadcrumb-title tp-white tp-upper">service details</h2>
                     <div class="tp-breadcrumb-list tp-white">
                         <span class="active"><a href="#">Home</a></span>
@@ -180,7 +180,7 @@
         <section class="tp-services-details pt-130 pb-130">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4">
                         <div class="tp-services-widget-wrapper">
                             <div class="tp-services-widget mb-30" data-bg-color="#fbf6ef">
                                 <h4 class="tp-services-widget-title mb-23"> <span></span> Our services</h4>
@@ -201,7 +201,7 @@
                             <div class="tp-services-widget" data-bg-color="#fbf6ef">
                                 <h4 class="tp-services-widget-title mb-23"> <span></span> Get free estimate
                                 </h4>
-                                <div class="tp-services-widget-banner br-10 p-relative">
+                                <div class="tp-services-widget-banner br-10 p-relative d-none">
                                     <img src="assets/img/service/service-1.jpg" alt="">
                                     <div class="tp-services-widget-banner-text">
                                         <h2 class="tp-services-widget-banner-text-title mb-30">Have any query
@@ -215,10 +215,13 @@
                                         </a>
                                     </div>
                                 </div>
+                                <div class="services-widget-banner-thumb">
+                                    <img src="assets/img/portfolio/portfolio-banner.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-8">
+                    <div class="col-xl-8 col-lg-8">
                         <div class="tp-service-details">
                             <div class="tp-section-title-wrapper mb-42">
                                 <h2 class="tp-section-title mb-18">Creative solution</h2>
@@ -248,25 +251,25 @@
                             </div>
                             <div class="tp-service-details-list">
                                 <div class="row">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="tp-service-details-items d-flex align-items-center mb-30">
                                             <span>01</span>
                                             <h4 class="tp-service-details-title">Visual interface design</h4>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="tp-service-details-items d-flex align-items-center mb-30">
                                             <span>02</span>
                                             <h4 class="tp-service-details-title">Research & testing</h4>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="tp-service-details-items d-flex align-items-center mb-30">
                                             <span>03</span>
                                             <h4 class="tp-service-details-title">Wireframe & prototype</h4>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="tp-service-details-items d-flex align-items-center mb-30">
                                             <span>04</span>
                                             <h4 class="tp-service-details-title">Interactive presentation</h4>
@@ -284,7 +287,7 @@
 
                             </div>
                             <div class="row align-items-center mb-75">
-                                <div class="col-xl-6 col-lg-7">
+                                <div class="col-xl-6 col-lg-7 col-md-7">
                                     <div class="tp-portfolio-3">
                                         <div class="tp-portfolio-3-img">
                                             <a class="popup-image"
@@ -293,7 +296,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-5">
+                                <div class="col-xl-6 col-lg-5 col-md-5">
                                     <div class="tp-portfolio-3">
                                         <h4><span></span> 01</h4>
                                         <div class="tp-portfolio-3-box   mt-35 pl-70">
@@ -308,8 +311,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row align-items-center flex-column-reverse flex-lg-row mb-60">
-                                <div class="col-xl-6 col-lg-6">
+                            <div class="row align-items-center mb-60">
+                                <div class="col-xl-6 col-lg-6 col-md-6 order-2 order-md-1">
                                     <div class="tp-portfolio-3">
                                         <h4><span></span> 02</h4>
                                         <div class="tp-portfolio-3-box   mt-35 pl-70">
@@ -323,7 +326,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6 order-1 order-md-2">
                                     <div class="tp-portfolio-3">
                                         <div class="tp-portfolio-3-img">
                                             <a class="popup-image"
@@ -332,10 +335,9 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="row align-items-center">
-                                <div class="col-xl-6 col-lg-7">
+                                <div class="col-xl-6 col-lg-7 col-md-7">
                                     <div class="tp-portfolio-3">
                                         <div class="tp-portfolio-3-img">
                                             <a class="popup-image"
@@ -344,7 +346,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-5">
+                                <div class="col-xl-6 col-lg-5 col-md-5">
                                     <div class="tp-portfolio-3">
                                         <h4><span></span> 03</h4>
                                         <div class="tp-portfolio-3-box   mt-35 pl-70">
