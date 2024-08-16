@@ -6251,6 +6251,7 @@ img {
   margin-right: 0;
   display: block;
   position: relative;
+  text-align: left;
 }
 .tp-main-menu ul > li .sub-menu li a {
   color: black;
@@ -6450,11 +6451,11 @@ img {
   font-family: var(--tp-fonts-heading);
 }
 .tp-header-btn a i {
-  transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  -o-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  -webkit-transform: rotate(-30deg);
+  transform: rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -webkit-transform: rotate(13deg);
   margin-left: 8px;
 }
 .tp-header-4-border {
@@ -6522,6 +6523,31 @@ img {
   text-align: center;
   font-size: 18px;
   padding: 13px 0;
+}
+
+@keyframes tp-fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  animation: 0.7s ease-in-out 0s normal none 1 running tp-fadeInDown;
+}
+.header-sticky.tp-header-1 {
+  background-color: var(--tp-theme-sec-color);
+}
+.header-sticky.tp-header-white {
+  background-color: var(--tp-white);
+  box-shadow: -1px 11px 5px -8px rgb(135, 128, 135);
 }
 
 .tp-offcanvas-menu ul > :last-child {

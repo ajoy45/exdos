@@ -1,5 +1,21 @@
 (function ($) {
     "use strict";
+
+    // sticky header
+    let windowOn = $(window);
+    windowOn.on("scroll", function () {
+
+        let scroll = windowOn.scrollTop();
+        if (scroll < 100) {
+            $("#tp-header-sticky").removeClass("header-sticky");
+        }
+        else {
+            $("#tp-header-sticky").addClass("header-sticky");
+        }
+
+    })
+
+
     // mobile menu 
     var tpMobileMenu = $('.tp-mobile-menu-active > ul').clone();
     var tpSideMenu = $('.tp-offcanvas-menu nav');

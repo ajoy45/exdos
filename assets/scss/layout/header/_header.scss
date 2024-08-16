@@ -132,6 +132,7 @@
                     margin-right: 0;
                     display: block;
                     position: relative;
+                    text-align: left;
 
                     & a {
                         color: black;
@@ -391,7 +392,7 @@
             font-family: var(--tp-fonts-heading);
 
             & i {
-                @include transform(rotate(-30deg));
+                @include transform(rotate(13deg));
 
                 margin-left: 8px;
             }
@@ -467,4 +468,39 @@
     text-align: center;
     font-size: 18px;
     padding: 13px 0;
+}
+
+// header sticky animation
+@keyframes tp-fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.header-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    -webkit-animation: .7s ease-in-out 0s normal none 1 running tp-fadeInDown;
+    animation: .7s ease-in-out 0s normal none 1 running tp-fadeInDown;
+
+    &.tp-header-1 {
+        background-color: var(--tp-theme-sec-color);
+    }
+
+    &.tp-header-white {
+        background-color: var(--tp-white);
+        box-shadow: -1px 11px 5px -8px rgba(135, 128, 135, 1);
+    }
+
 }
