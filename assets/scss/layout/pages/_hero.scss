@@ -67,7 +67,7 @@
             }
 
             & img {
-                max-width: inherit;
+                width: 100%;
 
                 @media #{$md,$sm,$xs} {
                     width: 100%;

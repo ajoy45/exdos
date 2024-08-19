@@ -32,6 +32,10 @@
     }
 
     &-2 {
+        @media #{$xxlm} {
+            padding-right: 0;
+        }
+
         @media #{$xl,$lg,$md,$sm,$xs} {
             padding-right: 35px;
         }
@@ -230,6 +234,10 @@
     }
 
     &-size {
+        @media #{$xxlm} {
+            padding-left: 6px;
+        }
+
         & ul {
             & li {
                 @media #{$xxlm} {
