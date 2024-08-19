@@ -1,6 +1,8 @@
 (function ($) {
     "use strict";
-
+    $(window).on("load", function () {
+        wowAnimation();
+    });
     // sticky header
     let windowOn = $(window);
     windowOn.on("scroll", function () {
@@ -275,17 +277,20 @@
 
     });
 
-    // wow activation
-    // wow = new WOW(
-    //     {
-    //         boxClass: 'wow',
-    //         animateClass: 'animated',
-    //         offset: 0,
-    //         mobile: true,
-    //         live: true
-    //     }
-    // )
-    // wow.init();
-    new WOW().init();
+    //  wow activation
+    function wowAnimation() {
+        var wow = new WOW(
+            {
+                boxClass: 'wow',
+                animateClass: 'animated',
+                offset: 0,
+                mobile: true,
+                live: true
+            }
+        )
+        wow.init();
+    }
+
+
 
 })(jQuery)
