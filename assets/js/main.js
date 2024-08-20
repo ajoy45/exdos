@@ -83,6 +83,15 @@
 
     });
     // filter
+    $('#grid').imagesLoaded(function () {
+        var $grid = $('.grid').isotope({
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            masonry: {
+                columnWidth: 1
+            }
+        })
+    });
     var $grid = $('.grid').isotope({
         itemSelector: '.grid-item',
         percentPosition: true,
