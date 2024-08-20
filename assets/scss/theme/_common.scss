@@ -175,3 +175,21 @@ img {
 		margin: 0;
 	}
 }
+
+.tp-solid-img-bg {
+	&.jarallax {
+		height: 800px;
+
+		@media #{$lg} {
+			height: 600px;
+		}
+
+		@media #{$md} {
+			height: 400px;
+		}
+
+		@media #{$xs} {
+			height: 400px;
+		}
+	}
+}

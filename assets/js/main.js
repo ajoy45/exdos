@@ -1,9 +1,11 @@
 (function ($) {
     "use strict";
+
     $(window).on("load", function () {
         wowAnimation();
     });
-    // sticky header
+
+    //  sticky header
     let windowOn = $(window);
     windowOn.on("scroll", function () {
 
@@ -286,20 +288,22 @@
 
     });
 
-    //  wow activation
+    //   wow activation
     function wowAnimation() {
-        var wow = new WOW(
-            {
-                boxClass: 'wow',
-                animateClass: 'animated',
-                offset: 0,
-                mobile: true,
-                live: true
-            }
-        )
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: false,
+            live: true,
+        })
         wow.init();
     }
 
+    // parallax
+    $('.jarallax').jarallax({
+        speed: 0.2,
+    });
 
 
 })(jQuery)

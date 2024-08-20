@@ -525,6 +525,25 @@ img {
   }
 }
 
+.tp-solid-img-bg.jarallax {
+  height: 800px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-solid-img-bg.jarallax {
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-solid-img-bg.jarallax {
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .tp-solid-img-bg.jarallax {
+    height: 400px;
+  }
+}
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -5847,6 +5866,9 @@ img {
 }
 .tp-section-title-30 {
   font-size: 30px;
+}
+.tp-section-title-3 {
+  color: var(--tp-white);
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
