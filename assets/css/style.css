@@ -6343,6 +6343,22 @@ img {
     transform: scale(1);
   }
 }
+.tp-anim-fadeInLeft {
+  animation-name: fadeInLeft;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .tp-header-transparent {
   position: absolute;
   top: 0;
