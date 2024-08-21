@@ -6391,6 +6391,10 @@ img {
   z-index: 99;
 }
 
+.tp-logo {
+  width: 166px;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-header-area {
     padding-left: 35px;
@@ -6878,6 +6882,9 @@ img {
   -o-transition: 0.3s;
 }
 
+.tp-footer-logo {
+  width: 166px;
+}
 .tp-footer-shape-1 {
   top: 300px;
   left: 320px;

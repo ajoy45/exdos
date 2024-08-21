@@ -1,6 +1,9 @@
 @use"../../utils" as *;
 
 .tp-footer {
+    &-logo {
+        width: 166px;
+    }
 
     &-shape-1 {
         top: 300px;
