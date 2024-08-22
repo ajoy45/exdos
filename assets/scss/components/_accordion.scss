@@ -1,5 +1,8 @@
 @use"../utils" as *;
 
+/*----------------
+    Accordion
+------------------ */
 .tp-accordion {
     &-item {
         border: 1px solid var(--tp-theme-body);

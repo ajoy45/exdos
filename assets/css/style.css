@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Example HTML Template
-    Author: Theme_Pure
+    Template Name:Exdoes Creative Agency HTML Template
+    Author: Biswas_Theme
     Support: help.themepure.net
-    Description: Example HTML Template
+    Description: A Creative Agency HTML Template is a responsive and customizable design for showcasing portfolios, services, and teams. It features modern layouts, smooth animations,offering a complete solution for creative professionals.
     Version: 1.0.0
 
 -----------------------------------------------------------------------------------
@@ -14,30 +14,24 @@
     01. THEME CSS
 	-----------------
 		1.1 Theme Default
-		1.2 Common Classes
-		1.3 Default Spacing
+		1.2 Common 
+		1.3 Spacing
 
 	-----------------
     02. COMPONENTS css
 	-----------------
-		2.1 Back to top
-		2.2 Theme Settings
+		2.1 Accordion
+		2.2 Breadcrumb
 		2.3 Buttons
-		2.4 Animations
+		2.4 Custom Animation
 		2.5 Preloader
-		2.6 Background 
-		2.7 Carousel
-		2.8 Nice Select
-		2.9 Pagination
-		2.10 Offcanvas
-		2.11 Breadcrumb
-		2.12 Accordion
-		2.13 Tab
-		2.14 Modal
-		2.15 Section Title
-		2.16 Search
-		2.17 Hotspot
-		2.18 Ragne Slider
+		2.6 Modal 
+		2.7 Offcanvas
+		2.8 Search Bar
+		2.9 Section Title
+		2.10 Skill
+		2.11 Widget
+
 	-----------------
     03. HEADER CSS
 	-----------------
@@ -371,6 +365,9 @@ textarea {
   opacity: 1;
 }
 
+/*----------------
+    Common 
+------------------ */
 .w-img img {
   width: 100%;
 }
@@ -545,7 +542,7 @@ img {
 }
 
 /*--
-    - Margin & Padding
+    Spacing
 -----------------------------------------*/
 /*-- Margin Top --*/
 .mt-1 {
@@ -5450,6 +5447,9 @@ img {
   padding-left: 225px;
 }
 
+/*----------------
+     Buttons
+------------------ */
 .tp-btn {
   background: var(--tp-theme-color);
   padding: 19px 45px;
@@ -5628,6 +5628,9 @@ img {
   color: var(--tp-common-black);
 }
 
+/*----------------
+    Accordion
+------------------ */
 .tp-accordion-item {
   border: 1px solid var(--tp-theme-body);
   border-radius: 10px;
@@ -5714,6 +5717,12 @@ img {
   }
 }
 
+/*----------------
+ Preloader
+------------------ */
+/*----------------
+ Section Title
+------------------ */
 .tp-section-subtitle {
   font-family: var(--tp-fonts-body);
   font-weight: 500;
@@ -5877,6 +5886,9 @@ img {
   }
 }
 
+/*----------------
+ Offcanvas
+------------------ */
 .tp-offcanvas {
   width: 500px;
   height: 100%;
@@ -5962,6 +5974,9 @@ img {
   visibility: visible;
 }
 
+/*----------------
+     Breadcrumb
+------------------ */
 .tp-breadcrumb {
   text-align: center;
 }
@@ -5996,6 +6011,9 @@ img {
   right: 31%;
 }
 
+/*----------------
+Skill
+------------------ */
 .tp-skill-outer {
   border: 1px solid var(--tp-theme-body);
   border-radius: 5px;
@@ -6043,6 +6061,9 @@ img {
   margin-bottom: 17px;
 }
 
+/*----------------
+Widget
+------------------ */
 .tp-services-widget {
   padding: 40px;
   border-radius: 10px;
@@ -6101,6 +6122,9 @@ img {
   font-size: 30px;
 }
 
+/*----------------
+ Search Bar
+------------------ */
 .tp-header-search-area {
   position: fixed;
   top: -100%;
@@ -6144,6 +6168,9 @@ img {
   font-size: 40px;
 }
 
+/*----------------
+  Custom Animation
+------------------ */
 .tpFadeInUp {
   opacity: 0;
   animation: tpFadeInUp 2s ease-out forwards;

@@ -1,6 +1,8 @@
 @use '../utils' as *;
 
-
+/*----------------
+  Custom Animation
+------------------ */
 .tpFadeInUp {
   opacity: 0;
   animation: tpFadeInUp 2s ease-out forwards;
