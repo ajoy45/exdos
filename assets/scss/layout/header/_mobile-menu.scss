@@ -1,6 +1,8 @@
 @use"../../utils" as *;
 
-
+/*----------------
+    Mobile Menu
+------------------ */
 .tp-offcanvas-menu ul {
     &> :last-child {
         margin-bottom: 40px;

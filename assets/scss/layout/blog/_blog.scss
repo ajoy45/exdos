@@ -1,7 +1,9 @@
 @use"../../utils" as *;
 
+/*----------------
+  Blog
+------------------ */
 .tpblog {
-
     &__thumb {
         & img {
             border-radius: 20px;

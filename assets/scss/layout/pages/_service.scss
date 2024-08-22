@@ -1,5 +1,8 @@
 @use"../../utils" as*;
 
+/*----------------
+   Services css
+------------------ */
 .tpservice {
     @media #{$xl} {
         padding: 27px;

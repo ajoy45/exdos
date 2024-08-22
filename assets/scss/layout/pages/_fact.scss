@@ -1,5 +1,8 @@
 @use"../../utils" as *;
 
+/*----------------
+    Fact css 
+------------------ */
 .custom-row {
     @include flexbox();
     justify-content: space-between;

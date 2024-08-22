@@ -1,7 +1,10 @@
 @use"../../utils" as *;
 
-.tp-blog-details {
+/*----------------
+  Blog Details
+------------------ */
 
+.tp-blog-details {
 
     &-quote {
         border: 1px solid var(--tp-theme-body);

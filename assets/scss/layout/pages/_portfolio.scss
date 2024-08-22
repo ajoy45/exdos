@@ -1,5 +1,8 @@
 @use"../../utils" as *;
 
+/*----------------
+ Portfolio css
+------------------ */
 .tp-portfolio {
     &-area {
         @media #{$xs} {
