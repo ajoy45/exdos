@@ -84,9 +84,11 @@
         type: 'iframe'
 
     });
+
+
     // filter
-    $('#grid').imagesLoaded(function () {
-        var $grid = $('.grid').isotope({
+    var $grid = $('.grid').imagesLoaded(function () {
+        $('.grid').isotope({
             itemSelector: '.grid-item',
             percentPosition: true,
             masonry: {
@@ -94,13 +96,7 @@
             }
         })
     });
-    var $grid = $('.grid').isotope({
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        masonry: {
-            columnWidth: 1
-        }
-    })
+
     // filter items on button click
     $('.tp-portfolio-tab-list').on('click', 'button', function () {
         var filterValue = $(this).attr('data-filter');
