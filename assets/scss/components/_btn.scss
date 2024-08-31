@@ -127,6 +127,7 @@
             background-color: var(--tp-theme-color);
             opacity: 1;
             color: var(--tp-white);
+            border-color: var(--tp-theme-color);
         }
 
         @media #{$xs} {

@@ -196,26 +196,32 @@
     }
 
     &-arrow {
-
         & span {
             width: 30px;
             height: 65px;
             background: var(--tp-white);
             opacity: 0.2;
             display: inline-block;
-
         }
 
         & i {
             font-size: 52px;
             color: var(--tp-hero-small);
             margin-left: -25.5px;
+            @include transition(.3s);
+
+            &:hover {
+                color: var(--tp-yellow);
+            }
 
             @media #{$xxlm} {
                 margin-left: -39.5px;
 
             }
         }
+
+
+
     }
 
     &-box {
@@ -262,9 +268,12 @@
 
         & i {
             @include transform(rotate(-30deg));
-
             margin-left: 14px;
 
+        }
+
+        &:hover {
+            color: var(--tp-theme-color);
         }
     }
 

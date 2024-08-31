@@ -34,6 +34,10 @@
             @media #{$xs} {
                 font-size: 25px;
             }
+
+            &:hover {
+                color: var(--tp-theme-color);
+            }
         }
 
         & span {
@@ -73,6 +77,10 @@
         & i {
             font-size: 25px;
             margin-right: 19px;
+
+            &:hover {
+                color: var(--tp-theme-color);
+            }
         }
     }
 
@@ -150,6 +158,12 @@
                 text-align: center;
                 line-height: 3;
                 margin: 0 3px;
+                @include transition(.3s);
+
+                &:hover {
+                    background: var(--tp-theme-color);
+                    color: var(--tp-white);
+                }
 
             }
         }
@@ -171,6 +185,14 @@
 
                 @media #{$xl} {
                     margin: -52px 17px;
+                }
+            }
+        }
+
+        &__info {
+            &--title {
+                &:hover {
+                    color: var(--tp-theme-color);
                 }
             }
         }
@@ -222,11 +244,13 @@
 .tp-team-btn {
     @include flexbox();
 
-
     & i {
         font-size: 52px;
-    }
 
+        &:hover {
+            color: var(--tp-theme-color);
+        }
+    }
 
 }
 

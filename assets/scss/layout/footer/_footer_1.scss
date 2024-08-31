@@ -31,7 +31,7 @@
     }
 
     &-shape-4 {
-        bottom: 58px;
+        bottom: 111px;
         right: 222px;
         z-index: 1;
 
@@ -50,6 +50,10 @@
             color: var(--tp-white);
             opacity: .5;
             margin-right: 15px;
+
+            &:hover {
+                color: var(--tp-yellow);
+            }
         }
 
     }
@@ -83,6 +87,10 @@
                 & a {
                     font-size: 17px;
                     color: var(--tp-hero-small);
+
+                    &:hover {
+                        color: var(--tp-yellow);
+                    }
                 }
             }
         }
@@ -202,6 +210,9 @@
                         font-size: 15px;
                         color: var(--tp-hero-small);
 
+                        &:hover {
+                            color: var(--tp-yellow);
+                        }
                     }
                 }
             }

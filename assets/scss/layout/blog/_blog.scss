@@ -42,6 +42,10 @@
         font-size: 30px;
         line-height: 1.5;
 
+        &:hover {
+            color: var(--tp-theme-color);
+        }
+
         @media #{$lg} {
             font-size: 21px;
         }
@@ -66,12 +70,10 @@
 
     &__btn {
         @include flexbox();
-
         align-items: center;
 
         & i {
             @include transform(rotate(-45deg));
-
         }
 
         &-arrow {
@@ -91,6 +93,10 @@
             top: 174px;
             right: 448px;
             z-index: -1;
+        }
+
+        &:hover {
+            color: var(--tp-theme-color);
         }
     }
 

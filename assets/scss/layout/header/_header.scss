@@ -417,6 +417,23 @@
     &-4 {
         &-border {
             border: 1px solid #57595C;
+
+            & a {
+                & i {
+                    transform: rotate(-30deg);
+                }
+            }
+
+            @include transition(.3s);
+
+            &:hover {
+                background: var(--tp-theme-color);
+                border-color: var(--tp-theme-color);
+
+                & a {
+                    color: #ffffff;
+                }
+            }
         }
     }
 }
@@ -483,6 +500,11 @@
     text-align: center;
     font-size: 18px;
     padding: 13px 0;
+    @include transition(.3s);
+
+    &:hover {
+        color: var(--tp-theme-color);
+    }
 }
 
 // header sticky animation
