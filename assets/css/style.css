@@ -7489,6 +7489,9 @@ img {
 .tpblog__btn-arrow span i {
   font-size: 45px;
 }
+.tpblog__btn-arrow span i:hover {
+  color: var(--tp-orange-3);
+}
 .tpblog__btn-circle {
   width: 38px;
   height: 38px;
@@ -7639,6 +7642,9 @@ img {
 .tp-blogpost-title {
   font-size: 40px;
 }
+.tp-blogpost-title:hover {
+  color: var(--tp-theme-color);
+}
 .tp-blogpost-link a {
   color: var(--tp-theme-body);
 }
@@ -7767,6 +7773,9 @@ img {
 .tp-blog-post-title {
   font-size: 20px;
 }
+.tp-blog-post-title:hover {
+  color: var(--tp-theme-color);
+}
 .tp-blog-sidebar-tag {
   padding: 40px;
   border-radius: 15px;
@@ -7780,6 +7789,16 @@ img {
   margin-right: 7px;
   text-transform: uppercase;
   font-size: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.tp-blog-sidebar-tagcloud a:hover {
+  background: var(--tp-theme-color);
+  color: var(--tp-white);
+  border-color: var(--tp-theme-color);
 }
 
 /*----------------
@@ -9328,6 +9347,9 @@ img {
 .tp-portfolio-text-title {
   font-size: 30px;
 }
+.tp-portfolio-text-title:hover {
+  color: var(--tp-theme-color);
+}
 .tp-portfolio-text span {
   position: relative;
   display: inline-block;
@@ -10647,6 +10669,9 @@ img {
   font-family: var(--tp-fonts-heading);
   line-height: 1.33em;
   color: var(--tp-theme-sec-color);
+}
+.tp-contact__text p a:hover {
+  color: var(--tp-theme-color);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-contact__text p a {

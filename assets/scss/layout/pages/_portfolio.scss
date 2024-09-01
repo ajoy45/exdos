@@ -407,6 +407,10 @@
 
         &-title {
             font-size: 30px;
+
+            &:hover {
+                color: var(--tp-theme-color);
+            }
         }
 
         & span {
