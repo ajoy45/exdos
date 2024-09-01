@@ -1,14 +1,19 @@
 (function ($) {
     "use strict";
+    let windowOn = $(window);
 
-    $(window).on("load", function () {
+    windowOn.on("load", function () {
         wowAnimation();
     });
 
-    //  sticky header
-    let windowOn = $(window);
-    windowOn.on("scroll", function () {
+    // preloader
+    windowOn.on("load", function () {
+        $("#loading").delay(2000).fadeOut(500);
+        // $("#loading").fadeOut(500);
 
+    })
+    //  sticky header
+    windowOn.on("scroll", function () {
         let scroll = windowOn.scrollTop();
         if (scroll < 100) {
             $("#tp-header-sticky").removeClass("header-sticky");
@@ -102,6 +107,7 @@
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
     });
+
     // for tab active class
     $('.tp-portfolio-tab-list button').on('click', function (event) {
         $(this).siblings('.active').removeClass('active');
