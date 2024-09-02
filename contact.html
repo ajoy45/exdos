@@ -336,7 +336,7 @@
                     <div class="col-xl-7 ">
                         <div class="tpform-box">
                             <h4 class="tpform-title mb-50 mt-20 ">Get in touch</h4>
-                            <form action="#">
+                            <form id="contact-form" action="assets/mail.php" method="post">
                                 <div class="row">
                                     <div class="col-12">
                                         <input type="text" name="Name" placeholder="full Name*">
@@ -348,18 +348,19 @@
                                         <input type="text" name="subject" placeholder="subject*">
                                     </div>
                                     <div class="col-12">
-                                        <textarea name="text" placeholder="write note*"></textarea>
+                                        <textarea name="message" placeholder="write note*"></textarea>
                                     </div>
                                     <div class="col-12 mt-60 wow img-custom-anim-top" data-wow-duration="1.5s"
                                         data-wow-delay=".4s">
-                                        <a href="#" class="tp-btn">
+                                        <button type="submit" class="tp-btn">
                                             <span class="tp-btn-y-1">Send message</span>
                                             <span class="tp-btn-y-2">Send message</span>
                                             <i></i>
-                                        </a>
+                                        </button>
 
                                     </div>
                                 </div>
+                                <p class="ajax-response"></p>
                             </form>
                         </div>
                     </div>
@@ -477,6 +478,7 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/wow.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 

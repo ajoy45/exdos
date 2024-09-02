@@ -12,6 +12,23 @@
         // $("#loading").fadeOut(500);
 
     })
+    // back to top
+    var btn = $('#tp-back-to-top');
+    windowOn.on("scroll", function () {
+        if (windowOn.scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+
+
+
     //  sticky header
     windowOn.on("scroll", function () {
         let scroll = windowOn.scrollTop();

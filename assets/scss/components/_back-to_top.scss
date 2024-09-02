@@ -1,0 +1,26 @@
+@use"../utils" as *;
+
+#tp-back-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    background: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    @include transition(.3s);
+    transform: scale(.7);
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}

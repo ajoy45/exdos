@@ -6440,6 +6440,34 @@ img {
     transform: translateX(0);
   }
 }
+#tp-back-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  background: red;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transform: scale(0.7);
+}
+#tp-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
 /*----------------
    Header Style 1
 ------------------ */
